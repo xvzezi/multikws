@@ -10,6 +10,7 @@ Features :
 -----------------------
 Version :
 2018.06.04  第一版
+2018.06.05  增加了CMVN
 
 '''
 
@@ -44,9 +45,47 @@ class DataBase:
             '4' : 4,
             '5' : 5
         }
+        # batch info
+        self.pointer = 0
         return 
 
+    def LoadMeta(self, dirpath):
+        self.loadBasicMeta()                    # 读入基本元数据
+        self.getFileList(dirpath)               # 从目标文件夹读取语音文件和符号文件列表
+
+    def LabelSetting(self, ltype, ltone):
+        self.getLabelSequence(ltype, ltone)     # 将符号序列读入，并转化为对应类型
+        self.transToLabelIndex()                # 将符号序列转化为序号数值，方便训练
+    
+    def AudioSetting(self, ftype='lfbank', dimension=40, fcmvn=True, fleft=7, fright=2):
+        self.ftype = ftype                      # 处理信号的特征法
+        self.dimension = dimension              # 信号的维度
+        self.fcmvn = fcmvn                      # 是否在窗内进行cmvn处理
+        self.fleft = fleft                      # 关键frame左侧的帧数
+        self.fright = fright                    # 关键frame右侧的帧数
+
+    def GetNextBatch(self, batch_size):
+        # check 
+        if self.pointer + batch_size >= len(self.audio_files):
+            self.pointer = 0
+        
+        # get audio batch
+        audio_batch = []
+        for i in range(batch_size):
+            audio_proc = self.getWindowStackFeaturesFromFile(self.audio_files[self.pointer + i],
+                        dimension=self.dimension, ftype=self.ftype, fcmvn=self.fcmvn, fleft=self.fleft, fright=self.fright)
+            audio_batch.append(audio_proc)
+
+        # get index batch 
+        _, index_batch = self.getIndexSequenceBatch(self.pointer, batch_size)
+        self.pointer += batch_size
+        return audio_batch, index_batch
+
+    def ResetPointer(self):
+        self.pointer = 0
+        return 
     ################ Metadata & Labels ######################
+    # 下面是步骤函数，必须按步骤执行
     def loadBasicMeta(self):
         self.meta_base_path = './Meta/'
         # chinese if with tone 
@@ -156,6 +195,35 @@ class DataBase:
                 self.label_sequences.append(ch_if)
         return self.label_sequences
 
+
+    def transToLabelIndex(self):
+        search_dict = self.ch_if_tone_dict       # IF tone
+        if not self.ltone and self.ltype == 'PH':
+            search_dict = self.ch_ph_dict       # PH no tone
+        elif self.ltype == 'PH':
+            search_dict = self.ch_ph_tone_dict  # PH tone
+        elif not self.ltone:
+            search_dict = self.ch_if_dict       # IF no tone 
+        
+        self.index_sequences = []
+        for label_sequence in self.label_sequences:
+            index_sequence = []
+            for label in label_sequence:
+                index_sequence.append(search_dict[label])
+            self.index_sequences.append(index_sequence)
+        return self.index_sequences
+
+    # 下面是功能函数
+    def getIndexSequenceBatch(self, pointer, batch_size):
+        if pointer + batch_size >= len(self.index_sequences):
+            return pointer, None 
+        loc = pointer
+        result = [] 
+        for i in range(batch_size):
+            result.append(self.index_sequences[loc+i])
+        return pointer + batch_size, result 
+
+
     ################### Features ############################
     def getMfccArrayFromFile(self, fileName, dimension=40):
         fs, audio = sci_wav.read(fileName)
@@ -165,6 +233,35 @@ class DataBase:
         fs, audio = sci_wav.read(fileName)
         return psf.logfbank(audio, fs, nfilt=dimension)
 
+    def getWindowStackFeaturesFromFile(self, fileName, dimension=40, ftype='lfbank', fcmvn=True, fleft=7, fright=2):
+        features = []
+        # 基本特征提取
+        if ftype == 'lfbank':
+            features = self.getLogFbankFromFile(fileName, dimension)
+        else:
+            features = self.getMfccArrayFromFile(fileName, dimension)
+        
+        # 取窗口累加
+        stacked_features = []
+        for i in range(fleft, len(features) - fright):
+            cur_window = []
+            for j in range(i - fleft, i):
+                cur_window.append(features[j])
+            for j in range(i, i + fright + 1):
+                cur_window.append(features[j])
+            if fcmvn:
+                # cepstral mean and variance normalization
+                window = np.array(cur_window)
+                mean = np.mean(window, 0)
+                variance = np.std(window, 0)
+                window = (window - mean) / variance
+                cur_window = window.tolist()
+            stacked = []
+            for frame in cur_window:
+                stacked += frame 
+            stacked_features.append(stacked)
+        
+        return stacked_features
 
     ################### Tool ##############################
     # IF : Tone -> No Tone 
@@ -210,29 +307,38 @@ class DataBase:
         return 
 
 
-
 if __name__ == "__main__":
     #-------------
+    # test = DataBase()
+    # test.loadBasicMeta()
+    # print(test.ch_if)
+    # print(test.ch_if_tone)
+    # print(test.ch_ph)
+    # print(test.ch_ph_tone)
+    # print('------------------------')
+    # test.getFileList('E:/上海交通大学/Lab/ASR/THCHS30/data_thchs30/dev')
+    # print(test.audio_files[0])
+    # print(test.label_files[0])
+    # print('------------------------')
+    # test.getLabelSequence(ltype='IF', ltone=True)
+    # print(test.label_sequences[0])
+    # test.getLabelSequence(ltype='PH', ltone=True)
+    # print(test.label_sequences[0])
+    # test.getLabelSequence(ltype='IF', ltone=False)
+    # print(test.label_sequences[0])
+    # test.getLabelSequence(ltype='PH', ltone=False)
+    # print(test.label_sequences[0])
+    #--------------------
     test = DataBase()
-    test.loadBasicMeta()
-    print(test.ch_if)
-    print(test.ch_if_tone)
-    print(test.ch_ph)
-    print(test.ch_ph_tone)
-    print('------------------------')
-    test.getFileList('E:/上海交通大学/Lab/ASR/THCHS30/data_thchs30/dev')
+    test.LoadMeta('E:/上海交通大学/Lab/ASR/THCHS30/data_thchs30/dev')
     print(test.audio_files[0])
-    print(test.label_files[0])
-    print('------------------------')
-    test.getLabelSequence(ltype='IF', ltone=True)
-    print(test.label_sequences[0])
-    test.getLabelSequence(ltype='PH', ltone=True)
-    print(test.label_sequences[0])
-    test.getLabelSequence(ltype='IF', ltone=False)
-    print(test.label_sequences[0])
-    test.getLabelSequence(ltype='PH', ltone=False)
-    print(test.label_sequences[0])
-
-
+    test.LabelSetting(ltype='PH', ltone=False)
+    test.AudioSetting()
+    abatch, lbatch = test.GetNextBatch(1)
+    print(len(abatch[0]))
+    print(len(lbatch[0]))
+    abatch, lbatch = test.GetNextBatch(1)
+    print(len(abatch[0]))
+    print(len(lbatch[0]))
 
 
