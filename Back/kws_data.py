@@ -11,6 +11,7 @@ Features :
 Version :
 2018.06.04  第一版
 2018.06.05  增加了CMVN
+2018.06.06  增加了seq len
 
 '''
 
@@ -64,6 +65,24 @@ class DataBase:
         self.fleft = fleft                      # 关键frame左侧的帧数
         self.fright = fright                    # 关键frame右侧的帧数
 
+    def GetDimensionInfo(self):
+        feature_dim = self.fleft + self.fright + 1
+        feature_dim = feature_dim * self.dimension
+        class_num = 0
+        if not self.ltone and self.ltype == 'PH':
+            # 无调 音素
+            class_num = len(self.ch_ph)
+        elif self.ltype == 'PH':
+            # 有调 音素
+            class_num = len(self.ch_ph_tone)
+        elif not self.ltone:
+            # 无调 声韵母
+            class_num = len(self.ch_if)
+        else:
+            # 有调，声韵母
+            class_num = len(self.ch_if_tone)
+        return feature_dim, class_num 
+
     def GetNextBatch(self, batch_size):
         # check 
         if self.pointer + batch_size >= len(self.audio_files):
@@ -79,7 +98,13 @@ class DataBase:
         # get index batch 
         _, index_batch = self.getIndexSequenceBatch(self.pointer, batch_size)
         self.pointer += batch_size
-        return audio_batch, index_batch
+
+        # get sequence len
+        seq_len_batch = []
+        for index in index_batch:
+            seq_len_batch.append(len(index))
+
+        return audio_batch, index_batch, seq_len_batch
 
     def ResetPointer(self):
         self.pointer = 0
@@ -191,7 +216,6 @@ class DataBase:
                 elif not ltone:
                     # 去除音调
                     ch_if = self.convertIfToneToNoTone(ch_if)
-                    pass  
                 self.label_sequences.append(ch_if)
         return self.label_sequences
 
@@ -334,11 +358,12 @@ if __name__ == "__main__":
     print(test.audio_files[0])
     test.LabelSetting(ltype='PH', ltone=False)
     test.AudioSetting()
-    abatch, lbatch = test.GetNextBatch(1)
+    abatch, lbatch, len_batch = test.GetNextBatch(1)
     print(len(abatch[0]))
     print(len(lbatch[0]))
-    abatch, lbatch = test.GetNextBatch(1)
+    print(len_batch)
+    abatch, lbatch, len_batch = test.GetNextBatch(1)
     print(len(abatch[0]))
     print(len(lbatch[0]))
-
+    print(len_batch)
 
