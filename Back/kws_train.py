@@ -102,7 +102,7 @@ class Trainer:
             for curr_epcho in range(n_epcho):
                 self.log('Epcho {} :'.format(curr_epcho))
                 start_time = time.time()
-                train_cost = train_lr = 0
+                train_cost = 0
                 batch_time_acc = 0
                 for curr_batch in range(self.n_batch):
                     batch_start_time = time.time()

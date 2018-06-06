@@ -118,13 +118,13 @@ class DataBase:
         return np.array(audio_batch), index_batch, seq_len_batch
 
     def GetDecodeDict(self):
-        search_dict = self.ch_if_tone_dict       # IF tone
+        search_dict = self.ch_if_tone          # IF tone
         if not self.ltone and self.ltype == 'PH':
-            search_dict = self.ch_ph_dict       # PH no tone
+            search_dict = self.ch_ph           # PH no tone
         elif self.ltype == 'PH':
-            search_dict = self.ch_ph_tone_dict  # PH tone
+            search_dict = self.ch_ph_tone     # PH tone
         elif not self.ltone:
-            search_dict = self.ch_if_dict       # IF no tone 
+            search_dict = self.ch_if           # IF no tone 
         
         return search_dict
 
@@ -385,11 +385,11 @@ if __name__ == "__main__":
     print(test.audio_files[0])
     test.LabelSetting(ltype='PH', ltone=False)
     test.AudioSetting()
-    abatch, lbatch, len_batch = test.GetNextBatch(2)
+    abatch, lbatch, len_batch = test.GetNextBatch(4)
     print(len(abatch[1]))
     print(len(lbatch[1]))
     print(len_batch)
-    abatch, lbatch, len_batch = test.GetNextBatch(2)
+    abatch, lbatch, len_batch = test.GetNextBatch(4)
     print(len(abatch[1]))
     print(len(lbatch[1]))
     print(len_batch)
