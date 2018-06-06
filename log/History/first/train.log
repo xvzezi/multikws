@@ -1,0 +1,151 @@
+0 kws_data->DataBase : IF with tone: class 217
+1 kws_data->DataBase : IF without tone: class 66
+2 kws_data->DataBase : PH without tone: class 32
+3 kws_data->DataBase : PH with tone: class 72
+4 kws_data->DataBase : Get Files 893
+5 kws_train->Trainer : Epcho 0 :
+6 kws_train->Trainer : Step: 1, Last 5 Batch Cost Total: 0.6735248565673828
+7 kws_train->Trainer : cost:828.7865600585938, steps:5
+8 kws_train->Trainer : Step: 6, Last 5 Batch Cost Total: 2.340366840362549
+9 kws_train->Trainer : cost:299.9696960449219, steps:10
+10 kws_train->Trainer : Step: 11, Last 5 Batch Cost Total: 3.24102783203125
+11 kws_train->Trainer : cost:281.6922607421875, steps:15
+12 kws_train->Trainer : Step: 16, Last 5 Batch Cost Total: 2.457271099090576
+13 kws_train->Trainer : cost:275.7861328125, steps:20
+14 kws_train->Trainer : Step: 21, Last 5 Batch Cost Total: 2.3343539237976074
+15 kws_train->Trainer : cost:286.9210510253906, steps:25
+16 kws_train->Trainer : Step: 26, Last 5 Batch Cost Total: 1.9636168479919434
+17 kws_train->Trainer : cost:272.56982421875, steps:30
+18 kws_train->Trainer : Step: 31, Last 5 Batch Cost Total: 2.409302234649658
+19 kws_train->Trainer : cost:248.7997589111328, steps:35
+20 kws_train->Trainer : Step: 36, Last 5 Batch Cost Total: 1.9246459007263184
+21 kws_train->Trainer : cost:243.1861114501953, steps:40
+22 kws_train->Trainer : Step: 41, Last 5 Batch Cost Total: 2.0775375366210938
+23 kws_train->Trainer : cost:236.39036560058594, steps:45
+24 kws_train->Trainer : Step: 46, Last 5 Batch Cost Total: 1.8556914329528809
+25 kws_train->Trainer : cost:255.8428192138672, steps:50
+26 kws_train->Trainer : Step: 51, Last 5 Batch Cost Total: 1.8536956310272217
+27 kws_train->Trainer : cost:256.8046875, steps:55
+28 kws_train->Trainer : Step: 56, Last 5 Batch Cost Total: 2.1434876918792725
+29 kws_train->Trainer : cost:400.5682067871094, steps:60
+30 kws_train->Trainer : Step: 61, Last 5 Batch Cost Total: 2.22843074798584
+31 kws_train->Trainer : cost:265.6861877441406, steps:65
+32 kws_train->Trainer : Step: 66, Last 5 Batch Cost Total: 2.2274303436279297
+33 kws_train->Trainer : cost:236.5299835205078, steps:70
+34 kws_train->Trainer : Step: 71, Last 5 Batch Cost Total: 2.1904568672180176
+35 kws_train->Trainer : cost:256.1032409667969, steps:75
+36 kws_train->Trainer : Step: 76, Last 5 Batch Cost Total: 2.0045881271362305
+37 kws_train->Trainer : cost:244.99676513671875, steps:80
+38 kws_train->Trainer : Step: 81, Last 5 Batch Cost Total: 2.3792548179626465
+39 kws_train->Trainer : cost:244.4749298095703, steps:85
+40 kws_train->Trainer : Step: 86, Last 5 Batch Cost Total: 1.9472949504852295
+41 kws_train->Trainer : cost:261.1336364746094, steps:90
+42 kws_train->Trainer : Step: 91, Last 5 Batch Cost Total: 1.836942195892334
+43 kws_train->Trainer : cost:229.8916473388672, steps:95
+44 kws_train->Trainer : Step: 96, Last 5 Batch Cost Total: 1.588644027709961
+45 kws_train->Trainer : cost:338.9949951171875, steps:100
+46 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9911767840385437
+False: 
+[20, 22, 23, 0, 26, 3, 24, 6, 14, 22, 23, 20, 30, 2, 25, 22, 23, 2, 24, 25, 18, 26, 10, 22, 25, 2, 22, 25, 7, 24, 26, 7, 25, 23, 26, 3, 24, 6, 12, 25, 22, 6, 4, 22, 0, 26, 3, 24, 6, 22, 25, 10, 26, 22, 12, 25, 22, 23, 10, 26, 22, 2, 25, 22, 23, 2, 26, 18, 30, 10, 22, 23, 19, 24, 21, 9, 26, 24, 6, 19, 24, 21, 4, 26, 24, 25, 4, 24, 20, 22, 25, 8, 22, 6, 4, 22, 21, 19, 22, 25, 20, 22, 23] (103)
+[25] (1)
+False: 
+[8, 22, 25, 18, 24, 6, 2, 23, 26, 15, 26, 24, 6, 0, 22, 6, 18, 30, 13, 25, 22, 21, 19, 22, 21, 12, 27, 6, 25, 22, 6, 19, 26, 24, 6, 5, 25, 22, 6, 20, 30, 10, 26, 23, 16, 26, 24, 25, 16, 26, 24, 6, 20, 30, 15, 22, 6, 18, 23, 21, 4, 22, 6, 25, 6, 26, 24, 25, 0, 22, 6, 0, 22, 23, 13, 25, 22, 6, 9, 22, 23, 15, 26, 24, 6, 2, 25, 6, 11, 27, 22, 6, 9, 26, 22, 6, 15, 22, 25, 4, 26, 8, 26, 23, 6, 22, 6, 8, 26, 22, 6] (111)
+[25] (1)
+False: 
+[9, 26, 22, 6, 9, 26, 23, 8, 26, 24, 25, 18, 24, 21, 4, 24, 2, 25, 22, 23, 12, 25, 22, 6, 12, 27, 8, 26, 22, 21, 19, 22, 21, 12, 25, 21, 19, 24, 17, 26, 11, 25, 21, 4, 24, 25, 6, 19, 30, 8, 26, 1, 26, 18, 26, 22, 21, 8, 26, 22, 6, 4, 24, 13, 27, 22, 6, 27, 22, 6, 12, 25, 22, 23, 14, 22, 25, 25, 2, 25, 22, 6, 2, 25, 22, 6, 10, 26, 22, 21, 7, 23, 21, 12, 25, 25, 21, 19, 24, 6, 13, 25, 22, 13, 25, 22, 6, 4, 24, 3, 24, 6, 26, 22, 25, 13, 25, 23, 21, 26, 24, 25, 18, 26, 22, 21, 25, 22, 6] (129)
+[25] (1)
+Test Accuracy: 0.0
+
+47 kws_train->Trainer : Step: 101, Last 5 Batch Cost Total: 2.4504528045654297
+48 kws_train->Trainer : cost:257.9622802734375, steps:105
+49 kws_train->Trainer : Step: 106, Last 5 Batch Cost Total: 2.071425199508667
+50 kws_train->Trainer : cost:272.5537414550781, steps:110
+51 kws_train->Trainer : Step: 111, Last 5 Batch Cost Total: 1.9975922107696533
+52 kws_train->Trainer : cost:276.4627685546875, steps:115
+53 kws_train->Trainer : Step: 116, Last 5 Batch Cost Total: 2.1031699180603027
+54 kws_train->Trainer : cost:261.0268249511719, steps:120
+55 kws_train->Trainer : Step: 121, Last 5 Batch Cost Total: 2.2338428497314453
+56 kws_train->Trainer : cost:280.61474609375, steps:125
+57 kws_train->Trainer : Step: 126, Last 5 Batch Cost Total: 1.9535126686096191
+58 kws_train->Trainer : cost:293.85107421875, steps:130
+59 kws_train->Trainer : Step: 131, Last 5 Batch Cost Total: 1.9010734558105469
+60 kws_train->Trainer : cost:305.57403564453125, steps:135
+61 kws_train->Trainer : Step: 136, Last 5 Batch Cost Total: 2.342219114303589
+62 kws_train->Trainer : cost:203.7078857421875, steps:140
+63 kws_train->Trainer : Step: 141, Last 5 Batch Cost Total: 2.0411062240600586
+64 kws_train->Trainer : cost:253.70323181152344, steps:145
+65 kws_train->Trainer : Step: 146, Last 5 Batch Cost Total: 2.0160603523254395
+66 kws_train->Trainer : cost:309.1191711425781, steps:150
+67 kws_train->Trainer : Step: 151, Last 5 Batch Cost Total: 2.1327624320983887
+68 kws_train->Trainer : cost:251.9596710205078, steps:155
+69 kws_train->Trainer : Step: 156, Last 5 Batch Cost Total: 2.1451005935668945
+70 kws_train->Trainer : cost:230.47943115234375, steps:160
+71 kws_train->Trainer : Step: 161, Last 5 Batch Cost Total: 2.0695419311523438
+72 kws_train->Trainer : cost:236.8277130126953, steps:165
+73 kws_train->Trainer : Step: 166, Last 5 Batch Cost Total: 1.8137216567993164
+74 kws_train->Trainer : cost:284.5605773925781, steps:170
+75 kws_train->Trainer : Step: 171, Last 5 Batch Cost Total: 2.211946487426758
+76 kws_train->Trainer : cost:243.81219482421875, steps:175
+77 kws_train->Trainer : Step: 176, Last 5 Batch Cost Total: 2.1964526176452637
+78 kws_train->Trainer : cost:240.7442626953125, steps:180
+79 kws_train->Trainer : Step: 181, Last 5 Batch Cost Total: 1.8894333839416504
+80 kws_train->Trainer : cost:290.5001220703125, steps:185
+81 kws_train->Trainer : Step: 186, Last 5 Batch Cost Total: 1.9905955791473389
+82 kws_train->Trainer : cost:270.474853515625, steps:190
+83 kws_train->Trainer : Step: 191, Last 5 Batch Cost Total: 1.9426329135894775
+84 kws_train->Trainer : cost:240.0692138671875, steps:195
+85 kws_train->Trainer : Step: 196, Last 5 Batch Cost Total: 2.21628737449646
+86 kws_train->Trainer : cost:226.6829376220703, steps:200
+87 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9860954284667969
+False: 
+[4, 22, 21, 26, 23, 0, 25, 21, 27, 12, 27, 25, 27, 22, 6, 9, 22, 6, 26, 22, 21, 6, 25, 6, 20, 30, 6, 25, 6, 18, 24, 8, 24, 6, 25, 22, 6, 18, 22, 21, 18, 24, 12, 27, 28, 5, 22, 21, 14, 22, 25, 0, 25, 21, 19, 26, 22, 21, 20, 22, 21, 11, 25, 6, 11, 25, 6, 7, 22, 18, 24, 26, 23, 4, 24, 20, 23, 26, 25, 6, 25, 6, 18, 26, 26, 23, 0, 22, 23, 18, 23, 21] (92)
+[25] (1)
+False: 
+[2, 25, 21, 10, 23, 21, 13, 25, 22, 23, 3, 23, 7, 25, 22, 26, 24, 25, 6, 27, 25, 23, 26, 11, 25, 10, 26, 4, 22, 11, 25, 21, 20, 30, 16, 24, 26, 23, 25, 28, 11, 25, 21, 4, 24, 3, 24, 25, 5, 23, 21, 13, 25, 22, 23, 9, 24, 14, 24, 6, 2, 24, 6, 22, 18, 24, 3, 22, 6, 20, 22, 15, 26, 23, 26, 7, 24] (77)
+[25] (1)
+False: 
+[25, 21, 13, 25, 23, 21, 14, 24, 21, 18, 22, 23, 8, 22, 21, 26, 9, 26, 24, 25, 27, 18, 24, 8, 26, 22, 21, 17, 23, 21, 4, 24, 19, 24, 21, 10, 22, 23, 26, 9, 26, 24, 25, 27, 26, 23, 2, 24, 6, 4, 24, 20, 30, 4, 22, 25] (56)
+[25] (1)
+Test Accuracy: 0.0
+
+88 kws_train->Trainer : Step: 201, Last 5 Batch Cost Total: 2.2100167274475098
+89 kws_train->Trainer : cost:250.3753204345703, steps:205
+90 kws_train->Trainer : Step: 206, Last 5 Batch Cost Total: 1.8641917705535889
+91 kws_train->Trainer : cost:276.420654296875, steps:210
+92 kws_train->Trainer : Step: 211, Last 5 Batch Cost Total: 1.859689474105835
+93 kws_train->Trainer : cost:282.269775390625, steps:215
+94 kws_train->Trainer : Step: 216, Last 5 Batch Cost Total: 1.9335687160491943
+95 kws_train->Trainer : cost:276.9660949707031, steps:220
+96 kws_train->Trainer : Step: 221, Last 5 Batch Cost Total: 1.9766066074371338
+97 kws_train->Trainer : cost:261.2184753417969, steps:225
+98 kws_train->Trainer : Step: 226, Last 5 Batch Cost Total: 2.0625100135803223
+99 kws_train->Trainer : cost:272.7983093261719, steps:230
+100 kws_train->Trainer : Step: 231, Last 5 Batch Cost Total: 1.851957082748413
+101 kws_train->Trainer : cost:264.2408752441406, steps:235
+102 kws_train->Trainer : Step: 236, Last 5 Batch Cost Total: 1.8640873432159424
+103 kws_train->Trainer : cost:259.1731872558594, steps:240
+104 kws_train->Trainer : Step: 241, Last 5 Batch Cost Total: 2.2308897972106934
+105 kws_train->Trainer : cost:243.8075714111328, steps:245
+106 kws_train->Trainer : Step: 246, Last 5 Batch Cost Total: 2.3223631381988525
+107 kws_train->Trainer : cost:281.2758483886719, steps:250
+108 kws_train->Trainer : Step: 251, Last 5 Batch Cost Total: 2.0708391666412354
+109 kws_train->Trainer : cost:240.4482421875, steps:255
+110 kws_train->Trainer : Step: 256, Last 5 Batch Cost Total: 2.1370270252227783
+111 kws_train->Trainer : cost:257.1795959472656, steps:260
+112 kws_train->Trainer : Step: 261, Last 5 Batch Cost Total: 1.7135488986968994
+113 kws_train->Trainer : cost:249.7807159423828, steps:265
+114 kws_train->Trainer : Step: 266, Last 5 Batch Cost Total: 1.7950859069824219
+115 kws_train->Trainer : cost:262.7833251953125, steps:270
+116 kws_train->Trainer : Step: 271, Last 5 Batch Cost Total: 1.860135793685913
+117 kws_train->Trainer : cost:242.222900390625, steps:275
+118 kws_train->Trainer : Step: 276, Last 5 Batch Cost Total: 2.0612409114837646
+119 kws_train->Trainer : cost:267.823486328125, steps:280
+120 kws_train->Trainer : Step: 281, Last 5 Batch Cost Total: 2.270660400390625
+121 kws_train->Trainer : cost:260.9504699707031, steps:285
+122 kws_train->Trainer : Step: 286, Last 5 Batch Cost Total: 1.9369323253631592
+123 kws_train->Trainer : cost:269.4756164550781, steps:290
+124 kws_train->Trainer : Step: 291, Last 5 Batch Cost Total: 2.142832040786743
+125 kws_train->Trainer : cost:254.8590850830078, steps:295
+126 kws_train->Trainer : Step: 296, Last 5 Batch Cost Total: 1.8512921333312988
+127 kws_train->Trainer : Epcho 1/1, steps 297, average train cost : 291.0901309440433
+128 kws_train->Trainer : On Evaluation: cost 296.8072509765625, acc 0.9899115562438965, learning rate 0.0009000000427477062, time 123.84267163276672

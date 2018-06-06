@@ -22,12 +22,7 @@ import numpy as np
 import python_speech_features as psf 
 import scipy.io.wavfile as sci_wav
 #-------------------------------------#
-if __name__ == '__main__':
-    import sys 
-    sys.path.append('../')
-    from ASRcode.Tool.kws_error import KWSError
-else:
-    from Tool.kws_error import KWSError
+from Tool.kws_error import KWSError
 #######################################
 
 class DataBase:
@@ -96,16 +91,42 @@ class DataBase:
                         dimension=self.dimension, ftype=self.ftype, fcmvn=self.fcmvn, fleft=self.fleft, fright=self.fright)
             audio_batch.append(audio_proc)
 
-        # get index batch 
-        _, index_batch = self.getIndexSequenceBatch(self.pointer, batch_size)
-        self.pointer += batch_size
-
-        # get sequence len
+        # get sequence len 记录真正的长度
         seq_len_batch = []
         for index in audio_batch:
             seq_len_batch.append(len(index))
 
-        return audio_batch, index_batch, seq_len_batch
+        # 处理audio batch，使得他们为规则矩阵，否则numpy没法识别
+        ## get max batch len 
+        max_batch_len = 0
+        for audio in audio_batch:
+            if len(audio) > max_batch_len:
+                max_batch_len = len(audio)
+        ## padding
+        feature_dim, _ = self.GetDimensionInfo()
+        padding_list = [[0 for j in range(feature_dim)]]
+        for audio in audio_batch:
+            padding_amount = max_batch_len - len(audio)
+            for i in range(padding_amount):
+                audio += padding_list
+        
+        # get index batch 
+        _, index_batch = self.getIndexSequenceBatch(self.pointer, batch_size)
+        self.pointer += batch_size
+
+
+        return np.array(audio_batch), index_batch, seq_len_batch
+
+    def GetDecodeDict(self):
+        search_dict = self.ch_if_tone_dict       # IF tone
+        if not self.ltone and self.ltype == 'PH':
+            search_dict = self.ch_ph_dict       # PH no tone
+        elif self.ltype == 'PH':
+            search_dict = self.ch_ph_tone_dict  # PH tone
+        elif not self.ltone:
+            search_dict = self.ch_if_dict       # IF no tone 
+        
+        return search_dict
 
     def ResetPointer(self):
         self.pointer = 0
@@ -124,6 +145,7 @@ class DataBase:
                 self.ch_if_tone.append(label)
                 self.ch_if_tone_dict[label] = counter 
                 counter += 1
+        self.error('IF with tone: class %d' % len(self.ch_if_tone))
         
         # chinese if without tone 
         self.ch_if = []
@@ -136,6 +158,7 @@ class DataBase:
                 self.ch_if.append(label)
                 self.ch_if_dict[label] = counter
                 counter += 1
+        self.error('IF without tone: class %d' % len(self.ch_if))
 
         # chinese ph without tone 
         self.ch_ph = []
@@ -147,6 +170,7 @@ class DataBase:
                 self.ch_ph.append(label)
                 self.ch_ph_dict[label] = counter 
                 counter += 1
+        self.error('PH without tone: class %d' % len(self.ch_ph))
         
         # chinese ph's vowel without tone
         self.ch_ph_vowel_dict = {}
@@ -170,6 +194,7 @@ class DataBase:
                 self.ch_ph_tone.append(label)
                 self.ch_ph_tone_dict[label] = counter 
                 counter += 1
+        self.error('PH with tone: class %d' % len(self.ch_ph_tone))
 
         # chinese IF to ph dict
         self.ch_if_to_ph_dict = {}
@@ -280,8 +305,9 @@ class DataBase:
                 mean = np.mean(window, 0)
                 variance = np.std(window, 0)
                 window = (window - mean) / variance
-                cur_window = window.tolist()
+                cur_window = window 
             stacked = []
+            cur_window = cur_window.tolist()
             for frame in cur_window:
                 stacked += frame 
             stacked_features.append(stacked)
@@ -359,12 +385,12 @@ if __name__ == "__main__":
     print(test.audio_files[0])
     test.LabelSetting(ltype='PH', ltone=False)
     test.AudioSetting()
-    abatch, lbatch, len_batch = test.GetNextBatch(1)
-    print(len(abatch[0]))
-    print(len(lbatch[0]))
+    abatch, lbatch, len_batch = test.GetNextBatch(2)
+    print(len(abatch[1]))
+    print(len(lbatch[1]))
     print(len_batch)
-    abatch, lbatch, len_batch = test.GetNextBatch(1)
-    print(len(abatch[0]))
-    print(len(lbatch[0]))
+    abatch, lbatch, len_batch = test.GetNextBatch(2)
+    print(len(abatch[1]))
+    print(len(lbatch[1]))
     print(len_batch)
 

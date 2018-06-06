@@ -17,15 +17,9 @@ import tflearn
 import numpy as np 
 import time 
 #-------------------------------------#
-import tf.contrib.layers as tflayers 
 import kws_nn
 import kws_data
-if __name__ == '__main__':
-    import sys 
-    sys.path.append('../')
-    from multikws.Tool.kws_error import KWSError
-else:
-    from Tool.kws_error import KWSError
+from Tool.kws_error import KWSError
 #######################################
 
 class Trainer:
@@ -49,6 +43,9 @@ class Trainer:
     def log(self, content):
         self.logger.print(self.log_head, content)
 
+    def log_end(self):
+        self.logger.record()
+    
     ################### Train #######################
     ## Trainer based on tensorflow module
     def train(self, learning_rate, decay_fator, ltype='PH', ltone=False, batch_size=32, n_epcho=10):
@@ -57,6 +54,7 @@ class Trainer:
         self.corpus.LoadMeta(self.corpus_path)
         self.corpus.LabelSetting(ltype, ltone)
         self.corpus.AudioSetting()
+        self.decode_dict = self.corpus.GetDecodeDict()
 
         # other Tool
         self.model_saver = None # saver
@@ -139,7 +137,7 @@ class Trainer:
             cur_ep+1, self.n_epcho, steps, average_cost
         ))
         self.log('On Evaluation: cost {}, acc {}, learning rate {}, time {}'.format(
-            val_cost, val_acc, time_consume, lr
+            val_cost, val_acc, lr, time_consume
         ))
 
     def do_report(self, session):
@@ -147,10 +145,12 @@ class Trainer:
                      self.targets: self.cur_targets,
                      self.seq_len: self.cur_seq_len}
         dd, log_probs, accuracy = session.run([self.decoded[0], self.log_prob, self.acc], test_feed)
-        self.log(self.report_accuracy(dd, self.cur_targets, accuracy))
+        self.log(self.report_accuracy(dd, self.cur_targets, accuracy, self.decode_dict))
 
     def do_tensorflow_batch(self, session):
         self.cur_inputs, self.cur_targets, self.cur_seq_len = self.corpus.GetNextBatch(self.batch_size)
+        # print(np.shape(self.cur_inputs))
+        # exit()
         # 将targets转化为稀疏矩阵
         self.cur_targets = self.sparse_tuple_from(self.cur_targets)
         feed = {self.inputs: self.cur_inputs,
@@ -158,7 +158,7 @@ class Trainer:
                 self.seq_len: self.cur_seq_len}
         b_merged, b_loss, _, _, _, b_cost, steps, _ = session.run(
             [self.merged, self.loss, self.targets, self.logits, self.seq_len, 
-            self.cost, self.current_epcho, self.optimizer], feed)
+            self.cost, self.current_epcho, self.optimizer], feed_dict=feed)
         if steps % 5 == 0:
             self.log('cost:{}, steps:{}'.format(b_cost, steps))
         if steps > 0 and steps % 100 == 0:
@@ -222,9 +222,9 @@ class Trainer:
         return result
 
     @classmethod
-    def report_accuracy(cls, decoded_list, test_targets, sofar_acc):
-        original_list = cls.decode_sparse_tensor(test_targets)
-        detected_list = cls.decode_sparse_tensor(decoded_list)
+    def report_accuracy(cls, decoded_list, test_targets, sofar_acc, decode_dict):
+        original_list = cls.decode_sparse_tensor(test_targets, decode_dict)
+        detected_list = cls.decode_sparse_tensor(decoded_list, decode_dict)
         true_number = 0
 
         if len(original_list) != len(detected_list):
@@ -234,7 +234,7 @@ class Trainer:
         for idx, number in enumerate(original_list):
             detect_number = detected_list[idx]
             hit = (number == detect_number)
-            content += '{}: {} ({})<--->{} ({})\n'.format(hit, number, len(number), detect_number, len(detect_number))
+            content += '{}: \n{} ({})\n{} ({})\n'.format(hit, number, len(number), detect_number, len(detect_number))
             if hit:
                 true_number = true_number + 1
         content += "Test Accuracy: {}\n".format(true_number * 1.0 / len(original_list))

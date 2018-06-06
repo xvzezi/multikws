@@ -15,7 +15,7 @@ Version :
 import tensorflow as tf 
 import tflearn
 #-------------------------------------#
-import tf.contrib.layers as tflayers 
+import tensorflow.contrib.layers as tflayers 
 #######################################
 
 class DNN:
@@ -31,10 +31,10 @@ class DNN:
         seq_len = tf.placeholder(tf.int32, [None])
 
         # 定义DNN网络
-        hidden = tflayers.fully_connected(inputs, neural_num, scope='hidden1')
+        hidden = tflayers.fully_connected(inputs, neural_num, scope='input_layer')
         for i in range(layer_num):
-            hidden = tflayers.fully_connected(hidden, neural_num, scope='hidden%d' % i)
-        logits = tflayers.fully_connected(hidden, num_outputs=class_num, scope='output', activation_fn=None)
+            hidden = tflayers.fully_connected(hidden, neural_num, scope='hidden_layer%d' % i)
+        logits = tflayers.fully_connected(hidden, num_outputs=class_num, scope='output_layer', activation_fn=None)
 
         # 转成时序为主
         logits = tf.transpose(logits, (1, 0, 2))
