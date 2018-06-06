@@ -32,7 +32,7 @@ class DNN:
 
         # 定义DNN网络
         hidden = tflayers.fully_connected(inputs, neural_num, scope='hidden1')
-        for i in range(layer_num - 1):
+        for i in range(layer_num):
             hidden = tflayers.fully_connected(hidden, neural_num, scope='hidden%d' % i)
         logits = tflayers.fully_connected(hidden, num_outputs=class_num, scope='output', activation_fn=None)
 
@@ -53,7 +53,7 @@ class DNN:
 
         # 定义网络
         net = tflearn.fully_connected(inputs, neural_num, activation='relu') 
-        for i in range(layer_num - 1):
+        for i in range(layer_num):
             net = tflearn.fully_connected(net, neural_num, activation='relu')
         net = tflearn.fully_connected(net, class_num)
 

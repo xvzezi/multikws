@@ -12,6 +12,7 @@ Version :
 2018.06.04  第一版
 2018.06.05  增加了CMVN
 2018.06.06  增加了seq len
+            修正了seq len
 
 '''
 
@@ -24,7 +25,7 @@ import scipy.io.wavfile as sci_wav
 if __name__ == '__main__':
     import sys 
     sys.path.append('../')
-    from multikws.Tool.kws_error import KWSError
+    from ASRcode.Tool.kws_error import KWSError
 else:
     from Tool.kws_error import KWSError
 #######################################
@@ -101,7 +102,7 @@ class DataBase:
 
         # get sequence len
         seq_len_batch = []
-        for index in index_batch:
+        for index in audio_batch:
             seq_len_batch.append(len(index))
 
         return audio_batch, index_batch, seq_len_batch
@@ -354,7 +355,7 @@ if __name__ == "__main__":
     # print(test.label_sequences[0])
     #--------------------
     test = DataBase()
-    test.LoadMeta('E:/上海交通大学/Lab/ASR/THCHS30/data_thchs30/dev')
+    test.LoadMeta('F:/ASR/THCHS30/data_thchs30/dev')
     print(test.audio_files[0])
     test.LabelSetting(ltype='PH', ltone=False)
     test.AudioSetting()
