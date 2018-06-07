@@ -1,0 +1,2290 @@
+0 kws_data->DataBase : IF with tone: class 217
+1 kws_data->DataBase : IF without tone: class 66
+2 kws_data->DataBase : PH without tone: class 32
+3 kws_data->DataBase : PH with tone: class 72
+4 kws_data->DataBase : Get Files 17
+5 kws_train->Trainer : Epcho 0 :
+6 kws_train->Trainer : Step: 1, Last 5 Batch Cost Total: 0.3573024272918701
+7 kws_train->Trainer : cost:624.8192138671875, steps:5
+8 kws_train->Trainer : Step: 6, Last 5 Batch Cost Total: 0.5995786190032959
+9 kws_train->Trainer : cost:605.3386840820312, steps:10
+10 kws_train->Trainer : Step: 11, Last 5 Batch Cost Total: 0.6365511417388916
+11 kws_train->Trainer : cost:654.4425048828125, steps:15
+12 kws_train->Trainer : Step: 16, Last 5 Batch Cost Total: 0.6415481567382812
+13 kws_train->Trainer : Epcho 1/200, steps 17, average train cost : 722.4265854779412
+14 kws_train->Trainer : On Evaluation: cost 600.4989013671875, acc 0.9873417615890503, learning rate 9.999999747378752e-05, time 2.3389077186584473
+15 kws_train->Trainer : Epcho 1 :
+16 kws_train->Trainer : Step: 18, Last 5 Batch Cost Total: 0.11791634559631348
+17 kws_train->Trainer : cost:566.4168090820312, steps:20
+18 kws_train->Trainer : Step: 23, Last 5 Batch Cost Total: 0.5825910568237305
+19 kws_train->Trainer : cost:544.402587890625, steps:25
+20 kws_train->Trainer : Step: 28, Last 5 Batch Cost Total: 0.5815889835357666
+21 kws_train->Trainer : cost:537.67333984375, steps:30
+22 kws_train->Trainer : Step: 33, Last 5 Batch Cost Total: 0.6945116519927979
+23 kws_train->Trainer : Epcho 2/200, steps 34, average train cost : 543.729440128102
+24 kws_train->Trainer : On Evaluation: cost 473.4212341308594, acc 0.9746835231781006, learning rate 9.999999747378752e-05, time 2.102519989013672
+25 kws_train->Trainer : Epcho 2 :
+26 kws_train->Trainer : cost:501.4001770019531, steps:35
+27 kws_train->Trainer : Step: 35, Last 5 Batch Cost Total: 0.1548917293548584
+28 kws_train->Trainer : cost:528.264404296875, steps:40
+29 kws_train->Trainer : Step: 40, Last 5 Batch Cost Total: 0.6085703372955322
+30 kws_train->Trainer : cost:605.1724243164062, steps:45
+31 kws_train->Trainer : Step: 45, Last 5 Batch Cost Total: 0.5887489318847656
+32 kws_train->Trainer : cost:470.5241394042969, steps:50
+33 kws_train->Trainer : Step: 50, Last 5 Batch Cost Total: 0.6765937805175781
+34 kws_train->Trainer : Epcho 3/200, steps 51, average train cost : 524.5742797851562
+35 kws_train->Trainer : On Evaluation: cost 475.5751647949219, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.162709951400757
+36 kws_train->Trainer : Epcho 3 :
+37 kws_train->Trainer : Step: 52, Last 5 Batch Cost Total: 0.1039283275604248
+38 kws_train->Trainer : cost:511.2722473144531, steps:55
+39 kws_train->Trainer : Step: 57, Last 5 Batch Cost Total: 0.6165642738342285
+40 kws_train->Trainer : cost:470.6067199707031, steps:60
+41 kws_train->Trainer : Step: 62, Last 5 Batch Cost Total: 0.6545405387878418
+42 kws_train->Trainer : cost:582.3858032226562, steps:65
+43 kws_train->Trainer : Step: 67, Last 5 Batch Cost Total: 0.6515393257141113
+44 kws_train->Trainer : Epcho 4/200, steps 68, average train cost : 510.56633444393384
+45 kws_train->Trainer : On Evaluation: cost 483.3588562011719, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.1205074787139893
+46 kws_train->Trainer : Epcho 4 :
+47 kws_train->Trainer : Step: 69, Last 5 Batch Cost Total: 0.11891651153564453
+48 kws_train->Trainer : cost:409.8345642089844, steps:70
+49 kws_train->Trainer : Step: 74, Last 5 Batch Cost Total: 0.5905852317810059
+50 kws_train->Trainer : cost:487.08404541015625, steps:75
+51 kws_train->Trainer : Step: 79, Last 5 Batch Cost Total: 0.6435458660125732
+52 kws_train->Trainer : cost:443.5053405761719, steps:80
+53 kws_train->Trainer : Step: 84, Last 5 Batch Cost Total: 0.556607723236084
+54 kws_train->Trainer : cost:514.4546508789062, steps:85
+55 kws_train->Trainer : Epcho 5/200, steps 85, average train cost : 499.5186965044807
+56 kws_train->Trainer : On Evaluation: cost 507.9941711425781, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.021576404571533
+57 kws_train->Trainer : Epcho 5 :
+58 kws_train->Trainer : Step: 86, Last 5 Batch Cost Total: 0.10992097854614258
+59 kws_train->Trainer : cost:513.396240234375, steps:90
+60 kws_train->Trainer : Step: 91, Last 5 Batch Cost Total: 0.6055724620819092
+61 kws_train->Trainer : cost:575.092529296875, steps:95
+62 kws_train->Trainer : Step: 96, Last 5 Batch Cost Total: 0.6215574741363525
+63 kws_train->Trainer : cost:480.3416748046875, steps:100
+64 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9113923907279968
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2'] (15)
+Test Accuracy: 0.0
+
+65 kws_train->Trainer : Step: 101, Last 5 Batch Cost Total: 0.7404794692993164
+66 kws_train->Trainer : Epcho 6/200, steps 102, average train cost : 483.72360409007354
+67 kws_train->Trainer : On Evaluation: cost 399.6405334472656, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.189455986022949
+68 kws_train->Trainer : Epcho 6 :
+69 kws_train->Trainer : Step: 103, Last 5 Batch Cost Total: 0.12391304969787598
+70 kws_train->Trainer : cost:469.9059753417969, steps:105
+71 kws_train->Trainer : Step: 108, Last 5 Batch Cost Total: 0.5835909843444824
+72 kws_train->Trainer : cost:480.14471435546875, steps:110
+73 kws_train->Trainer : Step: 113, Last 5 Batch Cost Total: 0.6345515251159668
+74 kws_train->Trainer : cost:462.7328186035156, steps:115
+75 kws_train->Trainer : Step: 118, Last 5 Batch Cost Total: 0.5456235408782959
+76 kws_train->Trainer : Epcho 7/200, steps 119, average train cost : 480.37993846220127
+77 kws_train->Trainer : On Evaluation: cost 457.435302734375, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.0135817527770996
+78 kws_train->Trainer : Epcho 7 :
+79 kws_train->Trainer : cost:481.4339294433594, steps:120
+80 kws_train->Trainer : Step: 120, Last 5 Batch Cost Total: 0.12790966033935547
+81 kws_train->Trainer : cost:548.5922241210938, steps:125
+82 kws_train->Trainer : Step: 125, Last 5 Batch Cost Total: 0.5775952339172363
+83 kws_train->Trainer : cost:441.88494873046875, steps:130
+84 kws_train->Trainer : Step: 130, Last 5 Batch Cost Total: 0.6135661602020264
+85 kws_train->Trainer : cost:462.4228210449219, steps:135
+86 kws_train->Trainer : Step: 135, Last 5 Batch Cost Total: 0.5586061477661133
+87 kws_train->Trainer : Epcho 8/200, steps 136, average train cost : 474.7707322064568
+88 kws_train->Trainer : On Evaluation: cost 435.09661865234375, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.0005910396575928
+89 kws_train->Trainer : Epcho 8 :
+90 kws_train->Trainer : Step: 137, Last 5 Batch Cost Total: 0.0979304313659668
+91 kws_train->Trainer : cost:431.5166931152344, steps:140
+92 kws_train->Trainer : Step: 142, Last 5 Batch Cost Total: 0.6065726280212402
+93 kws_train->Trainer : cost:520.2064819335938, steps:145
+94 kws_train->Trainer : Step: 147, Last 5 Batch Cost Total: 0.5925829410552979
+95 kws_train->Trainer : cost:394.41851806640625, steps:150
+96 kws_train->Trainer : Step: 152, Last 5 Batch Cost Total: 0.560605525970459
+97 kws_train->Trainer : Epcho 9/200, steps 153, average train cost : 468.54259356330425
+98 kws_train->Trainer : On Evaluation: cost 410.9971923828125, acc 0.9240506291389465, learning rate 9.999999747378752e-05, time 1.9586207866668701
+99 kws_train->Trainer : Epcho 9 :
+100 kws_train->Trainer : Step: 154, Last 5 Batch Cost Total: 0.12091469764709473
+101 kws_train->Trainer : cost:458.2796936035156, steps:155
+102 kws_train->Trainer : Step: 159, Last 5 Batch Cost Total: 0.6335630416870117
+103 kws_train->Trainer : cost:412.9773864746094, steps:160
+104 kws_train->Trainer : Step: 164, Last 5 Batch Cost Total: 0.5426177978515625
+105 kws_train->Trainer : cost:479.1083984375, steps:165
+106 kws_train->Trainer : Step: 169, Last 5 Batch Cost Total: 0.571596622467041
+107 kws_train->Trainer : cost:482.0259094238281, steps:170
+108 kws_train->Trainer : Epcho 10/200, steps 170, average train cost : 465.8922424316406
+109 kws_train->Trainer : On Evaluation: cost 475.1468505859375, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9975931644439697
+110 kws_train->Trainer : Epcho 10 :
+111 kws_train->Trainer : Step: 171, Last 5 Batch Cost Total: 0.12591075897216797
+112 kws_train->Trainer : cost:549.7153930664062, steps:175
+113 kws_train->Trainer : Step: 176, Last 5 Batch Cost Total: 0.6155669689178467
+114 kws_train->Trainer : cost:451.2579345703125, steps:180
+115 kws_train->Trainer : Step: 181, Last 5 Batch Cost Total: 0.5506114959716797
+116 kws_train->Trainer : cost:449.4189758300781, steps:185
+117 kws_train->Trainer : Step: 186, Last 5 Batch Cost Total: 0.5676038265228271
+118 kws_train->Trainer : Epcho 11/200, steps 187, average train cost : 460.4402340159697
+119 kws_train->Trainer : On Evaluation: cost 445.6856994628906, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9876019954681396
+120 kws_train->Trainer : Epcho 11 :
+121 kws_train->Trainer : Step: 188, Last 5 Batch Cost Total: 0.08593916893005371
+122 kws_train->Trainer : cost:451.2644348144531, steps:190
+123 kws_train->Trainer : Step: 193, Last 5 Batch Cost Total: 0.6295557022094727
+124 kws_train->Trainer : cost:447.6358642578125, steps:195
+125 kws_train->Trainer : Step: 198, Last 5 Batch Cost Total: 0.5755946636199951
+126 kws_train->Trainer : cost:460.66619873046875, steps:200
+127 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9113923907279968
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2'] (21)
+Test Accuracy: 0.0
+
+128 kws_train->Trainer : Step: 203, Last 5 Batch Cost Total: 0.7864458560943604
+129 kws_train->Trainer : Epcho 12/200, steps 204, average train cost : 455.2189115636489
+130 kws_train->Trainer : On Evaluation: cost 409.1494140625, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.1654744148254395
+131 kws_train->Trainer : Epcho 12 :
+132 kws_train->Trainer : cost:525.5336303710938, steps:205
+133 kws_train->Trainer : Step: 205, Last 5 Batch Cost Total: 0.13391876220703125
+134 kws_train->Trainer : cost:429.873291015625, steps:210
+135 kws_train->Trainer : Step: 210, Last 5 Batch Cost Total: 0.6065585613250732
+136 kws_train->Trainer : cost:444.0028381347656, steps:215
+137 kws_train->Trainer : Step: 215, Last 5 Batch Cost Total: 0.5606038570404053
+138 kws_train->Trainer : cost:416.5450744628906, steps:220
+139 kws_train->Trainer : Step: 220, Last 5 Batch Cost Total: 0.5546097755432129
+140 kws_train->Trainer : Epcho 13/200, steps 221, average train cost : 458.397507611443
+141 kws_train->Trainer : On Evaluation: cost 438.21038818359375, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9895968437194824
+142 kws_train->Trainer : Epcho 13 :
+143 kws_train->Trainer : Step: 222, Last 5 Batch Cost Total: 0.14589691162109375
+144 kws_train->Trainer : cost:491.27349853515625, steps:225
+145 kws_train->Trainer : Step: 227, Last 5 Batch Cost Total: 0.5915837287902832
+146 kws_train->Trainer : cost:386.5091552734375, steps:230
+147 kws_train->Trainer : Step: 232, Last 5 Batch Cost Total: 0.556610107421875
+148 kws_train->Trainer : cost:443.35333251953125, steps:235
+149 kws_train->Trainer : Step: 237, Last 5 Batch Cost Total: 0.5705971717834473
+150 kws_train->Trainer : Epcho 14/200, steps 238, average train cost : 450.99171357996323
+151 kws_train->Trainer : On Evaluation: cost 425.8197326660156, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.0205776691436768
+152 kws_train->Trainer : Epcho 14 :
+153 kws_train->Trainer : Step: 239, Last 5 Batch Cost Total: 0.14289116859436035
+154 kws_train->Trainer : cost:399.8382263183594, steps:240
+155 kws_train->Trainer : Step: 244, Last 5 Batch Cost Total: 0.5496125221252441
+156 kws_train->Trainer : cost:460.24530029296875, steps:245
+157 kws_train->Trainer : Step: 249, Last 5 Batch Cost Total: 0.5706000328063965
+158 kws_train->Trainer : cost:464.8869934082031, steps:250
+159 kws_train->Trainer : Step: 254, Last 5 Batch Cost Total: 0.6105692386627197
+160 kws_train->Trainer : cost:532.7307739257812, steps:255
+161 kws_train->Trainer : Epcho 15/200, steps 255, average train cost : 453.78084968118105
+162 kws_train->Trainer : On Evaluation: cost 482.8626708984375, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.0145723819732666
+163 kws_train->Trainer : Epcho 15 :
+164 kws_train->Trainer : Step: 256, Last 5 Batch Cost Total: 0.11691808700561523
+165 kws_train->Trainer : cost:434.47039794921875, steps:260
+166 kws_train->Trainer : Step: 261, Last 5 Batch Cost Total: 0.5626037120819092
+167 kws_train->Trainer : cost:438.24005126953125, steps:265
+168 kws_train->Trainer : Step: 266, Last 5 Batch Cost Total: 0.5795910358428955
+169 kws_train->Trainer : cost:437.8309020996094, steps:270
+170 kws_train->Trainer : Step: 271, Last 5 Batch Cost Total: 0.6285581588745117
+171 kws_train->Trainer : Epcho 16/200, steps 272, average train cost : 443.2948644301471
+172 kws_train->Trainer : On Evaluation: cost 393.31011962890625, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.004589319229126
+173 kws_train->Trainer : Epcho 16 :
+174 kws_train->Trainer : Step: 273, Last 5 Batch Cost Total: 0.10792851448059082
+175 kws_train->Trainer : cost:438.94158935546875, steps:275
+176 kws_train->Trainer : Step: 278, Last 5 Batch Cost Total: 0.5615994930267334
+177 kws_train->Trainer : cost:448.8994140625, steps:280
+178 kws_train->Trainer : Step: 283, Last 5 Batch Cost Total: 0.5935826301574707
+179 kws_train->Trainer : cost:512.43115234375, steps:285
+180 kws_train->Trainer : Step: 288, Last 5 Batch Cost Total: 0.6185634136199951
+181 kws_train->Trainer : Epcho 17/200, steps 289, average train cost : 445.65532908720127
+182 kws_train->Trainer : On Evaluation: cost 432.37353515625, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9826271533966064
+183 kws_train->Trainer : Epcho 17 :
+184 kws_train->Trainer : cost:421.8694763183594, steps:290
+185 kws_train->Trainer : Step: 290, Last 5 Batch Cost Total: 0.11791634559631348
+186 kws_train->Trainer : cost:431.8263854980469, steps:295
+187 kws_train->Trainer : Step: 295, Last 5 Batch Cost Total: 0.5626041889190674
+188 kws_train->Trainer : cost:406.9201965332031, steps:300
+189 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9113923907279968
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2'] (21)
+Test Accuracy: 0.0
+
+190 kws_train->Trainer : Step: 300, Last 5 Batch Cost Total: 0.69850754737854
+191 kws_train->Trainer : cost:470.91912841796875, steps:305
+192 kws_train->Trainer : Step: 305, Last 5 Batch Cost Total: 0.6345529556274414
+193 kws_train->Trainer : Epcho 18/200, steps 306, average train cost : 440.24537389418657
+194 kws_train->Trainer : On Evaluation: cost 414.8768005371094, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.125502347946167
+195 kws_train->Trainer : Epcho 18 :
+196 kws_train->Trainer : Step: 307, Last 5 Batch Cost Total: 0.12490534782409668
+197 kws_train->Trainer : cost:380.268798828125, steps:310
+198 kws_train->Trainer : Step: 312, Last 5 Batch Cost Total: 0.552619218826294
+199 kws_train->Trainer : cost:431.60919189453125, steps:315
+200 kws_train->Trainer : Step: 317, Last 5 Batch Cost Total: 0.5615956783294678
+201 kws_train->Trainer : cost:391.4532165527344, steps:320
+202 kws_train->Trainer : Step: 322, Last 5 Batch Cost Total: 0.6145684719085693
+203 kws_train->Trainer : Epcho 19/200, steps 323, average train cost : 438.99035824046416
+204 kws_train->Trainer : On Evaluation: cost 427.2518310546875, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9786005020141602
+205 kws_train->Trainer : Epcho 19 :
+206 kws_train->Trainer : Step: 324, Last 5 Batch Cost Total: 0.0919351577758789
+207 kws_train->Trainer : cost:446.1828308105469, steps:325
+208 kws_train->Trainer : Step: 329, Last 5 Batch Cost Total: 0.5705971717834473
+209 kws_train->Trainer : cost:451.2124938964844, steps:330
+210 kws_train->Trainer : Step: 334, Last 5 Batch Cost Total: 0.6065750122070312
+211 kws_train->Trainer : cost:517.3645629882812, steps:335
+212 kws_train->Trainer : Step: 339, Last 5 Batch Cost Total: 0.5905828475952148
+213 kws_train->Trainer : cost:420.9102478027344, steps:340
+214 kws_train->Trainer : Epcho 20/200, steps 340, average train cost : 436.13818538890166
+215 kws_train->Trainer : On Evaluation: cost 407.7001037597656, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9496259689331055
+216 kws_train->Trainer : Epcho 20 :
+217 kws_train->Trainer : Step: 341, Last 5 Batch Cost Total: 0.1079254150390625
+218 kws_train->Trainer : cost:429.5135192871094, steps:345
+219 kws_train->Trainer : Step: 346, Last 5 Batch Cost Total: 0.5590322017669678
+220 kws_train->Trainer : cost:429.7660217285156, steps:350
+221 kws_train->Trainer : Step: 351, Last 5 Batch Cost Total: 0.6124598979949951
+222 kws_train->Trainer : cost:432.96160888671875, steps:355
+223 kws_train->Trainer : Step: 356, Last 5 Batch Cost Total: 0.5358679294586182
+224 kws_train->Trainer : Epcho 21/200, steps 357, average train cost : 435.2836321662454
+225 kws_train->Trainer : On Evaluation: cost 436.552001953125, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9258627891540527
+226 kws_train->Trainer : Epcho 21 :
+227 kws_train->Trainer : Step: 358, Last 5 Batch Cost Total: 0.10589909553527832
+228 kws_train->Trainer : cost:439.80438232421875, steps:360
+229 kws_train->Trainer : Step: 363, Last 5 Batch Cost Total: 0.5781998634338379
+230 kws_train->Trainer : cost:501.71466064453125, steps:365
+231 kws_train->Trainer : Step: 368, Last 5 Batch Cost Total: 0.6040215492248535
+232 kws_train->Trainer : cost:415.0159912109375, steps:370
+233 kws_train->Trainer : Step: 373, Last 5 Batch Cost Total: 0.524630069732666
+234 kws_train->Trainer : Epcho 22/200, steps 374, average train cost : 429.3310744341682
+235 kws_train->Trainer : On Evaluation: cost 372.4186096191406, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9226737022399902
+236 kws_train->Trainer : Epcho 22 :
+237 kws_train->Trainer : cost:421.1815185546875, steps:375
+238 kws_train->Trainer : Step: 375, Last 5 Batch Cost Total: 0.12190771102905273
+239 kws_train->Trainer : cost:398.4513244628906, steps:380
+240 kws_train->Trainer : Step: 380, Last 5 Batch Cost Total: 0.5434362888336182
+241 kws_train->Trainer : cost:452.52374267578125, steps:385
+242 kws_train->Trainer : Step: 385, Last 5 Batch Cost Total: 0.6197941303253174
+243 kws_train->Trainer : cost:374.2306213378906, steps:390
+244 kws_train->Trainer : Step: 390, Last 5 Batch Cost Total: 0.5476970672607422
+245 kws_train->Trainer : Epcho 23/200, steps 391, average train cost : 430.00736909754136
+246 kws_train->Trainer : On Evaluation: cost 409.74908447265625, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9505672454833984
+247 kws_train->Trainer : Epcho 23 :
+248 kws_train->Trainer : Step: 392, Last 5 Batch Cost Total: 0.1259136199951172
+249 kws_train->Trainer : cost:420.2501525878906, steps:395
+250 kws_train->Trainer : Step: 397, Last 5 Batch Cost Total: 0.5516071319580078
+251 kws_train->Trainer : cost:384.6387023925781, steps:400
+252 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9113923907279968
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2'] (17)
+Test Accuracy: 0.0
+
+253 kws_train->Trainer : Step: 402, Last 5 Batch Cost Total: 0.7594656944274902
+254 kws_train->Trainer : cost:433.6228332519531, steps:405
+255 kws_train->Trainer : Step: 407, Last 5 Batch Cost Total: 0.5412659645080566
+256 kws_train->Trainer : Epcho 24/200, steps 408, average train cost : 428.8965472053079
+257 kws_train->Trainer : On Evaluation: cost 404.93927001953125, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.100166082382202
+258 kws_train->Trainer : Epcho 24 :
+259 kws_train->Trainer : Step: 409, Last 5 Batch Cost Total: 0.0967855453491211
+260 kws_train->Trainer : cost:438.3276062011719, steps:410
+261 kws_train->Trainer : Step: 414, Last 5 Batch Cost Total: 0.5979430675506592
+262 kws_train->Trainer : cost:502.0312194824219, steps:415
+263 kws_train->Trainer : Step: 419, Last 5 Batch Cost Total: 0.5768423080444336
+264 kws_train->Trainer : cost:408.5894775390625, steps:420
+265 kws_train->Trainer : Step: 424, Last 5 Batch Cost Total: 0.5420153141021729
+266 kws_train->Trainer : cost:421.7001647949219, steps:425
+267 kws_train->Trainer : Epcho 25/200, steps 425, average train cost : 426.2432322782629
+268 kws_train->Trainer : On Evaluation: cost 375.0295715332031, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9137670993804932
+269 kws_train->Trainer : Epcho 25 :
+270 kws_train->Trainer : Step: 426, Last 5 Batch Cost Total: 0.11805009841918945
+271 kws_train->Trainer : cost:423.0823059082031, steps:430
+272 kws_train->Trainer : Step: 431, Last 5 Batch Cost Total: 0.6190917491912842
+273 kws_train->Trainer : cost:426.4369201660156, steps:435
+274 kws_train->Trainer : Step: 436, Last 5 Batch Cost Total: 0.5326225757598877
+275 kws_train->Trainer : cost:431.5306701660156, steps:440
+276 kws_train->Trainer : Step: 441, Last 5 Batch Cost Total: 0.5686259269714355
+277 kws_train->Trainer : Epcho 26/200, steps 442, average train cost : 424.9337050494026
+278 kws_train->Trainer : On Evaluation: cost 428.46246337890625, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9633033275604248
+279 kws_train->Trainer : Epcho 26 :
+280 kws_train->Trainer : Step: 443, Last 5 Batch Cost Total: 0.12392568588256836
+281 kws_train->Trainer : cost:492.6539611816406, steps:445
+282 kws_train->Trainer : Step: 448, Last 5 Batch Cost Total: 0.6405363082885742
+283 kws_train->Trainer : cost:408.754638671875, steps:450
+284 kws_train->Trainer : Step: 453, Last 5 Batch Cost Total: 0.5296270847320557
+285 kws_train->Trainer : cost:411.2615661621094, steps:455
+286 kws_train->Trainer : Step: 458, Last 5 Batch Cost Total: 0.5636754035949707
+287 kws_train->Trainer : Epcho 27/200, steps 459, average train cost : 421.59236952837773
+288 kws_train->Trainer : On Evaluation: cost 405.99755859375, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.982675552368164
+289 kws_train->Trainer : Epcho 27 :
+290 kws_train->Trainer : cost:389.7415466308594, steps:460
+291 kws_train->Trainer : Step: 460, Last 5 Batch Cost Total: 0.08793830871582031
+292 kws_train->Trainer : cost:434.1460266113281, steps:465
+293 kws_train->Trainer : Step: 465, Last 5 Batch Cost Total: 0.6121957302093506
+294 kws_train->Trainer : cost:368.0351867675781, steps:470
+295 kws_train->Trainer : Step: 470, Last 5 Batch Cost Total: 0.5556018352508545
+296 kws_train->Trainer : cost:408.9596862792969, steps:475
+297 kws_train->Trainer : Step: 475, Last 5 Batch Cost Total: 0.5875849723815918
+298 kws_train->Trainer : Epcho 28/200, steps 476, average train cost : 418.26012465533086
+299 kws_train->Trainer : On Evaluation: cost 377.042724609375, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.92926025390625
+300 kws_train->Trainer : Epcho 28 :
+301 kws_train->Trainer : Step: 477, Last 5 Batch Cost Total: 0.12890863418579102
+302 kws_train->Trainer : cost:378.4234924316406, steps:480
+303 kws_train->Trainer : Step: 482, Last 5 Batch Cost Total: 0.5975804328918457
+304 kws_train->Trainer : cost:421.097412109375, steps:485
+305 kws_train->Trainer : Step: 487, Last 5 Batch Cost Total: 0.5396184921264648
+306 kws_train->Trainer : cost:425.54876708984375, steps:490
+307 kws_train->Trainer : Step: 492, Last 5 Batch Cost Total: 0.5406200885772705
+308 kws_train->Trainer : Epcho 29/200, steps 493, average train cost : 422.1867191090303
+309 kws_train->Trainer : On Evaluation: cost 415.4738464355469, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.936363697052002
+310 kws_train->Trainer : Epcho 29 :
+311 kws_train->Trainer : Step: 494, Last 5 Batch Cost Total: 0.17133879661560059
+312 kws_train->Trainer : cost:484.62689208984375, steps:495
+313 kws_train->Trainer : Step: 499, Last 5 Batch Cost Total: 0.5785505771636963
+314 kws_train->Trainer : cost:395.88580322265625, steps:500
+315 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9113923907279968
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2'] (17)
+Test Accuracy: 0.0
+
+316 kws_train->Trainer : Step: 504, Last 5 Batch Cost Total: 0.9071099758148193
+317 kws_train->Trainer : cost:413.879638671875, steps:505
+318 kws_train->Trainer : Step: 509, Last 5 Batch Cost Total: 0.6016781330108643
+319 kws_train->Trainer : cost:417.2033386230469, steps:510
+320 kws_train->Trainer : Epcho 30/200, steps 510, average train cost : 416.0630080279182
+321 kws_train->Trainer : On Evaluation: cost 407.110595703125, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.39857816696167
+322 kws_train->Trainer : Epcho 30 :
+323 kws_train->Trainer : Step: 511, Last 5 Batch Cost Total: 0.13873052597045898
+324 kws_train->Trainer : cost:419.7152404785156, steps:515
+325 kws_train->Trainer : Step: 516, Last 5 Batch Cost Total: 0.5300016403198242
+326 kws_train->Trainer : cost:425.1993408203125, steps:520
+327 kws_train->Trainer : Step: 521, Last 5 Batch Cost Total: 0.5677158832550049
+328 kws_train->Trainer : cost:484.0886535644531, steps:525
+329 kws_train->Trainer : Step: 526, Last 5 Batch Cost Total: 0.6795217990875244
+330 kws_train->Trainer : Epcho 31/200, steps 527, average train cost : 417.60470222024355
+331 kws_train->Trainer : On Evaluation: cost 433.47412109375, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.0618669986724854
+332 kws_train->Trainer : Epcho 31 :
+333 kws_train->Trainer : Step: 528, Last 5 Batch Cost Total: 0.11491942405700684
+334 kws_train->Trainer : cost:401.9343566894531, steps:530
+335 kws_train->Trainer : Step: 533, Last 5 Batch Cost Total: 0.5416183471679688
+336 kws_train->Trainer : cost:400.9281311035156, steps:535
+337 kws_train->Trainer : Step: 538, Last 5 Batch Cost Total: 0.576606035232544
+338 kws_train->Trainer : cost:381.00286865234375, steps:540
+339 kws_train->Trainer : Step: 543, Last 5 Batch Cost Total: 0.6185634136199951
+340 kws_train->Trainer : Epcho 32/200, steps 544, average train cost : 409.284720028148
+341 kws_train->Trainer : On Evaluation: cost 371.4395446777344, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9746098518371582
+342 kws_train->Trainer : Epcho 32 :
+343 kws_train->Trainer : cost:414.808349609375, steps:545
+344 kws_train->Trainer : Step: 545, Last 5 Batch Cost Total: 0.09892988204956055
+345 kws_train->Trainer : cost:361.4593200683594, steps:550
+346 kws_train->Trainer : Step: 550, Last 5 Batch Cost Total: 0.547614574432373
+347 kws_train->Trainer : cost:397.44085693359375, steps:555
+348 kws_train->Trainer : Step: 555, Last 5 Batch Cost Total: 0.588585615158081
+349 kws_train->Trainer : cost:372.4754638671875, steps:560
+350 kws_train->Trainer : Step: 560, Last 5 Batch Cost Total: 0.6155648231506348
+351 kws_train->Trainer : Epcho 33/200, steps 561, average train cost : 409.51317641314336
+352 kws_train->Trainer : On Evaluation: cost 377.59271240234375, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9466273784637451
+353 kws_train->Trainer : Epcho 33 :
+354 kws_train->Trainer : Step: 562, Last 5 Batch Cost Total: 0.11192202568054199
+355 kws_train->Trainer : cost:407.97833251953125, steps:565
+356 kws_train->Trainer : Step: 567, Last 5 Batch Cost Total: 0.5546073913574219
+357 kws_train->Trainer : cost:412.17315673828125, steps:570
+358 kws_train->Trainer : Step: 572, Last 5 Batch Cost Total: 0.5596065521240234
+359 kws_train->Trainer : cost:466.8482360839844, steps:575
+360 kws_train->Trainer : Step: 577, Last 5 Batch Cost Total: 0.641549825668335
+361 kws_train->Trainer : Epcho 34/200, steps 578, average train cost : 406.4302386115579
+362 kws_train->Trainer : On Evaluation: cost 391.1890563964844, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9836018085479736
+363 kws_train->Trainer : Epcho 34 :
+364 kws_train->Trainer : Step: 579, Last 5 Batch Cost Total: 0.12890863418579102
+365 kws_train->Trainer : cost:382.26434326171875, steps:580
+366 kws_train->Trainer : Step: 584, Last 5 Batch Cost Total: 0.5676107406616211
+367 kws_train->Trainer : cost:406.3691711425781, steps:585
+368 kws_train->Trainer : Step: 589, Last 5 Batch Cost Total: 0.5715970993041992
+369 kws_train->Trainer : cost:410.6790771484375, steps:590
+370 kws_train->Trainer : Step: 594, Last 5 Batch Cost Total: 0.6175639629364014
+371 kws_train->Trainer : cost:412.0226745605469, steps:595
+372 kws_train->Trainer : Epcho 35/200, steps 595, average train cost : 405.0919404871324
+373 kws_train->Trainer : On Evaluation: cost 404.33074951171875, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.012582540512085
+374 kws_train->Trainer : Epcho 35 :
+375 kws_train->Trainer : Step: 596, Last 5 Batch Cost Total: 0.09693074226379395
+376 kws_train->Trainer : cost:417.90179443359375, steps:600
+377 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9113923907279968
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2'] (19)
+Test Accuracy: 0.0
+
+378 kws_train->Trainer : Step: 601, Last 5 Batch Cost Total: 0.7754542827606201
+379 kws_train->Trainer : cost:474.9786376953125, steps:605
+380 kws_train->Trainer : Step: 606, Last 5 Batch Cost Total: 0.6225616931915283
+381 kws_train->Trainer : cost:394.7062683105469, steps:610
+382 kws_train->Trainer : Step: 611, Last 5 Batch Cost Total: 0.5995769500732422
+383 kws_train->Trainer : Epcho 36/200, steps 612, average train cost : 400.8766659007353
+384 kws_train->Trainer : On Evaluation: cost 366.6752014160156, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.18645977973938
+385 kws_train->Trainer : Epcho 36 :
+386 kws_train->Trainer : Step: 613, Last 5 Batch Cost Total: 0.11691784858703613
+387 kws_train->Trainer : cost:389.5503234863281, steps:615
+388 kws_train->Trainer : Step: 618, Last 5 Batch Cost Total: 0.573594331741333
+389 kws_train->Trainer : cost:370.71978759765625, steps:620
+390 kws_train->Trainer : Step: 623, Last 5 Batch Cost Total: 0.6285581588745117
+391 kws_train->Trainer : cost:395.08917236328125, steps:625
+392 kws_train->Trainer : Step: 628, Last 5 Batch Cost Total: 0.5496118068695068
+393 kws_train->Trainer : Epcho 37/200, steps 629, average train cost : 399.7407531738281
+394 kws_train->Trainer : On Evaluation: cost 390.05474853515625, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9816043376922607
+395 kws_train->Trainer : Epcho 37 :
+396 kws_train->Trainer : cost:354.2447204589844, steps:630
+397 kws_train->Trainer : Step: 630, Last 5 Batch Cost Total: 0.11192584037780762
+398 kws_train->Trainer : cost:385.16314697265625, steps:635
+399 kws_train->Trainer : Step: 635, Last 5 Batch Cost Total: 0.5985734462738037
+400 kws_train->Trainer : cost:366.4813232421875, steps:640
+401 kws_train->Trainer : Step: 640, Last 5 Batch Cost Total: 0.6265585422515869
+402 kws_train->Trainer : cost:393.9254455566406, steps:645
+403 kws_train->Trainer : Step: 645, Last 5 Batch Cost Total: 0.537621259689331
+404 kws_train->Trainer : Epcho 38/200, steps 646, average train cost : 394.76449764476104
+405 kws_train->Trainer : On Evaluation: cost 348.4056396484375, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.987600326538086
+406 kws_train->Trainer : Epcho 38 :
+407 kws_train->Trainer : Step: 647, Last 5 Batch Cost Total: 0.11991667747497559
+408 kws_train->Trainer : cost:397.1756286621094, steps:650
+409 kws_train->Trainer : Step: 652, Last 5 Batch Cost Total: 0.5586073398590088
+410 kws_train->Trainer : cost:445.2672424316406, steps:655
+411 kws_train->Trainer : Step: 657, Last 5 Batch Cost Total: 0.6395483016967773
+412 kws_train->Trainer : cost:368.1572265625, steps:660
+413 kws_train->Trainer : Step: 662, Last 5 Batch Cost Total: 0.5506119728088379
+414 kws_train->Trainer : Epcho 39/200, steps 663, average train cost : 394.1307103774127
+415 kws_train->Trainer : On Evaluation: cost 371.5433349609375, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 1.996593952178955
+416 kws_train->Trainer : Epcho 39 :
+417 kws_train->Trainer : Step: 664, Last 5 Batch Cost Total: 0.13186430931091309
+418 kws_train->Trainer : cost:397.74798583984375, steps:665
+419 kws_train->Trainer : Step: 669, Last 5 Batch Cost Total: 0.5735962390899658
+420 kws_train->Trainer : cost:403.2257995605469, steps:670
+421 kws_train->Trainer : Step: 674, Last 5 Batch Cost Total: 0.6205625534057617
+422 kws_train->Trainer : cost:402.58935546875, steps:675
+423 kws_train->Trainer : Step: 679, Last 5 Batch Cost Total: 0.5586061477661133
+424 kws_train->Trainer : cost:409.447509765625, steps:680
+425 kws_train->Trainer : Epcho 40/200, steps 680, average train cost : 393.34932753619023
+426 kws_train->Trainer : On Evaluation: cost 386.0471496582031, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.0115411281585693
+427 kws_train->Trainer : Epcho 40 :
+428 kws_train->Trainer : Step: 681, Last 5 Batch Cost Total: 0.0979311466217041
+429 kws_train->Trainer : cost:465.4875183105469, steps:685
+430 kws_train->Trainer : Step: 686, Last 5 Batch Cost Total: 0.617565393447876
+431 kws_train->Trainer : cost:385.7751159667969, steps:690
+432 kws_train->Trainer : Step: 691, Last 5 Batch Cost Total: 0.610569953918457
+433 kws_train->Trainer : cost:377.3273620605469, steps:695
+434 kws_train->Trainer : Step: 696, Last 5 Batch Cost Total: 0.5576066970825195
+435 kws_train->Trainer : Epcho 41/200, steps 697, average train cost : 390.0048666561351
+436 kws_train->Trainer : On Evaluation: cost 343.6381530761719, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9856007099151611
+437 kws_train->Trainer : Epcho 41 :
+438 kws_train->Trainer : Step: 698, Last 5 Batch Cost Total: 0.12291455268859863
+439 kws_train->Trainer : cost:359.8942565917969, steps:700
+440 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9113923907279968
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2'] (25)
+Test Accuracy: 0.0
+
+441 kws_train->Trainer : Step: 703, Last 5 Batch Cost Total: 0.786445140838623
+442 kws_train->Trainer : cost:372.2418212890625, steps:705
+443 kws_train->Trainer : Step: 708, Last 5 Batch Cost Total: 0.5546104907989502
+444 kws_train->Trainer : cost:346.46697998046875, steps:710
+445 kws_train->Trainer : Step: 713, Last 5 Batch Cost Total: 0.5855863094329834
+446 kws_train->Trainer : Epcho 42/200, steps 714, average train cost : 387.0440081428079
+447 kws_train->Trainer : On Evaluation: cost 378.1481018066406, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 2.1694726943969727
+448 kws_train->Trainer : Epcho 42 :
+449 kws_train->Trainer : cost:371.5063171386719, steps:715
+450 kws_train->Trainer : Step: 715, Last 5 Batch Cost Total: 0.1309070587158203
+451 kws_train->Trainer : cost:359.9891052246094, steps:720
+452 kws_train->Trainer : Step: 720, Last 5 Batch Cost Total: 0.626558780670166
+453 kws_train->Trainer : cost:378.8343200683594, steps:725
+454 kws_train->Trainer : Step: 725, Last 5 Batch Cost Total: 0.5346231460571289
+455 kws_train->Trainer : cost:381.2171630859375, steps:730
+456 kws_train->Trainer : Step: 730, Last 5 Batch Cost Total: 0.6135668754577637
+457 kws_train->Trainer : Epcho 43/200, steps 731, average train cost : 383.3883738798254
+458 kws_train->Trainer : On Evaluation: cost 362.7809143066406, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 2.0385634899139404
+459 kws_train->Trainer : Epcho 43 :
+460 kws_train->Trainer : Step: 732, Last 5 Batch Cost Total: 0.08893752098083496
+461 kws_train->Trainer : cost:424.2428283691406, steps:735
+462 kws_train->Trainer : Step: 737, Last 5 Batch Cost Total: 0.6305553913116455
+463 kws_train->Trainer : cost:353.6072692871094, steps:740
+464 kws_train->Trainer : Step: 742, Last 5 Batch Cost Total: 0.5666007995605469
+465 kws_train->Trainer : cost:387.4154052734375, steps:745
+466 kws_train->Trainer : Step: 747, Last 5 Batch Cost Total: 0.5925819873809814
+467 kws_train->Trainer : Epcho 44/200, steps 748, average train cost : 379.9204406738281
+468 kws_train->Trainer : On Evaluation: cost 343.5713195800781, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9656147956848145
+469 kws_train->Trainer : Epcho 44 :
+470 kws_train->Trainer : Step: 749, Last 5 Batch Cost Total: 0.13390517234802246
+471 kws_train->Trainer : cost:393.8282470703125, steps:750
+472 kws_train->Trainer : Step: 754, Last 5 Batch Cost Total: 0.6125686168670654
+473 kws_train->Trainer : cost:391.6986999511719, steps:755
+474 kws_train->Trainer : Step: 759, Last 5 Batch Cost Total: 0.5755939483642578
+475 kws_train->Trainer : cost:400.91741943359375, steps:760
+476 kws_train->Trainer : Step: 764, Last 5 Batch Cost Total: 0.5556094646453857
+477 kws_train->Trainer : cost:456.0260314941406, steps:765
+478 kws_train->Trainer : Epcho 45/200, steps 765, average train cost : 383.47095444623164
+479 kws_train->Trainer : On Evaluation: cost 393.6825256347656, acc 0.9240506291389465, learning rate 9.999999747378752e-05, time 2.010582208633423
+480 kws_train->Trainer : Epcho 45 :
+481 kws_train->Trainer : Step: 766, Last 5 Batch Cost Total: 0.1428992748260498
+482 kws_train->Trainer : cost:374.9432067871094, steps:770
+483 kws_train->Trainer : Step: 771, Last 5 Batch Cost Total: 0.6095695495605469
+484 kws_train->Trainer : cost:363.6360168457031, steps:775
+485 kws_train->Trainer : Step: 776, Last 5 Batch Cost Total: 0.5566079616546631
+486 kws_train->Trainer : cost:348.3348083496094, steps:780
+487 kws_train->Trainer : Step: 781, Last 5 Batch Cost Total: 0.5885872840881348
+488 kws_train->Trainer : Epcho 46/200, steps 782, average train cost : 376.82049560546875
+489 kws_train->Trainer : On Evaluation: cost 385.7087707519531, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.040562152862549
+490 kws_train->Trainer : Epcho 46 :
+491 kws_train->Trainer : Step: 783, Last 5 Batch Cost Total: 0.1408998966217041
+492 kws_train->Trainer : cost:349.45947265625, steps:785
+493 kws_train->Trainer : Step: 788, Last 5 Batch Cost Total: 0.5466146469116211
+494 kws_train->Trainer : cost:337.79852294921875, steps:790
+495 kws_train->Trainer : Step: 793, Last 5 Batch Cost Total: 0.5656023025512695
+496 kws_train->Trainer : cost:356.9134826660156, steps:795
+497 kws_train->Trainer : Step: 798, Last 5 Batch Cost Total: 0.6175642013549805
+498 kws_train->Trainer : Epcho 47/200, steps 799, average train cost : 375.02489516314336
+499 kws_train->Trainer : On Evaluation: cost 365.9743347167969, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 2.018578052520752
+500 kws_train->Trainer : Epcho 47 :
+501 kws_train->Trainer : cost:352.7756042480469, steps:800
+502 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9113923907279968
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2'] (19)
+Test Accuracy: 0.0
+
+503 kws_train->Trainer : Step: 800, Last 5 Batch Cost Total: 0.2897951602935791
+504 kws_train->Trainer : cost:362.822509765625, steps:805
+505 kws_train->Trainer : Step: 805, Last 5 Batch Cost Total: 0.5346236228942871
+506 kws_train->Trainer : cost:364.34405517578125, steps:810
+507 kws_train->Trainer : Step: 810, Last 5 Batch Cost Total: 0.5725953578948975
+508 kws_train->Trainer : cost:401.64483642578125, steps:815
+509 kws_train->Trainer : Step: 815, Last 5 Batch Cost Total: 0.6355552673339844
+510 kws_train->Trainer : Epcho 48/200, steps 816, average train cost : 368.97854075712314
+511 kws_train->Trainer : On Evaluation: cost 348.5543212890625, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.1484856605529785
+512 kws_train->Trainer : Epcho 48 :
+513 kws_train->Trainer : Step: 817, Last 5 Batch Cost Total: 0.10092926025390625
+514 kws_train->Trainer : cost:338.8273010253906, steps:820
+515 kws_train->Trainer : Step: 822, Last 5 Batch Cost Total: 0.5426182746887207
+516 kws_train->Trainer : cost:375.34423828125, steps:825
+517 kws_train->Trainer : Step: 827, Last 5 Batch Cost Total: 0.5807642936706543
+518 kws_train->Trainer : cost:383.9488830566406, steps:830
+519 kws_train->Trainer : Step: 832, Last 5 Batch Cost Total: 0.6067295074462891
+520 kws_train->Trainer : Epcho 49/200, steps 833, average train cost : 365.33460908777573
+521 kws_train->Trainer : On Evaluation: cost 316.9461364746094, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 1.9279718399047852
+522 kws_train->Trainer : Epcho 49 :
+523 kws_train->Trainer : Step: 834, Last 5 Batch Cost Total: 0.11392474174499512
+524 kws_train->Trainer : cost:378.5991516113281, steps:835
+525 kws_train->Trainer : Step: 839, Last 5 Batch Cost Total: 0.5410723686218262
+526 kws_train->Trainer : cost:390.31658935546875, steps:840
+527 kws_train->Trainer : Step: 844, Last 5 Batch Cost Total: 0.545236349105835
+528 kws_train->Trainer : cost:444.3290710449219, steps:845
+529 kws_train->Trainer : Step: 849, Last 5 Batch Cost Total: 0.6159384250640869
+530 kws_train->Trainer : cost:362.0823059082031, steps:850
+531 kws_train->Trainer : Epcho 50/200, steps 850, average train cost : 363.86956248563877
+532 kws_train->Trainer : On Evaluation: cost 352.2188720703125, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9271008968353271
+533 kws_train->Trainer : Epcho 50 :
+534 kws_train->Trainer : Step: 851, Last 5 Batch Cost Total: 0.12191343307495117
+535 kws_train->Trainer : cost:348.69415283203125, steps:855
+536 kws_train->Trainer : Step: 856, Last 5 Batch Cost Total: 0.5431156158447266
+537 kws_train->Trainer : cost:335.7551574707031, steps:860
+538 kws_train->Trainer : Step: 861, Last 5 Batch Cost Total: 0.5525972843170166
+539 kws_train->Trainer : cost:327.09857177734375, steps:865
+540 kws_train->Trainer : Step: 866, Last 5 Batch Cost Total: 0.5950284004211426
+541 kws_train->Trainer : Epcho 51/200, steps 867, average train cost : 361.681687298943
+542 kws_train->Trainer : On Evaluation: cost 364.5002136230469, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9355685710906982
+543 kws_train->Trainer : Epcho 51 :
+544 kws_train->Trainer : Step: 868, Last 5 Batch Cost Total: 0.08942985534667969
+545 kws_train->Trainer : cost:328.591796875, steps:870
+546 kws_train->Trainer : Step: 873, Last 5 Batch Cost Total: 0.5476384162902832
+547 kws_train->Trainer : cost:341.0937805175781, steps:875
+548 kws_train->Trainer : Step: 878, Last 5 Batch Cost Total: 0.5960421562194824
+549 kws_train->Trainer : cost:344.3793640136719, steps:880
+550 kws_train->Trainer : Step: 883, Last 5 Batch Cost Total: 0.5775961875915527
+551 kws_train->Trainer : Epcho 52/200, steps 884, average train cost : 355.9646426930147
+552 kws_train->Trainer : On Evaluation: cost 319.9403381347656, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 1.8996403217315674
+553 kws_train->Trainer : Epcho 52 :
+554 kws_train->Trainer : cost:345.9654541015625, steps:885
+555 kws_train->Trainer : Step: 885, Last 5 Batch Cost Total: 0.10882353782653809
+556 kws_train->Trainer : cost:346.5929870605469, steps:890
+557 kws_train->Trainer : Step: 890, Last 5 Batch Cost Total: 0.5576093196868896
+558 kws_train->Trainer : cost:379.31915283203125, steps:895
+559 kws_train->Trainer : Step: 895, Last 5 Batch Cost Total: 0.610729455947876
+560 kws_train->Trainer : cost:323.8999328613281, steps:900
+561 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8860759735107422
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'd', 'e2', 'ng', 'e2', 'n', 'e2', 'ng', 'e2', 'ng', 'e2'] (29)
+Test Accuracy: 0.0
+
+562 kws_train->Trainer : Step: 900, Last 5 Batch Cost Total: 0.6727080345153809
+563 kws_train->Trainer : Epcho 53/200, steps 901, average train cost : 353.92826753504136
+564 kws_train->Trainer : On Evaluation: cost 330.7689514160156, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 2.0618138313293457
+565 kws_train->Trainer : Epcho 53 :
+566 kws_train->Trainer : Step: 902, Last 5 Batch Cost Total: 0.10792279243469238
+567 kws_train->Trainer : cost:360.99603271484375, steps:905
+568 kws_train->Trainer : Step: 907, Last 5 Batch Cost Total: 0.5784165859222412
+569 kws_train->Trainer : cost:372.9119567871094, steps:910
+570 kws_train->Trainer : Step: 912, Last 5 Batch Cost Total: 0.601470947265625
+571 kws_train->Trainer : cost:363.7047119140625, steps:915
+572 kws_train->Trainer : Step: 917, Last 5 Batch Cost Total: 0.5216333866119385
+573 kws_train->Trainer : Epcho 54/200, steps 918, average train cost : 349.6188139073989
+574 kws_train->Trainer : On Evaluation: cost 314.49908447265625, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 1.9183952808380127
+575 kws_train->Trainer : Epcho 54 :
+576 kws_train->Trainer : Step: 919, Last 5 Batch Cost Total: 0.11992287635803223
+577 kws_train->Trainer : cost:377.6985778808594, steps:920
+578 kws_train->Trainer : Step: 924, Last 5 Batch Cost Total: 0.5415804386138916
+579 kws_train->Trainer : cost:429.07763671875, steps:925
+580 kws_train->Trainer : Step: 929, Last 5 Batch Cost Total: 0.61173415184021
+581 kws_train->Trainer : cost:347.675537109375, steps:930
+582 kws_train->Trainer : Step: 934, Last 5 Batch Cost Total: 0.5810112953186035
+583 kws_train->Trainer : cost:332.1195068359375, steps:935
+584 kws_train->Trainer : Epcho 55/200, steps 935, average train cost : 346.9319493910846
+585 kws_train->Trainer : On Evaluation: cost 322.8849182128906, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9711663722991943
+586 kws_train->Trainer : Epcho 55 :
+587 kws_train->Trainer : Step: 936, Last 5 Batch Cost Total: 0.12191534042358398
+588 kws_train->Trainer : cost:321.2725524902344, steps:940
+589 kws_train->Trainer : Step: 941, Last 5 Batch Cost Total: 0.6045725345611572
+590 kws_train->Trainer : cost:306.3261413574219, steps:945
+591 kws_train->Trainer : Step: 946, Last 5 Batch Cost Total: 0.6175656318664551
+592 kws_train->Trainer : cost:318.2994384765625, steps:950
+593 kws_train->Trainer : Step: 951, Last 5 Batch Cost Total: 0.5536043643951416
+594 kws_train->Trainer : Epcho 56/200, steps 952, average train cost : 346.15770766314336
+595 kws_train->Trainer : On Evaluation: cost 356.4005432128906, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.0215752124786377
+596 kws_train->Trainer : Epcho 56 :
+597 kws_train->Trainer : Step: 953, Last 5 Batch Cost Total: 0.0979306697845459
+598 kws_train->Trainer : cost:324.6838684082031, steps:955
+599 kws_train->Trainer : Step: 958, Last 5 Batch Cost Total: 0.6015751361846924
+600 kws_train->Trainer : cost:334.8876037597656, steps:960
+601 kws_train->Trainer : Step: 963, Last 5 Batch Cost Total: 0.5915830135345459
+602 kws_train->Trainer : cost:327.80242919921875, steps:965
+603 kws_train->Trainer : Step: 968, Last 5 Batch Cost Total: 0.5516126155853271
+604 kws_train->Trainer : Epcho 57/200, steps 969, average train cost : 341.38059728285845
+605 kws_train->Trainer : On Evaluation: cost 305.9370422363281, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9426321983337402
+606 kws_train->Trainer : Epcho 57 :
+607 kws_train->Trainer : cost:328.6796569824219, steps:970
+608 kws_train->Trainer : Step: 970, Last 5 Batch Cost Total: 0.12391138076782227
+609 kws_train->Trainer : cost:355.5972900390625, steps:975
+610 kws_train->Trainer : Step: 975, Last 5 Batch Cost Total: 0.6175663471221924
+611 kws_train->Trainer : cost:309.260498046875, steps:980
+612 kws_train->Trainer : Step: 980, Last 5 Batch Cost Total: 0.5396196842193604
+613 kws_train->Trainer : cost:342.31414794921875, steps:985
+614 kws_train->Trainer : Step: 985, Last 5 Batch Cost Total: 0.5665996074676514
+615 kws_train->Trainer : Epcho 58/200, steps 986, average train cost : 336.7086774040671
+616 kws_train->Trainer : On Evaluation: cost 315.0552062988281, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 1.971611499786377
+617 kws_train->Trainer : Epcho 58 :
+618 kws_train->Trainer : Step: 987, Last 5 Batch Cost Total: 0.12890887260437012
+619 kws_train->Trainer : cost:360.48419189453125, steps:990
+620 kws_train->Trainer : Step: 992, Last 5 Batch Cost Total: 0.6315553188323975
+621 kws_train->Trainer : cost:347.31915283203125, steps:995
+622 kws_train->Trainer : Step: 997, Last 5 Batch Cost Total: 0.5416173934936523
+623 kws_train->Trainer : cost:363.85321044921875, steps:1000
+624 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.9113923907279968
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2'] (21)
+Test Accuracy: 0.0
+
+625 kws_train->Trainer : Step: 1002, Last 5 Batch Cost Total: 0.9913041591644287
+626 kws_train->Trainer : Epcho 59/200, steps 1003, average train cost : 332.8326146742877
+627 kws_train->Trainer : On Evaluation: cost 306.95458984375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.420295238494873
+628 kws_train->Trainer : Epcho 59 :
+629 kws_train->Trainer : Step: 1004, Last 5 Batch Cost Total: 0.0919346809387207
+630 kws_train->Trainer : cost:407.972900390625, steps:1005
+631 kws_train->Trainer : Step: 1009, Last 5 Batch Cost Total: 0.6745250225067139
+632 kws_train->Trainer : cost:330.8592224121094, steps:1010
+633 kws_train->Trainer : Step: 1014, Last 5 Batch Cost Total: 0.5795919895172119
+634 kws_train->Trainer : cost:314.7657775878906, steps:1015
+635 kws_train->Trainer : Step: 1019, Last 5 Batch Cost Total: 0.6125690937042236
+636 kws_train->Trainer : cost:306.200439453125, steps:1020
+637 kws_train->Trainer : Epcho 60/200, steps 1020, average train cost : 328.6945064769072
+638 kws_train->Trainer : On Evaluation: cost 314.38995361328125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.043560266494751
+639 kws_train->Trainer : Epcho 60 :
+640 kws_train->Trainer : Step: 1021, Last 5 Batch Cost Total: 0.1588890552520752
+641 kws_train->Trainer : cost:287.88360595703125, steps:1025
+642 kws_train->Trainer : Step: 1026, Last 5 Batch Cost Total: 0.6525487899780273
+643 kws_train->Trainer : cost:307.4378967285156, steps:1030
+644 kws_train->Trainer : Step: 1031, Last 5 Batch Cost Total: 0.5536015033721924
+645 kws_train->Trainer : cost:306.8927001953125, steps:1035
+646 kws_train->Trainer : Step: 1036, Last 5 Batch Cost Total: 0.5566082000732422
+647 kws_train->Trainer : Epcho 61/200, steps 1037, average train cost : 331.3191618077895
+648 kws_train->Trainer : On Evaluation: cost 374.1534118652344, acc 0.9367088675498962, learning rate 9.999999747378752e-05, time 2.0535545349121094
+649 kws_train->Trainer : Epcho 61 :
+650 kws_train->Trainer : Step: 1038, Last 5 Batch Cost Total: 0.1389021873474121
+651 kws_train->Trainer : cost:323.77447509765625, steps:1040
+652 kws_train->Trainer : Step: 1043, Last 5 Batch Cost Total: 0.5905842781066895
+653 kws_train->Trainer : cost:309.87933349609375, steps:1045
+654 kws_train->Trainer : Step: 1048, Last 5 Batch Cost Total: 0.5616059303283691
+655 kws_train->Trainer : cost:310.32415771484375, steps:1050
+656 kws_train->Trainer : Step: 1053, Last 5 Batch Cost Total: 0.5835886001586914
+657 kws_train->Trainer : Epcho 62/200, steps 1054, average train cost : 324.6028568043428
+658 kws_train->Trainer : On Evaluation: cost 345.9560852050781, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 2.0175793170928955
+659 kws_train->Trainer : Epcho 62 :
+660 kws_train->Trainer : cost:334.3865966796875, steps:1055
+661 kws_train->Trainer : Step: 1055, Last 5 Batch Cost Total: 0.1468973159790039
+662 kws_train->Trainer : cost:294.39422607421875, steps:1060
+663 kws_train->Trainer : Step: 1060, Last 5 Batch Cost Total: 0.5366201400756836
+664 kws_train->Trainer : cost:321.9956970214844, steps:1065
+665 kws_train->Trainer : Step: 1065, Last 5 Batch Cost Total: 0.553612232208252
+666 kws_train->Trainer : cost:346.4443664550781, steps:1070
+667 kws_train->Trainer : Step: 1070, Last 5 Batch Cost Total: 0.6095700263977051
+668 kws_train->Trainer : Epcho 63/200, steps 1071, average train cost : 320.29220222024355
+669 kws_train->Trainer : On Evaluation: cost 300.2421569824219, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.987600326538086
+670 kws_train->Trainer : Epcho 63 :
+671 kws_train->Trainer : Step: 1072, Last 5 Batch Cost Total: 0.11691856384277344
+672 kws_train->Trainer : cost:329.1985168457031, steps:1075
+673 kws_train->Trainer : Step: 1077, Last 5 Batch Cost Total: 0.5446233749389648
+674 kws_train->Trainer : cost:349.0262756347656, steps:1080
+675 kws_train->Trainer : Step: 1082, Last 5 Batch Cost Total: 0.5705902576446533
+676 kws_train->Trainer : cost:384.5796203613281, steps:1085
+677 kws_train->Trainer : Step: 1087, Last 5 Batch Cost Total: 0.619563102722168
+678 kws_train->Trainer : Epcho 64/200, steps 1088, average train cost : 315.634864358341
+679 kws_train->Trainer : On Evaluation: cost 312.3897399902344, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.9716107845306396
+680 kws_train->Trainer : Epcho 64 :
+681 kws_train->Trainer : Step: 1089, Last 5 Batch Cost Total: 0.09893083572387695
+682 kws_train->Trainer : cost:313.0498352050781, steps:1090
+683 kws_train->Trainer : Step: 1094, Last 5 Batch Cost Total: 0.5436153411865234
+684 kws_train->Trainer : cost:297.54827880859375, steps:1095
+685 kws_train->Trainer : Step: 1099, Last 5 Batch Cost Total: 0.588585615158081
+686 kws_train->Trainer : cost:291.4906311035156, steps:1100
+687 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8227847814559937
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'ng', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'ng', 'e2', 'ng', 'd', 'e2', 'ng', 'e2', 'n', 'e2', 'n', 'd', 'n', 'ng', 'sh', 'ng', 'd', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'i4', 'ng', 'd'] (52)
+Test Accuracy: 0.0
+
+688 kws_train->Trainer : Step: 1104, Last 5 Batch Cost Total: 0.7754530906677246
+689 kws_train->Trainer : cost:271.52142333984375, steps:1105
+690 kws_train->Trainer : Epcho 65/200, steps 1105, average train cost : 309.8887113683364
+691 kws_train->Trainer : On Evaluation: cost 266.412109375, acc 0.8101266026496887, learning rate 9.999999747378752e-05, time 2.113511323928833
+692 kws_train->Trainer : Epcho 65 :
+693 kws_train->Trainer : Step: 1106, Last 5 Batch Cost Total: 0.11291122436523438
+694 kws_train->Trainer : cost:295.40753173828125, steps:1110
+695 kws_train->Trainer : Step: 1111, Last 5 Batch Cost Total: 0.5616049766540527
+696 kws_train->Trainer : cost:288.60504150390625, steps:1115
+697 kws_train->Trainer : Step: 1116, Last 5 Batch Cost Total: 0.5576074123382568
+698 kws_train->Trainer : cost:311.842041015625, steps:1120
+699 kws_train->Trainer : Step: 1121, Last 5 Batch Cost Total: 0.6195616722106934
+700 kws_train->Trainer : Epcho 66/200, steps 1122, average train cost : 307.9325274299173
+701 kws_train->Trainer : On Evaluation: cost 294.8570556640625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.971601963043213
+702 kws_train->Trainer : Epcho 66 :
+703 kws_train->Trainer : Step: 1123, Last 5 Batch Cost Total: 0.12491035461425781
+704 kws_train->Trainer : cost:291.8069152832031, steps:1125
+705 kws_train->Trainer : Step: 1128, Last 5 Batch Cost Total: 0.5526115894317627
+706 kws_train->Trainer : cost:290.32373046875, steps:1130
+707 kws_train->Trainer : Step: 1133, Last 5 Batch Cost Total: 0.5775942802429199
+708 kws_train->Trainer : cost:321.4580383300781, steps:1135
+709 kws_train->Trainer : Step: 1138, Last 5 Batch Cost Total: 0.6045725345611572
+710 kws_train->Trainer : Epcho 67/200, steps 1139, average train cost : 306.36971327837773
+711 kws_train->Trainer : On Evaluation: cost 306.65740966796875, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.990595817565918
+712 kws_train->Trainer : Epcho 67 :
+713 kws_train->Trainer : cost:279.3443603515625, steps:1140
+714 kws_train->Trainer : Step: 1140, Last 5 Batch Cost Total: 0.09093499183654785
+715 kws_train->Trainer : cost:301.3878173828125, steps:1145
+716 kws_train->Trainer : Step: 1145, Last 5 Batch Cost Total: 0.558607816696167
+717 kws_train->Trainer : cost:332.40802001953125, steps:1150
+718 kws_train->Trainer : Step: 1150, Last 5 Batch Cost Total: 0.5945806503295898
+719 kws_train->Trainer : cost:310.84808349609375, steps:1155
+720 kws_train->Trainer : Step: 1155, Last 5 Batch Cost Total: 0.5905840396881104
+721 kws_train->Trainer : Epcho 68/200, steps 1156, average train cost : 301.4774008358226
+722 kws_train->Trainer : On Evaluation: cost 271.8050537109375, acc 0.8227847814559937, learning rate 9.999999747378752e-05, time 1.9246439933776855
+723 kws_train->Trainer : Epcho 68 :
+724 kws_train->Trainer : Step: 1157, Last 5 Batch Cost Total: 0.11092209815979004
+725 kws_train->Trainer : cost:333.21563720703125, steps:1160
+726 kws_train->Trainer : Step: 1162, Last 5 Batch Cost Total: 0.5745954513549805
+727 kws_train->Trainer : cost:363.62384033203125, steps:1165
+728 kws_train->Trainer : Step: 1167, Last 5 Batch Cost Total: 0.6175632476806641
+729 kws_train->Trainer : cost:296.7586975097656, steps:1170
+730 kws_train->Trainer : Step: 1172, Last 5 Batch Cost Total: 0.5396196842193604
+731 kws_train->Trainer : Epcho 69/200, steps 1173, average train cost : 297.4104237275965
+732 kws_train->Trainer : On Evaluation: cost 273.5350036621094, acc 0.8227847814559937, learning rate 9.999999747378752e-05, time 1.95662260055542
+733 kws_train->Trainer : Epcho 69 :
+734 kws_train->Trainer : Step: 1174, Last 5 Batch Cost Total: 0.11591792106628418
+735 kws_train->Trainer : cost:282.3018493652344, steps:1175
+736 kws_train->Trainer : Step: 1179, Last 5 Batch Cost Total: 0.593580961227417
+737 kws_train->Trainer : cost:276.7531433105469, steps:1180
+738 kws_train->Trainer : Step: 1184, Last 5 Batch Cost Total: 0.6265599727630615
+739 kws_train->Trainer : cost:253.42726135253906, steps:1185
+740 kws_train->Trainer : Step: 1189, Last 5 Batch Cost Total: 0.5366213321685791
+741 kws_train->Trainer : cost:283.2290954589844, steps:1190
+742 kws_train->Trainer : Epcho 70/200, steps 1190, average train cost : 292.782107184915
+743 kws_train->Trainer : On Evaluation: cost 275.6990966796875, acc 0.8607594966888428, learning rate 9.999999747378752e-05, time 1.9856014251708984
+744 kws_train->Trainer : Epcho 70 :
+745 kws_train->Trainer : Step: 1191, Last 5 Batch Cost Total: 0.12091279029846191
+746 kws_train->Trainer : cost:271.95159912109375, steps:1195
+747 kws_train->Trainer : Step: 1196, Last 5 Batch Cost Total: 0.5626051425933838
+748 kws_train->Trainer : cost:301.4590759277344, steps:1200
+749 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8987341523170471
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n'] (26)
+Test Accuracy: 0.0
+
+750 kws_train->Trainer : Step: 1201, Last 5 Batch Cost Total: 0.8044319152832031
+751 kws_train->Trainer : cost:282.21209716796875, steps:1205
+752 kws_train->Trainer : Step: 1206, Last 5 Batch Cost Total: 0.5426192283630371
+753 kws_train->Trainer : Epcho 71/200, steps 1207, average train cost : 293.14780201631436
+754 kws_train->Trainer : On Evaluation: cost 273.70452880859375, acc 0.8101266026496887, learning rate 9.999999747378752e-05, time 2.156480073928833
+755 kws_train->Trainer : Epcho 71 :
+756 kws_train->Trainer : Step: 1208, Last 5 Batch Cost Total: 0.12191319465637207
+757 kws_train->Trainer : cost:272.71539306640625, steps:1210
+758 kws_train->Trainer : Step: 1213, Last 5 Batch Cost Total: 0.5596041679382324
+759 kws_train->Trainer : cost:290.0137939453125, steps:1215
+760 kws_train->Trainer : Step: 1218, Last 5 Batch Cost Total: 0.6285579204559326
+761 kws_train->Trainer : cost:267.28564453125, steps:1220
+762 kws_train->Trainer : Step: 1223, Last 5 Batch Cost Total: 0.5566082000732422
+763 kws_train->Trainer : Epcho 72/200, steps 1224, average train cost : 289.9296228745404
+764 kws_train->Trainer : On Evaluation: cost 309.664794921875, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 1.9925971031188965
+765 kws_train->Trainer : Epcho 72 :
+766 kws_train->Trainer : cost:278.4561462402344, steps:1225
+767 kws_train->Trainer : Step: 1225, Last 5 Batch Cost Total: 0.0999307632446289
+768 kws_train->Trainer : cost:314.80157470703125, steps:1230
+769 kws_train->Trainer : Step: 1230, Last 5 Batch Cost Total: 0.607572078704834
+770 kws_train->Trainer : cost:293.4794006347656, steps:1235
+771 kws_train->Trainer : Step: 1235, Last 5 Batch Cost Total: 0.5905828475952148
+772 kws_train->Trainer : cost:315.8963928222656, steps:1240
+773 kws_train->Trainer : Step: 1240, Last 5 Batch Cost Total: 0.5606050491333008
+774 kws_train->Trainer : Epcho 73/200, steps 1241, average train cost : 283.8870230282054
+775 kws_train->Trainer : On Evaluation: cost 261.5816345214844, acc 0.797468364238739, learning rate 9.999999747378752e-05, time 1.9576208591461182
+776 kws_train->Trainer : Epcho 73 :
+777 kws_train->Trainer : Step: 1242, Last 5 Batch Cost Total: 0.12691044807434082
+778 kws_train->Trainer : cost:351.5375061035156, steps:1245
+779 kws_train->Trainer : Step: 1247, Last 5 Batch Cost Total: 0.6265590190887451
+780 kws_train->Trainer : cost:277.89141845703125, steps:1250
+781 kws_train->Trainer : Step: 1252, Last 5 Batch Cost Total: 0.5416178703308105
+782 kws_train->Trainer : cost:266.0496826171875, steps:1255
+783 kws_train->Trainer : Step: 1257, Last 5 Batch Cost Total: 0.5566084384918213
+784 kws_train->Trainer : Epcho 74/200, steps 1258, average train cost : 284.4975855210248
+785 kws_train->Trainer : On Evaluation: cost 259.66241455078125, acc 0.797468364238739, learning rate 9.999999747378752e-05, time 1.9806039333343506
+786 kws_train->Trainer : Epcho 74 :
+787 kws_train->Trainer : Step: 1259, Last 5 Batch Cost Total: 0.12691211700439453
+788 kws_train->Trainer : cost:267.0329895019531, steps:1260
+789 kws_train->Trainer : Step: 1264, Last 5 Batch Cost Total: 0.6305568218231201
+790 kws_train->Trainer : cost:242.09536743164062, steps:1265
+791 kws_train->Trainer : Step: 1269, Last 5 Batch Cost Total: 0.5426161289215088
+792 kws_train->Trainer : cost:274.8941650390625, steps:1270
+793 kws_train->Trainer : Step: 1274, Last 5 Batch Cost Total: 0.5796043872833252
+794 kws_train->Trainer : cost:262.7591552734375, steps:1275
+795 kws_train->Trainer : Epcho 75/200, steps 1275, average train cost : 277.63451430376836
+796 kws_train->Trainer : On Evaluation: cost 260.1422119140625, acc 0.8101266026496887, learning rate 9.999999747378752e-05, time 2.011583089828491
+797 kws_train->Trainer : Epcho 75 :
+798 kws_train->Trainer : Step: 1276, Last 5 Batch Cost Total: 0.08694171905517578
+799 kws_train->Trainer : cost:290.70556640625, steps:1280
+800 kws_train->Trainer : Step: 1281, Last 5 Batch Cost Total: 0.6287741661071777
+801 kws_train->Trainer : cost:262.5941467285156, steps:1285
+802 kws_train->Trainer : Step: 1286, Last 5 Batch Cost Total: 0.5336248874664307
+803 kws_train->Trainer : cost:256.73382568359375, steps:1290
+804 kws_train->Trainer : Step: 1291, Last 5 Batch Cost Total: 0.574594259262085
+805 kws_train->Trainer : Epcho 76/200, steps 1292, average train cost : 274.49596898696
+806 kws_train->Trainer : On Evaluation: cost 351.4451904296875, acc 0.8481012582778931, learning rate 9.999999747378752e-05, time 1.9098713397979736
+807 kws_train->Trainer : Epcho 76 :
+808 kws_train->Trainer : Step: 1293, Last 5 Batch Cost Total: 0.13390564918518066
+809 kws_train->Trainer : cost:282.1040344238281, steps:1295
+810 kws_train->Trainer : Step: 1298, Last 5 Batch Cost Total: 0.5975790023803711
+811 kws_train->Trainer : cost:256.80804443359375, steps:1300
+812 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.797468364238739
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['e2', 'ng', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'n', 'e2', 'ng', 'e2', 'd', 'e2', 'n', 'e2', 'ng', 'e2', 'd', 'n', 'e2', 'ng', 'sh', 'i4', 'ng', 'a4', 'n', 'e2', 'n', 'i4', 'n', 'e2', 'i4', 'ng', 'd', 'ng', 'n'] (40)
+Test Accuracy: 0.0
+
+813 kws_train->Trainer : Step: 1303, Last 5 Batch Cost Total: 0.7044014930725098
+814 kws_train->Trainer : cost:263.33673095703125, steps:1305
+815 kws_train->Trainer : Step: 1308, Last 5 Batch Cost Total: 0.5445678234100342
+816 kws_train->Trainer : Epcho 77/200, steps 1309, average train cost : 274.3597250545726
+817 kws_train->Trainer : On Evaluation: cost 287.0911865234375, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 2.1123616695404053
+818 kws_train->Trainer : Epcho 77 :
+819 kws_train->Trainer : cost:348.6685485839844, steps:1310
+820 kws_train->Trainer : Step: 1310, Last 5 Batch Cost Total: 0.1389024257659912
+821 kws_train->Trainer : cost:1304.0205078125, steps:1315
+822 kws_train->Trainer : Step: 1315, Last 5 Batch Cost Total: 0.5597672462463379
+823 kws_train->Trainer : cost:467.27496337890625, steps:1320
+824 kws_train->Trainer : Step: 1320, Last 5 Batch Cost Total: 0.5421326160430908
+825 kws_train->Trainer : cost:589.77880859375, steps:1325
+826 kws_train->Trainer : Step: 1325, Last 5 Batch Cost Total: 0.5452232360839844
+827 kws_train->Trainer : Epcho 78/200, steps 1326, average train cost : inf
+828 kws_train->Trainer : On Evaluation: cost 464.87762451171875, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 1.9253387451171875
+829 kws_train->Trainer : Epcho 78 :
+830 kws_train->Trainer : Step: 1327, Last 5 Batch Cost Total: 0.1369025707244873
+831 kws_train->Trainer : cost:431.9454040527344, steps:1330
+832 kws_train->Trainer : Step: 1332, Last 5 Batch Cost Total: 0.5248346328735352
+833 kws_train->Trainer : cost:477.7563171386719, steps:1335
+834 kws_train->Trainer : Step: 1337, Last 5 Batch Cost Total: 0.5423295497894287
+835 kws_train->Trainer : cost:503.083251953125, steps:1340
+836 kws_train->Trainer : Step: 1342, Last 5 Batch Cost Total: 0.5859508514404297
+837 kws_train->Trainer : Epcho 79/200, steps 1343, average train cost : 489.75544289981616
+838 kws_train->Trainer : On Evaluation: cost 498.5125732421875, acc 0.9240506291389465, learning rate 9.999999747378752e-05, time 1.9289181232452393
+839 kws_train->Trainer : Epcho 79 :
+840 kws_train->Trainer : Step: 1344, Last 5 Batch Cost Total: 0.11293292045593262
+841 kws_train->Trainer : cost:478.59912109375, steps:1345
+842 kws_train->Trainer : Step: 1349, Last 5 Batch Cost Total: 0.521632194519043
+843 kws_train->Trainer : cost:378.3353576660156, steps:1350
+844 kws_train->Trainer : Step: 1354, Last 5 Batch Cost Total: 0.5540404319763184
+845 kws_train->Trainer : cost:427.4881286621094, steps:1355
+846 kws_train->Trainer : Step: 1359, Last 5 Batch Cost Total: 0.6045749187469482
+847 kws_train->Trainer : cost:408.91162109375, steps:1360
+848 kws_train->Trainer : Epcho 80/200, steps 1360, average train cost : 467.77013980641084
+849 kws_train->Trainer : On Evaluation: cost 407.1301574707031, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 1.9090993404388428
+850 kws_train->Trainer : Epcho 80 :
+851 kws_train->Trainer : Step: 1361, Last 5 Batch Cost Total: 0.09397196769714355
+852 kws_train->Trainer : cost:445.48492431640625, steps:1365
+853 kws_train->Trainer : Step: 1366, Last 5 Batch Cost Total: 0.5318143367767334
+854 kws_train->Trainer : cost:504.1358947753906, steps:1370
+855 kws_train->Trainer : Step: 1371, Last 5 Batch Cost Total: 0.567265510559082
+856 kws_train->Trainer : cost:523.5856323242188, steps:1375
+857 kws_train->Trainer : Step: 1376, Last 5 Batch Cost Total: 0.5973069667816162
+858 kws_train->Trainer : Epcho 81/200, steps 1377, average train cost : 462.24013025620405
+859 kws_train->Trainer : On Evaluation: cost 426.37139892578125, acc 0.9240506291389465, learning rate 9.999999747378752e-05, time 1.8890881538391113
+860 kws_train->Trainer : Epcho 81 :
+861 kws_train->Trainer : Step: 1378, Last 5 Batch Cost Total: 0.10991835594177246
+862 kws_train->Trainer : cost:519.9512329101562, steps:1380
+863 kws_train->Trainer : Step: 1383, Last 5 Batch Cost Total: 0.535348653793335
+864 kws_train->Trainer : cost:468.74090576171875, steps:1385
+865 kws_train->Trainer : Step: 1388, Last 5 Batch Cost Total: 0.5406184196472168
+866 kws_train->Trainer : cost:455.2448425292969, steps:1390
+867 kws_train->Trainer : Step: 1393, Last 5 Batch Cost Total: 0.6059246063232422
+868 kws_train->Trainer : Epcho 82/200, steps 1394, average train cost : 452.8671641630285
+869 kws_train->Trainer : On Evaluation: cost 410.8493957519531, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9037327766418457
+870 kws_train->Trainer : Epcho 82 :
+871 kws_train->Trainer : cost:423.10015869140625, steps:1395
+872 kws_train->Trainer : Step: 1395, Last 5 Batch Cost Total: 0.12241148948669434
+873 kws_train->Trainer : cost:440.3642883300781, steps:1400
+874 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (27)
+Test Accuracy: 0.0
+
+875 kws_train->Trainer : Step: 1400, Last 5 Batch Cost Total: 0.7093966007232666
+876 kws_train->Trainer : cost:527.6411743164062, steps:1405
+877 kws_train->Trainer : Step: 1405, Last 5 Batch Cost Total: 0.5432605743408203
+878 kws_train->Trainer : cost:410.28131103515625, steps:1410
+879 kws_train->Trainer : Step: 1410, Last 5 Batch Cost Total: 0.5859110355377197
+880 kws_train->Trainer : Epcho 83/200, steps 1411, average train cost : 448.7736583036535
+881 kws_train->Trainer : On Evaluation: cost 413.26898193359375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.082895040512085
+882 kws_train->Trainer : Epcho 83 :
+883 kws_train->Trainer : Step: 1412, Last 5 Batch Cost Total: 0.08893585205078125
+884 kws_train->Trainer : cost:445.75128173828125, steps:1415
+885 kws_train->Trainer : Step: 1417, Last 5 Batch Cost Total: 0.5431888103485107
+886 kws_train->Trainer : cost:447.80792236328125, steps:1420
+887 kws_train->Trainer : Step: 1422, Last 5 Batch Cost Total: 0.600393533706665
+888 kws_train->Trainer : cost:453.8279724121094, steps:1425
+889 kws_train->Trainer : Step: 1427, Last 5 Batch Cost Total: 0.5749807357788086
+890 kws_train->Trainer : Epcho 84/200, steps 1428, average train cost : 449.4679637235754
+891 kws_train->Trainer : On Evaluation: cost 467.32537841796875, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.8964314460754395
+892 kws_train->Trainer : Epcho 84 :
+893 kws_train->Trainer : Step: 1429, Last 5 Batch Cost Total: 0.11092305183410645
+894 kws_train->Trainer : cost:367.2901611328125, steps:1430
+895 kws_train->Trainer : Step: 1434, Last 5 Batch Cost Total: 0.5538649559020996
+896 kws_train->Trainer : cost:414.65234375, steps:1435
+897 kws_train->Trainer : Step: 1439, Last 5 Batch Cost Total: 0.6706969738006592
+898 kws_train->Trainer : cost:395.1860046386719, steps:1440
+899 kws_train->Trainer : Step: 1444, Last 5 Batch Cost Total: 0.5285203456878662
+900 kws_train->Trainer : cost:423.5096130371094, steps:1445
+901 kws_train->Trainer : Epcho 85/200, steps 1445, average train cost : 441.9844342400046
+902 kws_train->Trainer : On Evaluation: cost 421.0095520019531, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9717743396759033
+903 kws_train->Trainer : Epcho 85 :
+904 kws_train->Trainer : Step: 1446, Last 5 Batch Cost Total: 0.10878825187683105
+905 kws_train->Trainer : cost:478.5539855957031, steps:1450
+906 kws_train->Trainer : Step: 1451, Last 5 Batch Cost Total: 0.5755941867828369
+907 kws_train->Trainer : cost:505.9291076660156, steps:1455
+908 kws_train->Trainer : Step: 1456, Last 5 Batch Cost Total: 0.6021382808685303
+909 kws_train->Trainer : cost:483.7810974121094, steps:1460
+910 kws_train->Trainer : Step: 1461, Last 5 Batch Cost Total: 0.5209543704986572
+911 kws_train->Trainer : Epcho 86/200, steps 1462, average train cost : 435.81698787913604
+912 kws_train->Trainer : On Evaluation: cost 363.7995300292969, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9167702198028564
+913 kws_train->Trainer : Epcho 86 :
+914 kws_train->Trainer : Step: 1463, Last 5 Batch Cost Total: 0.11891698837280273
+915 kws_train->Trainer : cost:444.2989501953125, steps:1465
+916 kws_train->Trainer : Step: 1468, Last 5 Batch Cost Total: 0.5516111850738525
+917 kws_train->Trainer : cost:434.6449279785156, steps:1470
+918 kws_train->Trainer : Step: 1473, Last 5 Batch Cost Total: 0.6131942272186279
+919 kws_train->Trainer : cost:413.87615966796875, steps:1475
+920 kws_train->Trainer : Step: 1478, Last 5 Batch Cost Total: 0.5333960056304932
+921 kws_train->Trainer : Epcho 87/200, steps 1479, average train cost : 437.70888743681064
+922 kws_train->Trainer : On Evaluation: cost 433.7872009277344, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9360356330871582
+923 kws_train->Trainer : Epcho 87 :
+924 kws_train->Trainer : cost:427.38116455078125, steps:1480
+925 kws_train->Trainer : Step: 1480, Last 5 Batch Cost Total: 0.12291216850280762
+926 kws_train->Trainer : cost:505.32867431640625, steps:1485
+927 kws_train->Trainer : Step: 1485, Last 5 Batch Cost Total: 0.5471737384796143
+928 kws_train->Trainer : cost:403.712646484375, steps:1490
+929 kws_train->Trainer : Step: 1490, Last 5 Batch Cost Total: 0.5911359786987305
+930 kws_train->Trainer : cost:436.0751037597656, steps:1495
+931 kws_train->Trainer : Step: 1495, Last 5 Batch Cost Total: 0.5407748222351074
+932 kws_train->Trainer : Epcho 88/200, steps 1496, average train cost : 434.9613683363971
+933 kws_train->Trainer : On Evaluation: cost 397.97869873046875, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9249045848846436
+934 kws_train->Trainer : Epcho 88 :
+935 kws_train->Trainer : Step: 1497, Last 5 Batch Cost Total: 0.09893059730529785
+936 kws_train->Trainer : cost:434.7171936035156, steps:1500
+937 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (19)
+Test Accuracy: 0.0
+
+938 kws_train->Trainer : Step: 1502, Last 5 Batch Cost Total: 0.9350061416625977
+939 kws_train->Trainer : cost:439.2972717285156, steps:1505
+940 kws_train->Trainer : Step: 1507, Last 5 Batch Cost Total: 0.598609209060669
+941 kws_train->Trainer : cost:363.157470703125, steps:1510
+942 kws_train->Trainer : Step: 1512, Last 5 Batch Cost Total: 0.5772204399108887
+943 kws_train->Trainer : Epcho 89/200, steps 1513, average train cost : 433.52716602998623
+944 kws_train->Trainer : On Evaluation: cost 402.3368225097656, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 2.3096976280212402
+945 kws_train->Trainer : Epcho 89 :
+946 kws_train->Trainer : Step: 1514, Last 5 Batch Cost Total: 0.12591147422790527
+947 kws_train->Trainer : cost:407.35699462890625, steps:1515
+948 kws_train->Trainer : Step: 1519, Last 5 Batch Cost Total: 0.6215615272521973
+949 kws_train->Trainer : cost:391.1993408203125, steps:1520
+950 kws_train->Trainer : Step: 1524, Last 5 Batch Cost Total: 0.5636024475097656
+951 kws_train->Trainer : cost:413.2942810058594, steps:1525
+952 kws_train->Trainer : Step: 1529, Last 5 Batch Cost Total: 0.598578929901123
+953 kws_train->Trainer : cost:467.020263671875, steps:1530
+954 kws_train->Trainer : Epcho 90/200, steps 1530, average train cost : 433.56064022288604
+955 kws_train->Trainer : On Evaluation: cost 461.8169250488281, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.029569387435913
+956 kws_train->Trainer : Epcho 90 :
+957 kws_train->Trainer : Step: 1531, Last 5 Batch Cost Total: 0.12990760803222656
+958 kws_train->Trainer : cost:493.4089050292969, steps:1535
+959 kws_train->Trainer : Step: 1536, Last 5 Batch Cost Total: 0.6105706691741943
+960 kws_train->Trainer : cost:462.7449951171875, steps:1540
+961 kws_train->Trainer : Step: 1541, Last 5 Batch Cost Total: 0.5326247215270996
+962 kws_train->Trainer : cost:429.013427734375, steps:1545
+963 kws_train->Trainer : Step: 1546, Last 5 Batch Cost Total: 0.580592155456543
+964 kws_train->Trainer : Epcho 91/200, steps 1547, average train cost : 428.22691614487593
+965 kws_train->Trainer : On Evaluation: cost 402.4162902832031, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.986600637435913
+966 kws_train->Trainer : Epcho 91 :
+967 kws_train->Trainer : Step: 1548, Last 5 Batch Cost Total: 0.08893656730651855
+968 kws_train->Trainer : cost:426.7759704589844, steps:1550
+969 kws_train->Trainer : Step: 1553, Last 5 Batch Cost Total: 0.6305561065673828
+970 kws_train->Trainer : cost:408.41583251953125, steps:1555
+971 kws_train->Trainer : Step: 1558, Last 5 Batch Cost Total: 0.547614336013794
+972 kws_train->Trainer : cost:420.9407653808594, steps:1560
+973 kws_train->Trainer : Step: 1563, Last 5 Batch Cost Total: 0.610569953918457
+974 kws_train->Trainer : Epcho 92/200, steps 1564, average train cost : 427.9899166331572
+975 kws_train->Trainer : On Evaluation: cost 410.86810302734375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9646155834197998
+976 kws_train->Trainer : Epcho 92 :
+977 kws_train->Trainer : cost:492.0137939453125, steps:1565
+978 kws_train->Trainer : Step: 1565, Last 5 Batch Cost Total: 0.13090801239013672
+979 kws_train->Trainer : cost:398.577392578125, steps:1570
+980 kws_train->Trainer : Step: 1570, Last 5 Batch Cost Total: 0.6275579929351807
+981 kws_train->Trainer : cost:430.0507507324219, steps:1575
+982 kws_train->Trainer : Step: 1575, Last 5 Batch Cost Total: 0.5556094646453857
+983 kws_train->Trainer : cost:425.5911865234375, steps:1580
+984 kws_train->Trainer : Step: 1580, Last 5 Batch Cost Total: 0.5556080341339111
+985 kws_train->Trainer : Epcho 93/200, steps 1581, average train cost : 430.0794031479779
+986 kws_train->Trainer : On Evaluation: cost 398.711181640625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.0015907287597656
+987 kws_train->Trainer : Epcho 93 :
+988 kws_train->Trainer : Step: 1582, Last 5 Batch Cost Total: 0.1428999900817871
+989 kws_train->Trainer : cost:428.0105285644531, steps:1585
+990 kws_train->Trainer : Step: 1587, Last 5 Batch Cost Total: 0.5915818214416504
+991 kws_train->Trainer : cost:359.943359375, steps:1590
+992 kws_train->Trainer : Step: 1592, Last 5 Batch Cost Total: 0.5476133823394775
+993 kws_train->Trainer : cost:401.16064453125, steps:1595
+994 kws_train->Trainer : Step: 1597, Last 5 Batch Cost Total: 0.5675997734069824
+995 kws_train->Trainer : Epcho 94/200, steps 1598, average train cost : 424.6455114028033
+996 kws_train->Trainer : On Evaluation: cost 406.2166748046875, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9906013011932373
+997 kws_train->Trainer : Epcho 94 :
+998 kws_train->Trainer : Step: 1599, Last 5 Batch Cost Total: 0.1389021873474121
+999 kws_train->Trainer : cost:388.6258239746094, steps:1600
+1000 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (17)
+Test Accuracy: 0.0
+
+1001 kws_train->Trainer : Step: 1604, Last 5 Batch Cost Total: 0.7065021991729736
+1002 kws_train->Trainer : cost:406.24981689453125, steps:1605
+1003 kws_train->Trainer : Step: 1609, Last 5 Batch Cost Total: 0.5676000118255615
+1004 kws_train->Trainer : cost:458.3644104003906, steps:1610
+1005 kws_train->Trainer : Step: 1614, Last 5 Batch Cost Total: 0.5985791683197021
+1006 kws_train->Trainer : cost:482.87738037109375, steps:1615
+1007 kws_train->Trainer : Epcho 95/200, steps 1615, average train cost : 426.78018008961396
+1008 kws_train->Trainer : On Evaluation: cost 452.53643798828125, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 2.149513006210327
+1009 kws_train->Trainer : Epcho 95 :
+1010 kws_train->Trainer : Step: 1616, Last 5 Batch Cost Total: 0.12391304969787598
+1011 kws_train->Trainer : cost:448.36224365234375, steps:1620
+1012 kws_train->Trainer : Step: 1621, Last 5 Batch Cost Total: 0.5286295413970947
+1013 kws_train->Trainer : cost:416.9032897949219, steps:1625
+1014 kws_train->Trainer : Step: 1626, Last 5 Batch Cost Total: 0.5665998458862305
+1015 kws_train->Trainer : cost:421.8475036621094, steps:1630
+1016 kws_train->Trainer : Step: 1631, Last 5 Batch Cost Total: 0.6275584697723389
+1017 kws_train->Trainer : Epcho 96/200, steps 1632, average train cost : 419.7062306123621
+1018 kws_train->Trainer : On Evaluation: cost 386.64874267578125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9646191596984863
+1019 kws_train->Trainer : Epcho 96 :
+1020 kws_train->Trainer : Step: 1633, Last 5 Batch Cost Total: 0.09991860389709473
+1021 kws_train->Trainer : cost:404.03216552734375, steps:1635
+1022 kws_train->Trainer : Step: 1638, Last 5 Batch Cost Total: 0.5486133098602295
+1023 kws_train->Trainer : cost:416.3492126464844, steps:1640
+1024 kws_train->Trainer : Step: 1643, Last 5 Batch Cost Total: 0.5975813865661621
+1025 kws_train->Trainer : cost:481.09027099609375, steps:1645
+1026 kws_train->Trainer : Step: 1648, Last 5 Batch Cost Total: 0.611567497253418
+1027 kws_train->Trainer : Epcho 97/200, steps 1649, average train cost : 420.2450382008272
+1028 kws_train->Trainer : On Evaluation: cost 391.30548095703125, acc 0.9113923907279968, learning rate 9.999999747378752e-05, time 1.954613447189331
+1029 kws_train->Trainer : Epcho 97 :
+1030 kws_train->Trainer : cost:393.633056640625, steps:1650
+1031 kws_train->Trainer : Step: 1650, Last 5 Batch Cost Total: 0.11192059516906738
+1032 kws_train->Trainer : cost:424.3734130859375, steps:1655
+1033 kws_train->Trainer : Step: 1655, Last 5 Batch Cost Total: 0.5646042823791504
+1034 kws_train->Trainer : cost:416.9764709472656, steps:1660
+1035 kws_train->Trainer : Step: 1660, Last 5 Batch Cost Total: 0.5506107807159424
+1036 kws_train->Trainer : cost:418.3462829589844, steps:1665
+1037 kws_train->Trainer : Step: 1665, Last 5 Batch Cost Total: 0.6325554847717285
+1038 kws_train->Trainer : Epcho 98/200, steps 1666, average train cost : 417.27303718118105
+1039 kws_train->Trainer : On Evaluation: cost 391.09332275390625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9816045761108398
+1040 kws_train->Trainer : Epcho 98 :
+1041 kws_train->Trainer : Step: 1667, Last 5 Batch Cost Total: 0.12391400337219238
+1042 kws_train->Trainer : cost:357.02581787109375, steps:1670
+1043 kws_train->Trainer : Step: 1672, Last 5 Batch Cost Total: 0.5506110191345215
+1044 kws_train->Trainer : cost:395.2555847167969, steps:1675
+1045 kws_train->Trainer : Step: 1677, Last 5 Batch Cost Total: 0.5586071014404297
+1046 kws_train->Trainer : cost:386.4275207519531, steps:1680
+1047 kws_train->Trainer : Step: 1682, Last 5 Batch Cost Total: 0.5975778102874756
+1048 kws_train->Trainer : Epcho 99/200, steps 1683, average train cost : 416.41841574276197
+1049 kws_train->Trainer : On Evaluation: cost 395.58209228515625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9556224346160889
+1050 kws_train->Trainer : Epcho 99 :
+1051 kws_train->Trainer : Step: 1684, Last 5 Batch Cost Total: 0.08793950080871582
+1052 kws_train->Trainer : cost:400.0415954589844, steps:1685
+1053 kws_train->Trainer : Step: 1689, Last 5 Batch Cost Total: 0.5496127605438232
+1054 kws_train->Trainer : cost:450.12847900390625, steps:1690
+1055 kws_train->Trainer : Step: 1694, Last 5 Batch Cost Total: 0.6075718402862549
+1056 kws_train->Trainer : cost:471.9307861328125, steps:1695
+1057 kws_train->Trainer : Step: 1699, Last 5 Batch Cost Total: 0.5955798625946045
+1058 kws_train->Trainer : cost:436.1082458496094, steps:1700
+1059 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (17)
+Test Accuracy: 0.0
+
+1060 kws_train->Trainer : Epcho 100/200, steps 1700, average train cost : 417.18915333467373
+1061 kws_train->Trainer : On Evaluation: cost 418.1675109863281, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.0665442943573
+1062 kws_train->Trainer : Epcho 100 :
+1063 kws_train->Trainer : Step: 1701, Last 5 Batch Cost Total: 0.10892200469970703
+1064 kws_train->Trainer : cost:407.51153564453125, steps:1705
+1065 kws_train->Trainer : Step: 1706, Last 5 Batch Cost Total: 0.5815913677215576
+1066 kws_train->Trainer : cost:417.8932189941406, steps:1710
+1067 kws_train->Trainer : Step: 1711, Last 5 Batch Cost Total: 0.6175649166107178
+1068 kws_train->Trainer : cost:399.4002380371094, steps:1715
+1069 kws_train->Trainer : Step: 1716, Last 5 Batch Cost Total: 0.5376219749450684
+1070 kws_train->Trainer : Epcho 101/200, steps 1717, average train cost : 413.5749278349035
+1071 kws_train->Trainer : On Evaluation: cost 395.4675598144531, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9546236991882324
+1072 kws_train->Trainer : Epcho 101 :
+1073 kws_train->Trainer : Step: 1718, Last 5 Batch Cost Total: 0.10992288589477539
+1074 kws_train->Trainer : cost:412.41131591796875, steps:1720
+1075 kws_train->Trainer : Step: 1723, Last 5 Batch Cost Total: 0.5975778102874756
+1076 kws_train->Trainer : cost:472.5849609375, steps:1725
+1077 kws_train->Trainer : Step: 1728, Last 5 Batch Cost Total: 0.6195645332336426
+1078 kws_train->Trainer : cost:388.8436584472656, steps:1730
+1079 kws_train->Trainer : Step: 1733, Last 5 Batch Cost Total: 0.537621021270752
+1080 kws_train->Trainer : Epcho 102/200, steps 1734, average train cost : 409.77747300091914
+1081 kws_train->Trainer : On Evaluation: cost 352.7404479980469, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 1.973609447479248
+1082 kws_train->Trainer : Epcho 102 :
+1083 kws_train->Trainer : cost:418.731689453125, steps:1735
+1084 kws_train->Trainer : Step: 1735, Last 5 Batch Cost Total: 0.12691020965576172
+1085 kws_train->Trainer : cost:408.3287353515625, steps:1740
+1086 kws_train->Trainer : Step: 1740, Last 5 Batch Cost Total: 0.5566098690032959
+1087 kws_train->Trainer : cost:408.44183349609375, steps:1745
+1088 kws_train->Trainer : Step: 1745, Last 5 Batch Cost Total: 0.6235601902008057
+1089 kws_train->Trainer : cost:353.9786071777344, steps:1750
+1090 kws_train->Trainer : Step: 1750, Last 5 Batch Cost Total: 0.5456161499023438
+1091 kws_train->Trainer : Epcho 103/200, steps 1751, average train cost : 412.1224203670726
+1092 kws_train->Trainer : On Evaluation: cost 413.6695251464844, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9756090641021729
+1093 kws_train->Trainer : Epcho 103 :
+1094 kws_train->Trainer : Step: 1752, Last 5 Batch Cost Total: 0.12190771102905273
+1095 kws_train->Trainer : cost:389.2545166015625, steps:1755
+1096 kws_train->Trainer : Step: 1757, Last 5 Batch Cost Total: 0.5496129989624023
+1097 kws_train->Trainer : cost:384.26190185546875, steps:1760
+1098 kws_train->Trainer : Step: 1762, Last 5 Batch Cost Total: 0.5925443172454834
+1099 kws_train->Trainer : cost:394.1176452636719, steps:1765
+1100 kws_train->Trainer : Step: 1767, Last 5 Batch Cost Total: 0.5339770317077637
+1101 kws_train->Trainer : Epcho 104/200, steps 1768, average train cost : 410.4099516027114
+1102 kws_train->Trainer : On Evaluation: cost 388.33929443359375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9219551086425781
+1103 kws_train->Trainer : Epcho 104 :
+1104 kws_train->Trainer : Step: 1769, Last 5 Batch Cost Total: 0.0959320068359375
+1105 kws_train->Trainer : cost:441.5554504394531, steps:1770
+1106 kws_train->Trainer : Step: 1774, Last 5 Batch Cost Total: 0.5874228477478027
+1107 kws_train->Trainer : cost:461.7290344238281, steps:1775
+1108 kws_train->Trainer : Step: 1779, Last 5 Batch Cost Total: 0.5697188377380371
+1109 kws_train->Trainer : cost:425.22857666015625, steps:1780
+1110 kws_train->Trainer : Step: 1784, Last 5 Batch Cost Total: 0.5366356372833252
+1111 kws_train->Trainer : cost:398.7986145019531, steps:1785
+1112 kws_train->Trainer : Epcho 105/200, steps 1785, average train cost : 408.4771566951976
+1113 kws_train->Trainer : On Evaluation: cost 373.7740173339844, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 1.8867998123168945
+1114 kws_train->Trainer : Epcho 105 :
+1115 kws_train->Trainer : Step: 1786, Last 5 Batch Cost Total: 0.11791658401489258
+1116 kws_train->Trainer : cost:414.3399658203125, steps:1790
+1117 kws_train->Trainer : Step: 1791, Last 5 Batch Cost Total: 0.6045308113098145
+1118 kws_train->Trainer : cost:394.61627197265625, steps:1795
+1119 kws_train->Trainer : Step: 1796, Last 5 Batch Cost Total: 0.5226311683654785
+1120 kws_train->Trainer : cost:408.085205078125, steps:1800
+1121 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (23)
+Test Accuracy: 0.0
+
+1122 kws_train->Trainer : Step: 1801, Last 5 Batch Cost Total: 0.7322824001312256
+1123 kws_train->Trainer : Epcho 106/200, steps 1802, average train cost : 409.37572524126836
+1124 kws_train->Trainer : On Evaluation: cost 432.8771667480469, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.094263792037964
+1125 kws_train->Trainer : Epcho 106 :
+1126 kws_train->Trainer : Step: 1803, Last 5 Batch Cost Total: 0.12391233444213867
+1127 kws_train->Trainer : cost:464.9864196777344, steps:1805
+1128 kws_train->Trainer : Step: 1808, Last 5 Batch Cost Total: 0.5985767841339111
+1129 kws_train->Trainer : cost:384.1189880371094, steps:1810
+1130 kws_train->Trainer : Step: 1813, Last 5 Batch Cost Total: 0.5166370868682861
+1131 kws_train->Trainer : cost:412.67413330078125, steps:1815
+1132 kws_train->Trainer : Step: 1818, Last 5 Batch Cost Total: 0.551532506942749
+1133 kws_train->Trainer : Epcho 107/200, steps 1819, average train cost : 404.93882482192095
+1134 kws_train->Trainer : On Evaluation: cost 381.2652587890625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.911573886871338
+1135 kws_train->Trainer : Epcho 107 :
+1136 kws_train->Trainer : cost:399.9467468261719, steps:1820
+1137 kws_train->Trainer : Step: 1820, Last 5 Batch Cost Total: 0.08593916893005371
+1138 kws_train->Trainer : cost:398.7154846191406, steps:1825
+1139 kws_train->Trainer : Step: 1825, Last 5 Batch Cost Total: 0.6031279563903809
+1140 kws_train->Trainer : cost:350.739501953125, steps:1830
+1141 kws_train->Trainer : Step: 1830, Last 5 Batch Cost Total: 0.5260424613952637
+1142 kws_train->Trainer : cost:382.85174560546875, steps:1835
+1143 kws_train->Trainer : Step: 1835, Last 5 Batch Cost Total: 0.5703632831573486
+1144 kws_train->Trainer : Epcho 108/200, steps 1836, average train cost : 404.4839818617877
+1145 kws_train->Trainer : On Evaluation: cost 383.80792236328125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.8694217205047607
+1146 kws_train->Trainer : Epcho 108 :
+1147 kws_train->Trainer : Step: 1837, Last 5 Batch Cost Total: 0.12791228294372559
+1148 kws_train->Trainer : cost:381.9076843261719, steps:1840
+1149 kws_train->Trainer : Step: 1842, Last 5 Batch Cost Total: 0.590583324432373
+1150 kws_train->Trainer : cost:388.3109436035156, steps:1845
+1151 kws_train->Trainer : Step: 1847, Last 5 Batch Cost Total: 0.5358357429504395
+1152 kws_train->Trainer : cost:432.6207580566406, steps:1850
+1153 kws_train->Trainer : Step: 1852, Last 5 Batch Cost Total: 0.5374393463134766
+1154 kws_train->Trainer : Epcho 109/200, steps 1853, average train cost : 406.8286168715533
+1155 kws_train->Trainer : On Evaluation: cost 387.6670227050781, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9216797351837158
+1156 kws_train->Trainer : Epcho 109 :
+1157 kws_train->Trainer : Step: 1854, Last 5 Batch Cost Total: 0.1359093189239502
+1158 kws_train->Trainer : cost:451.27740478515625, steps:1855
+1159 kws_train->Trainer : Step: 1859, Last 5 Batch Cost Total: 0.5733401775360107
+1160 kws_train->Trainer : cost:414.97076416015625, steps:1860
+1161 kws_train->Trainer : Step: 1864, Last 5 Batch Cost Total: 0.5333824157714844
+1162 kws_train->Trainer : cost:390.93310546875, steps:1865
+1163 kws_train->Trainer : Step: 1869, Last 5 Batch Cost Total: 0.5436277389526367
+1164 kws_train->Trainer : cost:410.6758728027344, steps:1870
+1165 kws_train->Trainer : Epcho 110/200, steps 1870, average train cost : 402.4431978113511
+1166 kws_train->Trainer : On Evaluation: cost 396.1987609863281, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.924164056777954
+1167 kws_train->Trainer : Epcho 110 :
+1168 kws_train->Trainer : Step: 1871, Last 5 Batch Cost Total: 0.14000201225280762
+1169 kws_train->Trainer : cost:389.4523620605469, steps:1875
+1170 kws_train->Trainer : Step: 1876, Last 5 Batch Cost Total: 0.5454502105712891
+1171 kws_train->Trainer : cost:404.342529296875, steps:1880
+1172 kws_train->Trainer : Step: 1881, Last 5 Batch Cost Total: 0.5576057434082031
+1173 kws_train->Trainer : cost:457.7257385253906, steps:1885
+1174 kws_train->Trainer : Step: 1886, Last 5 Batch Cost Total: 0.6515402793884277
+1175 kws_train->Trainer : Epcho 111/200, steps 1887, average train cost : 403.28824211569395
+1176 kws_train->Trainer : On Evaluation: cost 420.64019775390625, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 2.035501480102539
+1177 kws_train->Trainer : Epcho 111 :
+1178 kws_train->Trainer : Step: 1888, Last 5 Batch Cost Total: 0.11491918563842773
+1179 kws_train->Trainer : cost:378.96063232421875, steps:1890
+1180 kws_train->Trainer : Step: 1893, Last 5 Batch Cost Total: 0.5346229076385498
+1181 kws_train->Trainer : cost:405.9665222167969, steps:1895
+1182 kws_train->Trainer : Step: 1898, Last 5 Batch Cost Total: 0.5606050491333008
+1183 kws_train->Trainer : cost:391.4862060546875, steps:1900
+1184 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (19)
+Test Accuracy: 0.0
+
+1185 kws_train->Trainer : Step: 1903, Last 5 Batch Cost Total: 0.7534699440002441
+1186 kws_train->Trainer : Epcho 112/200, steps 1904, average train cost : 397.9747350356158
+1187 kws_train->Trainer : On Evaluation: cost 378.0966796875, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.0805351734161377
+1188 kws_train->Trainer : Epcho 112 :
+1189 kws_train->Trainer : cost:388.7007141113281, steps:1905
+1190 kws_train->Trainer : Step: 1905, Last 5 Batch Cost Total: 0.09893035888671875
+1191 kws_train->Trainer : cost:347.0633850097656, steps:1910
+1192 kws_train->Trainer : Step: 1910, Last 5 Batch Cost Total: 0.5436172485351562
+1193 kws_train->Trainer : cost:375.8029479980469, steps:1915
+1194 kws_train->Trainer : Step: 1915, Last 5 Batch Cost Total: 0.5755946636199951
+1195 kws_train->Trainer : cost:379.1003723144531, steps:1920
+1196 kws_train->Trainer : Step: 1920, Last 5 Batch Cost Total: 0.6075725555419922
+1197 kws_train->Trainer : Epcho 113/200, steps 1921, average train cost : 396.95858944163604
+1198 kws_train->Trainer : On Evaluation: cost 362.67926025390625, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 1.922645092010498
+1199 kws_train->Trainer : Epcho 113 :
+1200 kws_train->Trainer : Step: 1922, Last 5 Batch Cost Total: 0.1119227409362793
+1201 kws_train->Trainer : cost:382.4994201660156, steps:1925
+1202 kws_train->Trainer : Step: 1927, Last 5 Batch Cost Total: 0.5496134757995605
+1203 kws_train->Trainer : cost:422.9237976074219, steps:1930
+1204 kws_train->Trainer : Step: 1932, Last 5 Batch Cost Total: 0.5626029968261719
+1205 kws_train->Trainer : cost:439.54901123046875, steps:1935
+1206 kws_train->Trainer : Step: 1937, Last 5 Batch Cost Total: 0.6215634346008301
+1207 kws_train->Trainer : Epcho 114/200, steps 1938, average train cost : 394.9891034294577
+1208 kws_train->Trainer : On Evaluation: cost 374.0766906738281, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.960618495941162
+1209 kws_train->Trainer : Epcho 114 :
+1210 kws_train->Trainer : Step: 1939, Last 5 Batch Cost Total: 0.12390804290771484
+1211 kws_train->Trainer : cost:405.0480651855469, steps:1940
+1212 kws_train->Trainer : Step: 1944, Last 5 Batch Cost Total: 0.5446159839630127
+1213 kws_train->Trainer : cost:383.019775390625, steps:1945
+1214 kws_train->Trainer : Step: 1949, Last 5 Batch Cost Total: 0.5566093921661377
+1215 kws_train->Trainer : cost:407.1231994628906, steps:1950
+1216 kws_train->Trainer : Step: 1954, Last 5 Batch Cost Total: 0.6065714359283447
+1217 kws_train->Trainer : cost:383.8463439941406, steps:1955
+1218 kws_train->Trainer : Epcho 115/200, steps 1955, average train cost : 394.03084250057447
+1219 kws_train->Trainer : On Evaluation: cost 378.5821838378906, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9546186923980713
+1220 kws_train->Trainer : Epcho 115 :
+1221 kws_train->Trainer : Step: 1956, Last 5 Batch Cost Total: 0.0939335823059082
+1222 kws_train->Trainer : cost:400.8889465332031, steps:1960
+1223 kws_train->Trainer : Step: 1961, Last 5 Batch Cost Total: 0.5685999393463135
+1224 kws_train->Trainer : cost:451.2001037597656, steps:1965
+1225 kws_train->Trainer : Step: 1966, Last 5 Batch Cost Total: 0.6095714569091797
+1226 kws_train->Trainer : cost:373.8267517089844, steps:1970
+1227 kws_train->Trainer : Step: 1971, Last 5 Batch Cost Total: 0.5865864753723145
+1228 kws_train->Trainer : Epcho 116/200, steps 1972, average train cost : 393.6534226361443
+1229 kws_train->Trainer : On Evaluation: cost 386.7218933105469, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9556217193603516
+1230 kws_train->Trainer : Epcho 116 :
+1231 kws_train->Trainer : Step: 1973, Last 5 Batch Cost Total: 0.10792422294616699
+1232 kws_train->Trainer : cost:398.71990966796875, steps:1975
+1233 kws_train->Trainer : Step: 1978, Last 5 Batch Cost Total: 0.5725953578948975
+1234 kws_train->Trainer : cost:382.82562255859375, steps:1980
+1235 kws_train->Trainer : Step: 1983, Last 5 Batch Cost Total: 0.6125681400299072
+1236 kws_train->Trainer : cost:378.3411560058594, steps:1985
+1237 kws_train->Trainer : Step: 1988, Last 5 Batch Cost Total: 0.534637451171875
+1238 kws_train->Trainer : Epcho 117/200, steps 1989, average train cost : 390.84865794462314
+1239 kws_train->Trainer : On Evaluation: cost 375.4305725097656, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9386343955993652
+1240 kws_train->Trainer : Epcho 117 :
+1241 kws_train->Trainer : cost:343.2480773925781, steps:1990
+1242 kws_train->Trainer : Step: 1990, Last 5 Batch Cost Total: 0.10792398452758789
+1243 kws_train->Trainer : cost:368.5347900390625, steps:1995
+1244 kws_train->Trainer : Step: 1995, Last 5 Batch Cost Total: 0.5795912742614746
+1245 kws_train->Trainer : cost:376.0615539550781, steps:2000
+1246 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (17)
+Test Accuracy: 0.0
+
+1247 kws_train->Trainer : Step: 2000, Last 5 Batch Cost Total: 0.962322473526001
+1248 kws_train->Trainer : cost:376.36212158203125, steps:2005
+1249 kws_train->Trainer : Step: 2005, Last 5 Batch Cost Total: 0.5326242446899414
+1250 kws_train->Trainer : Epcho 118/200, steps 2006, average train cost : 387.23392082663145
+1251 kws_train->Trainer : On Evaluation: cost 339.8658447265625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.299380302429199
+1252 kws_train->Trainer : Epcho 118 :
+1253 kws_train->Trainer : Step: 2007, Last 5 Batch Cost Total: 0.14589786529541016
+1254 kws_train->Trainer : cost:412.5582580566406, steps:2010
+1255 kws_train->Trainer : Step: 2012, Last 5 Batch Cost Total: 0.5626037120819092
+1256 kws_train->Trainer : cost:426.6785888671875, steps:2015
+1257 kws_train->Trainer : Step: 2017, Last 5 Batch Cost Total: 0.7154960632324219
+1258 kws_train->Trainer : cost:395.0260009765625, steps:2020
+1259 kws_train->Trainer : Step: 2022, Last 5 Batch Cost Total: 0.5476133823394775
+1260 kws_train->Trainer : Epcho 119/200, steps 2023, average train cost : 388.82592952952666
+1261 kws_train->Trainer : On Evaluation: cost 389.3567810058594, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.0895273685455322
+1262 kws_train->Trainer : Epcho 119 :
+1263 kws_train->Trainer : Step: 2024, Last 5 Batch Cost Total: 0.12091279029846191
+1264 kws_train->Trainer : cost:374.3433837890625, steps:2025
+1265 kws_train->Trainer : Step: 2029, Last 5 Batch Cost Total: 0.5606062412261963
+1266 kws_train->Trainer : cost:402.59405517578125, steps:2030
+1267 kws_train->Trainer : Step: 2034, Last 5 Batch Cost Total: 0.6045742034912109
+1268 kws_train->Trainer : cost:378.2008972167969, steps:2035
+1269 kws_train->Trainer : Step: 2039, Last 5 Batch Cost Total: 0.5496125221252441
+1270 kws_train->Trainer : cost:396.70489501953125, steps:2040
+1271 kws_train->Trainer : Epcho 120/200, steps 2040, average train cost : 387.5279074276195
+1272 kws_train->Trainer : On Evaluation: cost 379.0538330078125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.958620548248291
+1273 kws_train->Trainer : Epcho 120 :
+1274 kws_train->Trainer : Step: 2041, Last 5 Batch Cost Total: 0.09692978858947754
+1275 kws_train->Trainer : cost:442.9320068359375, steps:2045
+1276 kws_train->Trainer : Step: 2046, Last 5 Batch Cost Total: 0.5975790023803711
+1277 kws_train->Trainer : cost:368.0539245605469, steps:2050
+1278 kws_train->Trainer : Step: 2051, Last 5 Batch Cost Total: 0.5875864028930664
+1279 kws_train->Trainer : cost:390.8323669433594, steps:2055
+1280 kws_train->Trainer : Step: 2056, Last 5 Batch Cost Total: 0.5586063861846924
+1281 kws_train->Trainer : Epcho 121/200, steps 2057, average train cost : 384.52210729262407
+1282 kws_train->Trainer : On Evaluation: cost 348.4710693359375, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 1.9386327266693115
+1283 kws_train->Trainer : Epcho 121 :
+1284 kws_train->Trainer : Step: 2058, Last 5 Batch Cost Total: 0.12091445922851562
+1285 kws_train->Trainer : cost:373.90948486328125, steps:2060
+1286 kws_train->Trainer : Step: 2063, Last 5 Batch Cost Total: 0.6325554847717285
+1287 kws_train->Trainer : cost:367.5443115234375, steps:2065
+1288 kws_train->Trainer : Step: 2068, Last 5 Batch Cost Total: 0.5326244831085205
+1289 kws_train->Trainer : cost:338.6589050292969, steps:2070
+1290 kws_train->Trainer : Step: 2073, Last 5 Batch Cost Total: 0.5636041164398193
+1291 kws_train->Trainer : Epcho 122/200, steps 2074, average train cost : 384.8809652889476
+1292 kws_train->Trainer : On Evaluation: cost 397.4723815917969, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9696123600006104
+1293 kws_train->Trainer : Epcho 122 :
+1294 kws_train->Trainer : cost:360.5121154785156, steps:2075
+1295 kws_train->Trainer : Step: 2075, Last 5 Batch Cost Total: 0.12590289115905762
+1296 kws_train->Trainer : cost:372.4048767089844, steps:2080
+1297 kws_train->Trainer : Step: 2080, Last 5 Batch Cost Total: 0.6125688552856445
+1298 kws_train->Trainer : cost:369.8815002441406, steps:2085
+1299 kws_train->Trainer : Step: 2085, Last 5 Batch Cost Total: 0.5296280384063721
+1300 kws_train->Trainer : cost:401.1552734375, steps:2090
+1301 kws_train->Trainer : Step: 2090, Last 5 Batch Cost Total: 0.5745937824249268
+1302 kws_train->Trainer : Epcho 123/200, steps 2091, average train cost : 380.5225794175092
+1303 kws_train->Trainer : On Evaluation: cost 354.93963623046875, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.982595682144165
+1304 kws_train->Trainer : Epcho 123 :
+1305 kws_train->Trainer : Step: 2092, Last 5 Batch Cost Total: 0.08693957328796387
+1306 kws_train->Trainer : cost:413.2881164550781, steps:2095
+1307 kws_train->Trainer : Step: 2097, Last 5 Batch Cost Total: 0.6205623149871826
+1308 kws_train->Trainer : cost:384.29278564453125, steps:2100
+1309 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (21)
+Test Accuracy: 0.0
+
+1310 kws_train->Trainer : Step: 2102, Last 5 Batch Cost Total: 0.6875240802764893
+1311 kws_train->Trainer : cost:365.61016845703125, steps:2105
+1312 kws_train->Trainer : Step: 2107, Last 5 Batch Cost Total: 0.5825822353363037
+1313 kws_train->Trainer : Epcho 124/200, steps 2108, average train cost : 379.4801330566406
+1314 kws_train->Trainer : On Evaluation: cost 354.4692687988281, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.0645456314086914
+1315 kws_train->Trainer : Epcho 124 :
+1316 kws_train->Trainer : Step: 2109, Last 5 Batch Cost Total: 0.12990903854370117
+1317 kws_train->Trainer : cost:397.7764587402344, steps:2110
+1318 kws_train->Trainer : Step: 2114, Last 5 Batch Cost Total: 0.6065719127655029
+1319 kws_train->Trainer : cost:371.68829345703125, steps:2115
+1320 kws_train->Trainer : Step: 2119, Last 5 Batch Cost Total: 0.5466158390045166
+1321 kws_train->Trainer : cost:392.4495849609375, steps:2120
+1322 kws_train->Trainer : Step: 2124, Last 5 Batch Cost Total: 0.5586073398590088
+1323 kws_train->Trainer : cost:435.2530212402344, steps:2125
+1324 kws_train->Trainer : Epcho 125/200, steps 2125, average train cost : 381.74752987132354
+1325 kws_train->Trainer : On Evaluation: cost 373.24713134765625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9746077060699463
+1326 kws_train->Trainer : Epcho 125 :
+1327 kws_train->Trainer : Step: 2126, Last 5 Batch Cost Total: 0.1408994197845459
+1328 kws_train->Trainer : cost:361.9182434082031, steps:2130
+1329 kws_train->Trainer : Step: 2131, Last 5 Batch Cost Total: 0.5995759963989258
+1330 kws_train->Trainer : cost:382.0926818847656, steps:2135
+1331 kws_train->Trainer : Step: 2136, Last 5 Batch Cost Total: 0.5935831069946289
+1332 kws_train->Trainer : cost:364.44110107421875, steps:2140
+1333 kws_train->Trainer : Step: 2141, Last 5 Batch Cost Total: 0.5815892219543457
+1334 kws_train->Trainer : Epcho 126/200, steps 2142, average train cost : 377.78846650965073
+1335 kws_train->Trainer : On Evaluation: cost 382.68408203125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.0625462532043457
+1336 kws_train->Trainer : Epcho 126 :
+1337 kws_train->Trainer : Step: 2143, Last 5 Batch Cost Total: 0.14090228080749512
+1338 kws_train->Trainer : cost:355.9389953613281, steps:2145
+1339 kws_train->Trainer : Step: 2148, Last 5 Batch Cost Total: 0.542616605758667
+1340 kws_train->Trainer : cost:333.7837829589844, steps:2150
+1341 kws_train->Trainer : Step: 2153, Last 5 Batch Cost Total: 0.5596063137054443
+1342 kws_train->Trainer : cost:351.9772644042969, steps:2155
+1343 kws_train->Trainer : Step: 2158, Last 5 Batch Cost Total: 0.6255595684051514
+1344 kws_train->Trainer : Epcho 127/200, steps 2159, average train cost : 376.64547011431523
+1345 kws_train->Trainer : On Evaluation: cost 377.4447021484375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.009584426879883
+1346 kws_train->Trainer : Epcho 127 :
+1347 kws_train->Trainer : cost:368.5362548828125, steps:2160
+1348 kws_train->Trainer : Step: 2160, Last 5 Batch Cost Total: 0.11991548538208008
+1349 kws_train->Trainer : cost:363.09088134765625, steps:2165
+1350 kws_train->Trainer : Step: 2165, Last 5 Batch Cost Total: 0.5406198501586914
+1351 kws_train->Trainer : cost:388.67742919921875, steps:2170
+1352 kws_train->Trainer : Step: 2170, Last 5 Batch Cost Total: 0.5715963840484619
+1353 kws_train->Trainer : cost:399.9337463378906, steps:2175
+1354 kws_train->Trainer : Step: 2175, Last 5 Batch Cost Total: 0.6245608329772949
+1355 kws_train->Trainer : Epcho 128/200, steps 2176, average train cost : 372.7555147058824
+1356 kws_train->Trainer : On Evaluation: cost 364.7643127441406, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9776065349578857
+1357 kws_train->Trainer : Epcho 128 :
+1358 kws_train->Trainer : Step: 2177, Last 5 Batch Cost Total: 0.10692095756530762
+1359 kws_train->Trainer : cost:373.1311950683594, steps:2180
+1360 kws_train->Trainer : Step: 2182, Last 5 Batch Cost Total: 0.5636022090911865
+1361 kws_train->Trainer : cost:357.4600524902344, steps:2185
+1362 kws_train->Trainer : Step: 2187, Last 5 Batch Cost Total: 0.6105716228485107
+1363 kws_train->Trainer : cost:391.84149169921875, steps:2190
+1364 kws_train->Trainer : Step: 2192, Last 5 Batch Cost Total: 0.6145668029785156
+1365 kws_train->Trainer : Epcho 129/200, steps 2193, average train cost : 369.9304504394531
+1366 kws_train->Trainer : On Evaluation: cost 329.3788757324219, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 1.9955909252166748
+1367 kws_train->Trainer : Epcho 129 :
+1368 kws_train->Trainer : Step: 2194, Last 5 Batch Cost Total: 0.11292052268981934
+1369 kws_train->Trainer : cost:364.2885437011719, steps:2195
+1370 kws_train->Trainer : Step: 2199, Last 5 Batch Cost Total: 0.557607889175415
+1371 kws_train->Trainer : cost:387.9349060058594, steps:2200
+1372 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (23)
+Test Accuracy: 0.0
+
+1373 kws_train->Trainer : Step: 2204, Last 5 Batch Cost Total: 0.7444789409637451
+1374 kws_train->Trainer : cost:427.5197448730469, steps:2205
+1375 kws_train->Trainer : Step: 2209, Last 5 Batch Cost Total: 0.6275582313537598
+1376 kws_train->Trainer : cost:354.9132080078125, steps:2210
+1377 kws_train->Trainer : Epcho 130/200, steps 2210, average train cost : 368.59822172277114
+1378 kws_train->Trainer : On Evaluation: cost 352.14056396484375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.1614761352539062
+1379 kws_train->Trainer : Epcho 130 :
+1380 kws_train->Trainer : Step: 2211, Last 5 Batch Cost Total: 0.12591290473937988
+1381 kws_train->Trainer : cost:372.4366760253906, steps:2215
+1382 kws_train->Trainer : Step: 2216, Last 5 Batch Cost Total: 0.5646002292633057
+1383 kws_train->Trainer : cost:354.99432373046875, steps:2220
+1384 kws_train->Trainer : Step: 2221, Last 5 Batch Cost Total: 0.5626051425933838
+1385 kws_train->Trainer : cost:343.5523681640625, steps:2225
+1386 kws_train->Trainer : Step: 2226, Last 5 Batch Cost Total: 0.6031680107116699
+1387 kws_train->Trainer : Epcho 131/200, steps 2227, average train cost : 367.15080710018384
+1388 kws_train->Trainer : On Evaluation: cost 356.36566162109375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9797120094299316
+1389 kws_train->Trainer : Epcho 131 :
+1390 kws_train->Trainer : Step: 2228, Last 5 Batch Cost Total: 0.08993911743164062
+1391 kws_train->Trainer : cost:328.2179870605469, steps:2230
+1392 kws_train->Trainer : Step: 2233, Last 5 Batch Cost Total: 0.5520234107971191
+1393 kws_train->Trainer : cost:342.7947692871094, steps:2235
+1394 kws_train->Trainer : Step: 2238, Last 5 Batch Cost Total: 0.5969994068145752
+1395 kws_train->Trainer : cost:363.82525634765625, steps:2240
+1396 kws_train->Trainer : Step: 2243, Last 5 Batch Cost Total: 0.5818209648132324
+1397 kws_train->Trainer : Epcho 132/200, steps 2244, average train cost : 365.5871366613051
+1398 kws_train->Trainer : On Evaluation: cost 352.6043701171875, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9107189178466797
+1399 kws_train->Trainer : Epcho 132 :
+1400 kws_train->Trainer : cost:355.5312194824219, steps:2245
+1401 kws_train->Trainer : Step: 2245, Last 5 Batch Cost Total: 0.10892367362976074
+1402 kws_train->Trainer : cost:374.8083801269531, steps:2250
+1403 kws_train->Trainer : Step: 2250, Last 5 Batch Cost Total: 0.5603773593902588
+1404 kws_train->Trainer : cost:384.93341064453125, steps:2255
+1405 kws_train->Trainer : Step: 2255, Last 5 Batch Cost Total: 0.6137392520904541
+1406 kws_train->Trainer : cost:361.75006103515625, steps:2260
+1407 kws_train->Trainer : Step: 2260, Last 5 Batch Cost Total: 0.5316252708435059
+1408 kws_train->Trainer : Epcho 133/200, steps 2261, average train cost : 363.0498746984145
+1409 kws_train->Trainer : On Evaluation: cost 351.2033996582031, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9225895404815674
+1410 kws_train->Trainer : Epcho 133 :
+1411 kws_train->Trainer : Step: 2262, Last 5 Batch Cost Total: 0.10792350769042969
+1412 kws_train->Trainer : cost:348.8070373535156, steps:2265
+1413 kws_train->Trainer : Step: 2267, Last 5 Batch Cost Total: 0.5909154415130615
+1414 kws_train->Trainer : cost:384.9723205566406, steps:2270
+1415 kws_train->Trainer : Step: 2272, Last 5 Batch Cost Total: 0.6031360626220703
+1416 kws_train->Trainer : cost:356.6289978027344, steps:2275
+1417 kws_train->Trainer : Step: 2277, Last 5 Batch Cost Total: 0.5246932506561279
+1418 kws_train->Trainer : Epcho 134/200, steps 2278, average train cost : 359.403803208295
+1419 kws_train->Trainer : On Evaluation: cost 321.4273986816406, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9339485168457031
+1420 kws_train->Trainer : Epcho 134 :
+1421 kws_train->Trainer : Step: 2279, Last 5 Batch Cost Total: 0.12288808822631836
+1422 kws_train->Trainer : cost:382.0683898925781, steps:2280
+1423 kws_train->Trainer : Step: 2284, Last 5 Batch Cost Total: 0.5483295917510986
+1424 kws_train->Trainer : cost:418.277587890625, steps:2285
+1425 kws_train->Trainer : Step: 2289, Last 5 Batch Cost Total: 0.6149935722351074
+1426 kws_train->Trainer : cost:347.1646728515625, steps:2290
+1427 kws_train->Trainer : Step: 2294, Last 5 Batch Cost Total: 0.5496132373809814
+1428 kws_train->Trainer : cost:361.55584716796875, steps:2295
+1429 kws_train->Trainer : Epcho 135/200, steps 2295, average train cost : 359.8185137580423
+1430 kws_train->Trainer : On Evaluation: cost 355.6719055175781, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.954740047454834
+1431 kws_train->Trainer : Epcho 135 :
+1432 kws_train->Trainer : Step: 2296, Last 5 Batch Cost Total: 0.12170743942260742
+1433 kws_train->Trainer : cost:345.6824645996094, steps:2300
+1434 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8607594966888428
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'd', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (25)
+Test Accuracy: 0.0
+
+1435 kws_train->Trainer : Step: 2301, Last 5 Batch Cost Total: 0.6849880218505859
+1436 kws_train->Trainer : cost:331.3680419921875, steps:2305
+1437 kws_train->Trainer : Step: 2306, Last 5 Batch Cost Total: 0.5968382358551025
+1438 kws_train->Trainer : cost:321.94970703125, steps:2310
+1439 kws_train->Trainer : Step: 2311, Last 5 Batch Cost Total: 0.5440220832824707
+1440 kws_train->Trainer : Epcho 136/200, steps 2312, average train cost : 358.89781817267925
+1441 kws_train->Trainer : On Evaluation: cost 365.0992431640625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.069469690322876
+1442 kws_train->Trainer : Epcho 136 :
+1443 kws_train->Trainer : Step: 2313, Last 5 Batch Cost Total: 0.09493374824523926
+1444 kws_train->Trainer : cost:333.1833190917969, steps:2315
+1445 kws_train->Trainer : Step: 2318, Last 5 Batch Cost Total: 0.5910542011260986
+1446 kws_train->Trainer : cost:358.3507080078125, steps:2320
+1447 kws_train->Trainer : Step: 2323, Last 5 Batch Cost Total: 0.5796387195587158
+1448 kws_train->Trainer : cost:347.529541015625, steps:2325
+1449 kws_train->Trainer : Step: 2328, Last 5 Batch Cost Total: 0.5423061847686768
+1450 kws_train->Trainer : Epcho 137/200, steps 2329, average train cost : 354.6815293255974
+1451 kws_train->Trainer : On Evaluation: cost 319.7415771484375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9068663120269775
+1452 kws_train->Trainer : Epcho 137 :
+1453 kws_train->Trainer : cost:360.550048828125, steps:2330
+1454 kws_train->Trainer : Step: 2330, Last 5 Batch Cost Total: 0.1179189682006836
+1455 kws_train->Trainer : cost:370.1142883300781, steps:2335
+1456 kws_train->Trainer : Step: 2335, Last 5 Batch Cost Total: 0.6077461242675781
+1457 kws_train->Trainer : cost:350.4163818359375, steps:2340
+1458 kws_train->Trainer : Step: 2340, Last 5 Batch Cost Total: 0.5269186496734619
+1459 kws_train->Trainer : cost:339.4517822265625, steps:2345
+1460 kws_train->Trainer : Step: 2345, Last 5 Batch Cost Total: 0.5473344326019287
+1461 kws_train->Trainer : Epcho 138/200, steps 2346, average train cost : 353.78785615808823
+1462 kws_train->Trainer : On Evaluation: cost 350.24786376953125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9210052490234375
+1463 kws_train->Trainer : Epcho 138 :
+1464 kws_train->Trainer : Step: 2347, Last 5 Batch Cost Total: 0.12590980529785156
+1465 kws_train->Trainer : cost:376.63323974609375, steps:2350
+1466 kws_train->Trainer : Step: 2352, Last 5 Batch Cost Total: 0.6015827655792236
+1467 kws_train->Trainer : cost:348.2315368652344, steps:2355
+1468 kws_train->Trainer : Step: 2357, Last 5 Batch Cost Total: 0.5229470729827881
+1469 kws_train->Trainer : cost:375.37432861328125, steps:2360
+1470 kws_train->Trainer : Step: 2362, Last 5 Batch Cost Total: 0.5632600784301758
+1471 kws_train->Trainer : Epcho 139/200, steps 2363, average train cost : 349.7882708381204
+1472 kws_train->Trainer : On Evaluation: cost 322.313232421875, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.937612533569336
+1473 kws_train->Trainer : Epcho 139 :
+1474 kws_train->Trainer : Step: 2364, Last 5 Batch Cost Total: 0.08494210243225098
+1475 kws_train->Trainer : cost:409.116455078125, steps:2365
+1476 kws_train->Trainer : Step: 2369, Last 5 Batch Cost Total: 0.612680196762085
+1477 kws_train->Trainer : cost:338.4660949707031, steps:2370
+1478 kws_train->Trainer : Step: 2374, Last 5 Batch Cost Total: 0.534623384475708
+1479 kws_train->Trainer : cost:349.922607421875, steps:2375
+1480 kws_train->Trainer : Step: 2379, Last 5 Batch Cost Total: 0.576082706451416
+1481 kws_train->Trainer : cost:336.3829040527344, steps:2380
+1482 kws_train->Trainer : Epcho 140/200, steps 2380, average train cost : 348.43611234777114
+1483 kws_train->Trainer : On Evaluation: cost 322.89117431640625, acc 0.8481012582778931, learning rate 9.999999747378752e-05, time 1.8922686576843262
+1484 kws_train->Trainer : Epcho 140 :
+1485 kws_train->Trainer : Step: 2381, Last 5 Batch Cost Total: 0.1309213638305664
+1486 kws_train->Trainer : cost:318.798583984375, steps:2385
+1487 kws_train->Trainer : Step: 2386, Last 5 Batch Cost Total: 0.6175599098205566
+1488 kws_train->Trainer : cost:314.9638977050781, steps:2390
+1489 kws_train->Trainer : Step: 2391, Last 5 Batch Cost Total: 0.5437812805175781
+1490 kws_train->Trainer : cost:323.02935791015625, steps:2395
+1491 kws_train->Trainer : Step: 2396, Last 5 Batch Cost Total: 0.5445113182067871
+1492 kws_train->Trainer : Epcho 141/200, steps 2397, average train cost : 350.43747486787686
+1493 kws_train->Trainer : On Evaluation: cost 352.68072509765625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9675698280334473
+1494 kws_train->Trainer : Epcho 141 :
+1495 kws_train->Trainer : Step: 2398, Last 5 Batch Cost Total: 0.13890337944030762
+1496 kws_train->Trainer : cost:352.8426818847656, steps:2400
+1497 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (23)
+Test Accuracy: 0.0
+
+1498 kws_train->Trainer : Step: 2403, Last 5 Batch Cost Total: 0.7507190704345703
+1499 kws_train->Trainer : cost:338.89373779296875, steps:2405
+1500 kws_train->Trainer : Step: 2408, Last 5 Batch Cost Total: 0.5422556400299072
+1501 kws_train->Trainer : cost:345.90277099609375, steps:2410
+1502 kws_train->Trainer : Step: 2413, Last 5 Batch Cost Total: 0.553612232208252
+1503 kws_train->Trainer : Epcho 142/200, steps 2414, average train cost : 346.2826556037454
+1504 kws_train->Trainer : On Evaluation: cost 361.124267578125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.1248788833618164
+1505 kws_train->Trainer : Epcho 142 :
+1506 kws_train->Trainer : cost:355.1632385253906, steps:2415
+1507 kws_train->Trainer : Step: 2415, Last 5 Batch Cost Total: 0.13790297508239746
+1508 kws_train->Trainer : cost:338.8140563964844, steps:2420
+1509 kws_train->Trainer : Step: 2420, Last 5 Batch Cost Total: 0.5260565280914307
+1510 kws_train->Trainer : cost:328.0223693847656, steps:2425
+1511 kws_train->Trainer : Step: 2425, Last 5 Batch Cost Total: 0.5451235771179199
+1512 kws_train->Trainer : cost:367.39794921875, steps:2430
+1513 kws_train->Trainer : Step: 2430, Last 5 Batch Cost Total: 0.5875990390777588
+1514 kws_train->Trainer : Epcho 143/200, steps 2431, average train cost : 343.20794139188877
+1515 kws_train->Trainer : On Evaluation: cost 327.2727966308594, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.934584379196167
+1516 kws_train->Trainer : Epcho 143 :
+1517 kws_train->Trainer : Step: 2432, Last 5 Batch Cost Total: 0.11192059516906738
+1518 kws_train->Trainer : cost:339.5892028808594, steps:2435
+1519 kws_train->Trainer : Step: 2437, Last 5 Batch Cost Total: 0.5196151733398438
+1520 kws_train->Trainer : cost:367.47991943359375, steps:2440
+1521 kws_train->Trainer : Step: 2442, Last 5 Batch Cost Total: 0.5571937561035156
+1522 kws_train->Trainer : cost:397.47406005859375, steps:2445
+1523 kws_train->Trainer : Step: 2447, Last 5 Batch Cost Total: 0.6115732192993164
+1524 kws_train->Trainer : Epcho 144/200, steps 2448, average train cost : 340.70075539981616
+1525 kws_train->Trainer : On Evaluation: cost 343.6717224121094, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.914222240447998
+1526 kws_train->Trainer : Epcho 144 :
+1527 kws_train->Trainer : Step: 2449, Last 5 Batch Cost Total: 0.0939335823059082
+1528 kws_train->Trainer : cost:328.96759033203125, steps:2450
+1529 kws_train->Trainer : Step: 2454, Last 5 Batch Cost Total: 0.5302491188049316
+1530 kws_train->Trainer : cost:337.3533935546875, steps:2455
+1531 kws_train->Trainer : Step: 2459, Last 5 Batch Cost Total: 0.5765933990478516
+1532 kws_train->Trainer : cost:326.03179931640625, steps:2460
+1533 kws_train->Trainer : Step: 2464, Last 5 Batch Cost Total: 0.5985784530639648
+1534 kws_train->Trainer : cost:306.8175354003906, steps:2465
+1535 kws_train->Trainer : Epcho 145/200, steps 2465, average train cost : 336.0307024787454
+1536 kws_train->Trainer : On Evaluation: cost 295.7265930175781, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.8972854614257812
+1537 kws_train->Trainer : Epcho 145 :
+1538 kws_train->Trainer : Step: 2466, Last 5 Batch Cost Total: 0.11092138290405273
+1539 kws_train->Trainer : cost:307.39306640625, steps:2470
+1540 kws_train->Trainer : Step: 2471, Last 5 Batch Cost Total: 0.5395755767822266
+1541 kws_train->Trainer : cost:312.48553466796875, steps:2475
+1542 kws_train->Trainer : Step: 2476, Last 5 Batch Cost Total: 0.5422701835632324
+1543 kws_train->Trainer : cost:346.05438232421875, steps:2480
+1544 kws_train->Trainer : Step: 2481, Last 5 Batch Cost Total: 0.6155688762664795
+1545 kws_train->Trainer : Epcho 146/200, steps 2482, average train cost : 335.0996740004596
+1546 kws_train->Trainer : On Evaluation: cost 321.2575378417969, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9195427894592285
+1547 kws_train->Trainer : Epcho 146 :
+1548 kws_train->Trainer : Step: 2483, Last 5 Batch Cost Total: 0.12090015411376953
+1549 kws_train->Trainer : cost:329.3874206542969, steps:2485
+1550 kws_train->Trainer : Step: 2488, Last 5 Batch Cost Total: 0.5411784648895264
+1551 kws_train->Trainer : cost:330.6339416503906, steps:2490
+1552 kws_train->Trainer : Step: 2493, Last 5 Batch Cost Total: 0.5496525764465332
+1553 kws_train->Trainer : cost:339.3725280761719, steps:2495
+1554 kws_train->Trainer : Step: 2498, Last 5 Batch Cost Total: 0.6245591640472412
+1555 kws_train->Trainer : Epcho 147/200, steps 2499, average train cost : 333.28385476505053
+1556 kws_train->Trainer : On Evaluation: cost 328.0318603515625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9691946506500244
+1557 kws_train->Trainer : Epcho 147 :
+1558 kws_train->Trainer : cost:326.6163024902344, steps:2500
+1559 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8607594966888428
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'd', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (29)
+Test Accuracy: 0.0
+
+1560 kws_train->Trainer : Step: 2500, Last 5 Batch Cost Total: 0.4452207088470459
+1561 kws_train->Trainer : cost:316.3477478027344, steps:2505
+1562 kws_train->Trainer : Step: 2505, Last 5 Batch Cost Total: 0.5482027530670166
+1563 kws_train->Trainer : cost:357.3345031738281, steps:2510
+1564 kws_train->Trainer : Step: 2510, Last 5 Batch Cost Total: 0.6339321136474609
+1565 kws_train->Trainer : cost:330.4646911621094, steps:2515
+1566 kws_train->Trainer : Step: 2515, Last 5 Batch Cost Total: 0.5898787975311279
+1567 kws_train->Trainer : Epcho 148/200, steps 2516, average train cost : 330.6979082892923
+1568 kws_train->Trainer : On Evaluation: cost 316.46173095703125, acc 0.8481012582778931, learning rate 9.999999747378752e-05, time 2.3151636123657227
+1569 kws_train->Trainer : Epcho 148 :
+1570 kws_train->Trainer : Step: 2517, Last 5 Batch Cost Total: 0.12091493606567383
+1571 kws_train->Trainer : cost:358.5477600097656, steps:2520
+1572 kws_train->Trainer : Step: 2522, Last 5 Batch Cost Total: 0.5895843505859375
+1573 kws_train->Trainer : cost:383.6344299316406, steps:2525
+1574 kws_train->Trainer : Step: 2527, Last 5 Batch Cost Total: 0.6265580654144287
+1575 kws_train->Trainer : cost:318.8490905761719, steps:2530
+1576 kws_train->Trainer : Step: 2532, Last 5 Batch Cost Total: 0.5366227626800537
+1577 kws_train->Trainer : Epcho 149/200, steps 2533, average train cost : 328.22558414234834
+1578 kws_train->Trainer : On Evaluation: cost 318.99658203125, acc 0.8607594966888428, learning rate 9.999999747378752e-05, time 1.9856011867523193
+1579 kws_train->Trainer : Epcho 149 :
+1580 kws_train->Trainer : Step: 2534, Last 5 Batch Cost Total: 0.1079258918762207
+1581 kws_train->Trainer : cost:324.2709045410156, steps:2535
+1582 kws_train->Trainer : Step: 2539, Last 5 Batch Cost Total: 0.5965797901153564
+1583 kws_train->Trainer : cost:316.1924133300781, steps:2540
+1584 kws_train->Trainer : Step: 2544, Last 5 Batch Cost Total: 0.625558614730835
+1585 kws_train->Trainer : cost:294.9544372558594, steps:2545
+1586 kws_train->Trainer : Step: 2549, Last 5 Batch Cost Total: 0.5376198291778564
+1587 kws_train->Trainer : cost:299.4072265625, steps:2550
+1588 kws_train->Trainer : Epcho 150/200, steps 2550, average train cost : 324.5780980727252
+1589 kws_train->Trainer : On Evaluation: cost 296.001953125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9786076545715332
+1590 kws_train->Trainer : Epcho 150 :
+1591 kws_train->Trainer : Step: 2551, Last 5 Batch Cost Total: 0.12091469764709473
+1592 kws_train->Trainer : cost:301.69708251953125, steps:2555
+1593 kws_train->Trainer : Step: 2556, Last 5 Batch Cost Total: 0.5616054534912109
+1594 kws_train->Trainer : cost:338.5177917480469, steps:2560
+1595 kws_train->Trainer : Step: 2561, Last 5 Batch Cost Total: 0.627556324005127
+1596 kws_train->Trainer : cost:319.0469970703125, steps:2565
+1597 kws_train->Trainer : Step: 2566, Last 5 Batch Cost Total: 0.5456171035766602
+1598 kws_train->Trainer : Epcho 151/200, steps 2567, average train cost : 323.4740995519301
+1599 kws_train->Trainer : On Evaluation: cost 313.3862609863281, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9776079654693604
+1600 kws_train->Trainer : Epcho 151 :
+1601 kws_train->Trainer : Step: 2568, Last 5 Batch Cost Total: 0.13290786743164062
+1602 kws_train->Trainer : cost:315.2103271484375, steps:2570
+1603 kws_train->Trainer : Step: 2573, Last 5 Batch Cost Total: 0.5616018772125244
+1604 kws_train->Trainer : cost:322.77398681640625, steps:2575
+1605 kws_train->Trainer : Step: 2578, Last 5 Batch Cost Total: 0.6095702648162842
+1606 kws_train->Trainer : cost:314.9849853515625, steps:2580
+1607 kws_train->Trainer : Step: 2583, Last 5 Batch Cost Total: 0.5546112060546875
+1608 kws_train->Trainer : Epcho 152/200, steps 2584, average train cost : 322.97816198012407
+1609 kws_train->Trainer : On Evaluation: cost 340.6001281738281, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.985602855682373
+1610 kws_train->Trainer : Epcho 152 :
+1611 kws_train->Trainer : cost:304.6757507324219, steps:2585
+1612 kws_train->Trainer : Step: 2585, Last 5 Batch Cost Total: 0.0979301929473877
+1613 kws_train->Trainer : cost:346.9112854003906, steps:2590
+1614 kws_train->Trainer : Step: 2590, Last 5 Batch Cost Total: 0.6175661087036133
+1615 kws_train->Trainer : cost:320.2185974121094, steps:2595
+1616 kws_train->Trainer : Step: 2595, Last 5 Batch Cost Total: 0.5955803394317627
+1617 kws_train->Trainer : cost:347.907470703125, steps:2600
+1618 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (25)
+Test Accuracy: 0.0
+
+1619 kws_train->Trainer : Step: 2600, Last 5 Batch Cost Total: 0.734483003616333
+1620 kws_train->Trainer : Epcho 153/200, steps 2601, average train cost : 317.9046146168428
+1621 kws_train->Trainer : On Evaluation: cost 288.9659423828125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.148486852645874
+1622 kws_train->Trainer : Epcho 153 :
+1623 kws_train->Trainer : Step: 2602, Last 5 Batch Cost Total: 0.12191319465637207
+1624 kws_train->Trainer : cost:369.1107177734375, steps:2605
+1625 kws_train->Trainer : Step: 2607, Last 5 Batch Cost Total: 0.6545395851135254
+1626 kws_train->Trainer : cost:308.4398193359375, steps:2610
+1627 kws_train->Trainer : Step: 2612, Last 5 Batch Cost Total: 0.5436162948608398
+1628 kws_train->Trainer : cost:311.1878356933594, steps:2615
+1629 kws_train->Trainer : Step: 2617, Last 5 Batch Cost Total: 0.5725841522216797
+1630 kws_train->Trainer : Epcho 154/200, steps 2618, average train cost : 315.71895285213697
+1631 kws_train->Trainer : On Evaluation: cost 298.1484375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.012590169906616
+1632 kws_train->Trainer : Epcho 154 :
+1633 kws_train->Trainer : Step: 2619, Last 5 Batch Cost Total: 0.12491154670715332
+1634 kws_train->Trainer : cost:305.6270446777344, steps:2620
+1635 kws_train->Trainer : Step: 2624, Last 5 Batch Cost Total: 0.6475446224212646
+1636 kws_train->Trainer : cost:284.5426025390625, steps:2625
+1637 kws_train->Trainer : Step: 2629, Last 5 Batch Cost Total: 0.5326242446899414
+1638 kws_train->Trainer : cost:291.1568298339844, steps:2630
+1639 kws_train->Trainer : Step: 2634, Last 5 Batch Cost Total: 0.5785882472991943
+1640 kws_train->Trainer : cost:290.47186279296875, steps:2635
+1641 kws_train->Trainer : Epcho 155/200, steps 2635, average train cost : 312.7981585334329
+1642 kws_train->Trainer : On Evaluation: cost 285.6711120605469, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.0185787677764893
+1643 kws_train->Trainer : Epcho 155 :
+1644 kws_train->Trainer : Step: 2636, Last 5 Batch Cost Total: 0.0919344425201416
+1645 kws_train->Trainer : cost:331.5382080078125, steps:2640
+1646 kws_train->Trainer : Step: 2641, Last 5 Batch Cost Total: 0.633554220199585
+1647 kws_train->Trainer : cost:307.9912109375, steps:2645
+1648 kws_train->Trainer : Step: 2646, Last 5 Batch Cost Total: 0.5506117343902588
+1649 kws_train->Trainer : cost:300.18353271484375, steps:2650
+1650 kws_train->Trainer : Step: 2651, Last 5 Batch Cost Total: 0.5995786190032959
+1651 kws_train->Trainer : Epcho 156/200, steps 2652, average train cost : 311.17791748046875
+1652 kws_train->Trainer : On Evaluation: cost 295.13104248046875, acc 0.8227847814559937, learning rate 9.999999747378752e-05, time 1.9636170864105225
+1653 kws_train->Trainer : Epcho 156 :
+1654 kws_train->Trainer : Step: 2653, Last 5 Batch Cost Total: 0.1369171142578125
+1655 kws_train->Trainer : cost:307.1012878417969, steps:2655
+1656 kws_train->Trainer : Step: 2658, Last 5 Batch Cost Total: 0.6115560531616211
+1657 kws_train->Trainer : cost:303.14569091796875, steps:2660
+1658 kws_train->Trainer : Step: 2663, Last 5 Batch Cost Total: 0.553612470626831
+1659 kws_train->Trainer : cost:292.99560546875, steps:2665
+1660 kws_train->Trainer : Step: 2668, Last 5 Batch Cost Total: 0.5685904026031494
+1661 kws_train->Trainer : Epcho 157/200, steps 2669, average train cost : 312.282418643727
+1662 kws_train->Trainer : On Evaluation: cost 329.2851257324219, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.0046024322509766
+1663 kws_train->Trainer : Epcho 157 :
+1664 kws_train->Trainer : cost:335.9405212402344, steps:2670
+1665 kws_train->Trainer : Step: 2670, Last 5 Batch Cost Total: 0.14190053939819336
+1666 kws_train->Trainer : cost:309.276611328125, steps:2675
+1667 kws_train->Trainer : Step: 2675, Last 5 Batch Cost Total: 0.5935821533203125
+1668 kws_train->Trainer : cost:336.6914978027344, steps:2680
+1669 kws_train->Trainer : Step: 2680, Last 5 Batch Cost Total: 0.5556094646453857
+1670 kws_train->Trainer : cost:353.3670959472656, steps:2685
+1671 kws_train->Trainer : Step: 2685, Last 5 Batch Cost Total: 0.558605432510376
+1672 kws_train->Trainer : Epcho 158/200, steps 2686, average train cost : 307.98097139246323
+1673 kws_train->Trainer : On Evaluation: cost 328.32110595703125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9915976524353027
+1674 kws_train->Trainer : Epcho 158 :
+1675 kws_train->Trainer : Step: 2687, Last 5 Batch Cost Total: 0.13790345191955566
+1676 kws_train->Trainer : cost:297.85443115234375, steps:2690
+1677 kws_train->Trainer : Step: 2692, Last 5 Batch Cost Total: 0.5304977893829346
+1678 kws_train->Trainer : cost:298.1860656738281, steps:2695
+1679 kws_train->Trainer : Step: 2697, Last 5 Batch Cost Total: 0.5510411262512207
+1680 kws_train->Trainer : cost:295.0080261230469, steps:2700
+1681 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8227847814559937
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'd', 'i4', 'd', 'i4', 'd', 'i4', 'd', 'i4', 'n', 'i4', 'n', 'd', 'n', 'i4', 'd', 'i4', 'n', 'a2', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (40)
+Test Accuracy: 0.0
+
+1682 kws_train->Trainer : Step: 2702, Last 5 Batch Cost Total: 0.7414789199829102
+1683 kws_train->Trainer : Epcho 159/200, steps 2703, average train cost : 303.3575241986443
+1684 kws_train->Trainer : On Evaluation: cost 279.7535400390625, acc 0.8227847814559937, learning rate 9.999999747378752e-05, time 2.099822521209717
+1685 kws_train->Trainer : Epcho 159 :
+1686 kws_train->Trainer : Step: 2704, Last 5 Batch Cost Total: 0.11269640922546387
+1687 kws_train->Trainer : cost:274.9635925292969, steps:2705
+1688 kws_train->Trainer : Step: 2709, Last 5 Batch Cost Total: 0.5296003818511963
+1689 kws_train->Trainer : cost:282.77325439453125, steps:2710
+1690 kws_train->Trainer : Step: 2714, Last 5 Batch Cost Total: 0.5605123043060303
+1691 kws_train->Trainer : cost:279.8329772949219, steps:2715
+1692 kws_train->Trainer : Step: 2719, Last 5 Batch Cost Total: 0.6149740219116211
+1693 kws_train->Trainer : cost:322.2255859375, steps:2720
+1694 kws_train->Trainer : Epcho 160/200, steps 2720, average train cost : 303.53849702722886
+1695 kws_train->Trainer : On Evaluation: cost 313.9325866699219, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.933701992034912
+1696 kws_train->Trainer : Epcho 160 :
+1697 kws_train->Trainer : Step: 2721, Last 5 Batch Cost Total: 0.09693121910095215
+1698 kws_train->Trainer : cost:296.6477966308594, steps:2725
+1699 kws_train->Trainer : Step: 2726, Last 5 Batch Cost Total: 0.534243106842041
+1700 kws_train->Trainer : cost:285.8471374511719, steps:2730
+1701 kws_train->Trainer : Step: 2731, Last 5 Batch Cost Total: 0.5768656730651855
+1702 kws_train->Trainer : cost:287.9665222167969, steps:2735
+1703 kws_train->Trainer : Step: 2736, Last 5 Batch Cost Total: 0.6023921966552734
+1704 kws_train->Trainer : Epcho 161/200, steps 2737, average train cost : 297.2938968434053
+1705 kws_train->Trainer : On Evaluation: cost 265.23992919921875, acc 0.8481012582778931, learning rate 9.999999747378752e-05, time 1.9083633422851562
+1706 kws_train->Trainer : Epcho 161 :
+1707 kws_train->Trainer : Step: 2738, Last 5 Batch Cost Total: 0.11791753768920898
+1708 kws_train->Trainer : cost:291.1703796386719, steps:2740
+1709 kws_train->Trainer : Step: 2743, Last 5 Batch Cost Total: 0.5875852108001709
+1710 kws_train->Trainer : cost:281.8631286621094, steps:2745
+1711 kws_train->Trainer : Step: 2748, Last 5 Batch Cost Total: 0.540003776550293
+1712 kws_train->Trainer : cost:324.0956726074219, steps:2750
+1713 kws_train->Trainer : Step: 2753, Last 5 Batch Cost Total: 0.6125705242156982
+1714 kws_train->Trainer : Epcho 162/200, steps 2754, average train cost : 296.71831736845127
+1715 kws_train->Trainer : On Evaluation: cost 285.9178466796875, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9700021743774414
+1716 kws_train->Trainer : Epcho 162 :
+1717 kws_train->Trainer : cost:298.608642578125, steps:2755
+1718 kws_train->Trainer : Step: 2755, Last 5 Batch Cost Total: 0.12191534042358398
+1719 kws_train->Trainer : cost:325.4620056152344, steps:2760
+1720 kws_train->Trainer : Step: 2760, Last 5 Batch Cost Total: 0.5366203784942627
+1721 kws_train->Trainer : cost:336.3284606933594, steps:2765
+1722 kws_train->Trainer : Step: 2765, Last 5 Batch Cost Total: 0.5466158390045166
+1723 kws_train->Trainer : cost:288.1041259765625, steps:2770
+1724 kws_train->Trainer : Step: 2770, Last 5 Batch Cost Total: 0.5965218544006348
+1725 kws_train->Trainer : Epcho 163/200, steps 2771, average train cost : 294.42750459558823
+1726 kws_train->Trainer : On Evaluation: cost 292.28564453125, acc 0.8607594966888428, learning rate 9.999999747378752e-05, time 1.924588918685913
+1727 kws_train->Trainer : Epcho 163 :
+1728 kws_train->Trainer : Step: 2772, Last 5 Batch Cost Total: 0.08794212341308594
+1729 kws_train->Trainer : cost:285.7684020996094, steps:2775
+1730 kws_train->Trainer : Step: 2777, Last 5 Batch Cost Total: 0.5450155735015869
+1731 kws_train->Trainer : cost:285.25146484375, steps:2780
+1732 kws_train->Trainer : Step: 2782, Last 5 Batch Cost Total: 0.5885841846466064
+1733 kws_train->Trainer : cost:266.8061218261719, steps:2785
+1734 kws_train->Trainer : Step: 2787, Last 5 Batch Cost Total: 0.5756146907806396
+1735 kws_train->Trainer : Epcho 164/200, steps 2788, average train cost : 291.22045359892
+1736 kws_train->Trainer : On Evaluation: cost 278.2562561035156, acc 0.8354430198669434, learning rate 9.999999747378752e-05, time 1.8882439136505127
+1737 kws_train->Trainer : Epcho 164 :
+1738 kws_train->Trainer : Step: 2789, Last 5 Batch Cost Total: 0.10692286491394043
+1739 kws_train->Trainer : cost:274.7550354003906, steps:2790
+1740 kws_train->Trainer : Step: 2794, Last 5 Batch Cost Total: 0.5586068630218506
+1741 kws_train->Trainer : cost:269.98150634765625, steps:2795
+1742 kws_train->Trainer : Step: 2799, Last 5 Batch Cost Total: 0.6138296127319336
+1743 kws_train->Trainer : cost:311.0475158691406, steps:2800
+1744 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (37)
+Test Accuracy: 0.0
+
+1745 kws_train->Trainer : Step: 2804, Last 5 Batch Cost Total: 0.7094991207122803
+1746 kws_train->Trainer : cost:284.66912841796875, steps:2805
+1747 kws_train->Trainer : Epcho 165/200, steps 2805, average train cost : 289.18791108972886
+1748 kws_train->Trainer : On Evaluation: cost 279.6994934082031, acc 0.8607594966888428, learning rate 9.999999747378752e-05, time 2.0998287200927734
+1749 kws_train->Trainer : Epcho 165 :
+1750 kws_train->Trainer : Step: 2806, Last 5 Batch Cost Total: 0.10692501068115234
+1751 kws_train->Trainer : cost:270.9247131347656, steps:2810
+1752 kws_train->Trainer : Step: 2811, Last 5 Batch Cost Total: 0.574599027633667
+1753 kws_train->Trainer : cost:274.658203125, steps:2815
+1754 kws_train->Trainer : Step: 2816, Last 5 Batch Cost Total: 0.6315634250640869
+1755 kws_train->Trainer : cost:279.7492370605469, steps:2820
+1756 kws_train->Trainer : Step: 2821, Last 5 Batch Cost Total: 0.5226383209228516
+1757 kws_train->Trainer : Epcho 166/200, steps 2822, average train cost : 285.9688038545496
+1758 kws_train->Trainer : On Evaluation: cost 269.1055603027344, acc 0.8481012582778931, learning rate 9.999999747378752e-05, time 1.9450297355651855
+1759 kws_train->Trainer : Epcho 166 :
+1760 kws_train->Trainer : Step: 2823, Last 5 Batch Cost Total: 0.1428990364074707
+1761 kws_train->Trainer : cost:272.29754638671875, steps:2825
+1762 kws_train->Trainer : Step: 2828, Last 5 Batch Cost Total: 0.5955781936645508
+1763 kws_train->Trainer : cost:313.85400390625, steps:2830
+1764 kws_train->Trainer : Step: 2833, Last 5 Batch Cost Total: 0.6915137767791748
+1765 kws_train->Trainer : cost:287.7646789550781, steps:2835
+1766 kws_train->Trainer : Step: 2838, Last 5 Batch Cost Total: 0.5536091327667236
+1767 kws_train->Trainer : Epcho 167/200, steps 2839, average train cost : 283.94789033777573
+1768 kws_train->Trainer : On Evaluation: cost 272.16143798828125, acc 0.8607594966888428, learning rate 9.999999747378752e-05, time 2.1135103702545166
+1769 kws_train->Trainer : Epcho 167 :
+1770 kws_train->Trainer : cost:311.65093994140625, steps:2840
+1771 kws_train->Trainer : Step: 2840, Last 5 Batch Cost Total: 0.13790178298950195
+1772 kws_train->Trainer : cost:331.8065490722656, steps:2845
+1773 kws_train->Trainer : Step: 2845, Last 5 Batch Cost Total: 0.566601037979126
+1774 kws_train->Trainer : cost:277.8018493652344, steps:2850
+1775 kws_train->Trainer : Step: 2850, Last 5 Batch Cost Total: 0.6115701198577881
+1776 kws_train->Trainer : cost:274.1681823730469, steps:2855
+1777 kws_train->Trainer : Step: 2855, Last 5 Batch Cost Total: 0.5526096820831299
+1778 kws_train->Trainer : Epcho 168/200, steps 2856, average train cost : 285.2273110782399
+1779 kws_train->Trainer : On Evaluation: cost 303.7542724609375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9925949573516846
+1780 kws_train->Trainer : Epcho 168 :
+1781 kws_train->Trainer : Step: 2857, Last 5 Batch Cost Total: 0.09693145751953125
+1782 kws_train->Trainer : cost:276.5882263183594, steps:2860
+1783 kws_train->Trainer : Step: 2862, Last 5 Batch Cost Total: 0.6175639629364014
+1784 kws_train->Trainer : cost:259.4466857910156, steps:2865
+1785 kws_train->Trainer : Step: 2867, Last 5 Batch Cost Total: 0.592583417892456
+1786 kws_train->Trainer : cost:267.2315368652344, steps:2870
+1787 kws_train->Trainer : Step: 2872, Last 5 Batch Cost Total: 0.5675997734069824
+1788 kws_train->Trainer : Epcho 169/200, steps 2873, average train cost : 279.46946985581343
+1789 kws_train->Trainer : On Evaluation: cost 261.6195068359375, acc 0.8354430198669434, learning rate 9.999999747378752e-05, time 1.9736082553863525
+1790 kws_train->Trainer : Epcho 169 :
+1791 kws_train->Trainer : Step: 2874, Last 5 Batch Cost Total: 0.11891651153564453
+1792 kws_train->Trainer : cost:261.1220703125, steps:2875
+1793 kws_train->Trainer : Step: 2879, Last 5 Batch Cost Total: 0.6325533390045166
+1794 kws_train->Trainer : cost:301.9239196777344, steps:2880
+1795 kws_train->Trainer : Step: 2884, Last 5 Batch Cost Total: 0.5436170101165771
+1796 kws_train->Trainer : cost:274.15753173828125, steps:2885
+1797 kws_train->Trainer : Step: 2889, Last 5 Batch Cost Total: 0.5735971927642822
+1798 kws_train->Trainer : cost:258.9712829589844, steps:2890
+1799 kws_train->Trainer : Epcho 170/200, steps 2890, average train cost : 277.7031483369715
+1800 kws_train->Trainer : On Evaluation: cost 257.150146484375, acc 0.8101266026496887, learning rate 9.999999747378752e-05, time 1.9945943355560303
+1801 kws_train->Trainer : Epcho 170 :
+1802 kws_train->Trainer : Step: 2891, Last 5 Batch Cost Total: 0.13290190696716309
+1803 kws_train->Trainer : cost:265.32647705078125, steps:2895
+1804 kws_train->Trainer : Step: 2896, Last 5 Batch Cost Total: 0.6255593299865723
+1805 kws_train->Trainer : cost:269.3865966796875, steps:2900
+1806 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.797468364238739
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'd', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'd', 'i4', 'd', 'n', 'd', 'n', 'i4', 'n', 'i4', 'l', 'i4', 'n', 'i4', 'n', 'i4', 'a2', 'i4', 'n', 'i4', 'd', 'i4', 'd', 'i4', 'n'] (39)
+Test Accuracy: 0.0
+
+1807 kws_train->Trainer : Step: 2901, Last 5 Batch Cost Total: 0.7954397201538086
+1808 kws_train->Trainer : cost:263.762451171875, steps:2905
+1809 kws_train->Trainer : Step: 2906, Last 5 Batch Cost Total: 0.6035747528076172
+1810 kws_train->Trainer : Epcho 171/200, steps 2907, average train cost : 275.47358254825366
+1811 kws_train->Trainer : On Evaluation: cost 255.58421325683594, acc 0.8227847814559937, learning rate 9.999999747378752e-05, time 2.2853851318359375
+1812 kws_train->Trainer : Epcho 171 :
+1813 kws_train->Trainer : Step: 2908, Last 5 Batch Cost Total: 0.08693957328796387
+1814 kws_train->Trainer : cost:303.75689697265625, steps:2910
+1815 kws_train->Trainer : Step: 2913, Last 5 Batch Cost Total: 0.6475429534912109
+1816 kws_train->Trainer : cost:278.61309814453125, steps:2915
+1817 kws_train->Trainer : Step: 2918, Last 5 Batch Cost Total: 0.5765941143035889
+1818 kws_train->Trainer : cost:300.7158203125, steps:2920
+1819 kws_train->Trainer : Step: 2923, Last 5 Batch Cost Total: 0.6015770435333252
+1820 kws_train->Trainer : Epcho 172/200, steps 2924, average train cost : 273.6492560891544
+1821 kws_train->Trainer : On Evaluation: cost 271.91961669921875, acc 0.797468364238739, learning rate 9.999999747378752e-05, time 2.0075864791870117
+1822 kws_train->Trainer : Epcho 172 :
+1823 kws_train->Trainer : cost:307.3124694824219, steps:2925
+1824 kws_train->Trainer : Step: 2925, Last 5 Batch Cost Total: 0.13291168212890625
+1825 kws_train->Trainer : cost:269.85565185546875, steps:2930
+1826 kws_train->Trainer : Step: 2930, Last 5 Batch Cost Total: 0.6215569972991943
+1827 kws_train->Trainer : cost:264.1625671386719, steps:2935
+1828 kws_train->Trainer : Step: 2935, Last 5 Batch Cost Total: 0.5556082725524902
+1829 kws_train->Trainer : cost:266.8390808105469, steps:2940
+1830 kws_train->Trainer : Step: 2940, Last 5 Batch Cost Total: 0.5576069355010986
+1831 kws_train->Trainer : Epcho 173/200, steps 2941, average train cost : 273.88064305922563
+1832 kws_train->Trainer : On Evaluation: cost 296.44146728515625, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 1.9986026287078857
+1833 kws_train->Trainer : Epcho 173 :
+1834 kws_train->Trainer : Step: 2942, Last 5 Batch Cost Total: 0.1409013271331787
+1835 kws_train->Trainer : cost:251.21197509765625, steps:2945
+1836 kws_train->Trainer : Step: 2947, Last 5 Batch Cost Total: 0.5965800285339355
+1837 kws_train->Trainer : cost:260.79150390625, steps:2950
+1838 kws_train->Trainer : Step: 2952, Last 5 Batch Cost Total: 0.5675995349884033
+1839 kws_train->Trainer : cost:253.45123291015625, steps:2955
+1840 kws_train->Trainer : Step: 2957, Last 5 Batch Cost Total: 0.5626041889190674
+1841 kws_train->Trainer : Epcho 174/200, steps 2958, average train cost : 271.4644416360294
+1842 kws_train->Trainer : On Evaluation: cost 289.76263427734375, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.0115842819213867
+1843 kws_train->Trainer : Epcho 174 :
+1844 kws_train->Trainer : Step: 2959, Last 5 Batch Cost Total: 0.140899658203125
+1845 kws_train->Trainer : cost:291.30950927734375, steps:2960
+1846 kws_train->Trainer : Step: 2964, Last 5 Batch Cost Total: 0.5456156730651855
+1847 kws_train->Trainer : cost:263.962890625, steps:2965
+1848 kws_train->Trainer : Step: 2969, Last 5 Batch Cost Total: 0.5656013488769531
+1849 kws_train->Trainer : cost:247.73472595214844, steps:2970
+1850 kws_train->Trainer : Step: 2974, Last 5 Batch Cost Total: 0.6495425701141357
+1851 kws_train->Trainer : cost:254.00701904296875, steps:2975
+1852 kws_train->Trainer : Epcho 175/200, steps 2975, average train cost : 267.001246732824
+1853 kws_train->Trainer : On Evaluation: cost 248.23538208007812, acc 0.8101266026496887, learning rate 9.999999747378752e-05, time 2.0465586185455322
+1854 kws_train->Trainer : Epcho 175 :
+1855 kws_train->Trainer : Step: 2976, Last 5 Batch Cost Total: 0.11891818046569824
+1856 kws_train->Trainer : cost:259.8329772949219, steps:2980
+1857 kws_train->Trainer : Step: 2981, Last 5 Batch Cost Total: 0.5466139316558838
+1858 kws_train->Trainer : cost:255.61083984375, steps:2985
+1859 kws_train->Trainer : Step: 2986, Last 5 Batch Cost Total: 0.5865871906280518
+1860 kws_train->Trainer : cost:292.2100830078125, steps:2990
+1861 kws_train->Trainer : Step: 2991, Last 5 Batch Cost Total: 0.6425471305847168
+1862 kws_train->Trainer : Epcho 176/200, steps 2992, average train cost : 267.251174029182
+1863 kws_train->Trainer : On Evaluation: cost 297.989013671875, acc 0.8354430198669434, learning rate 9.999999747378752e-05, time 2.0145812034606934
+1864 kws_train->Trainer : Epcho 176 :
+1865 kws_train->Trainer : Step: 2993, Last 5 Batch Cost Total: 0.10092759132385254
+1866 kws_train->Trainer : cost:270.2641296386719, steps:2995
+1867 kws_train->Trainer : Step: 2998, Last 5 Batch Cost Total: 0.5456156730651855
+1868 kws_train->Trainer : cost:289.0972900390625, steps:3000
+1869 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'i4'] (35)
+Test Accuracy: 0.0
+
+1870 kws_train->Trainer : Step: 3003, Last 5 Batch Cost Total: 0.9623222351074219
+1871 kws_train->Trainer : cost:292.19171142578125, steps:3005
+1872 kws_train->Trainer : Step: 3008, Last 5 Batch Cost Total: 0.6635324954986572
+1873 kws_train->Trainer : Epcho 177/200, steps 3009, average train cost : 263.10466990751377
+1874 kws_train->Trainer : On Evaluation: cost 241.14886474609375, acc 0.7594936490058899, learning rate 9.999999747378752e-05, time 2.371328830718994
+1875 kws_train->Trainer : Epcho 177 :
+1876 kws_train->Trainer : cost:262.8364562988281, steps:3010
+1877 kws_train->Trainer : Step: 3010, Last 5 Batch Cost Total: 0.11791682243347168
+1878 kws_train->Trainer : cost:255.52984619140625, steps:3015
+1879 kws_train->Trainer : Step: 3015, Last 5 Batch Cost Total: 0.6455459594726562
+1880 kws_train->Trainer : cost:259.3274841308594, steps:3020
+1881 kws_train->Trainer : Step: 3020, Last 5 Batch Cost Total: 0.5695977210998535
+1882 kws_train->Trainer : cost:244.33441162109375, steps:3025
+1883 kws_train->Trainer : Step: 3025, Last 5 Batch Cost Total: 0.624561071395874
+1884 kws_train->Trainer : Epcho 178/200, steps 3026, average train cost : 266.8335355870864
+1885 kws_train->Trainer : On Evaluation: cost 259.5539245605469, acc 0.797468364238739, learning rate 9.999999747378752e-05, time 2.070542335510254
+1886 kws_train->Trainer : Epcho 178 :
+1887 kws_train->Trainer : Step: 3027, Last 5 Batch Cost Total: 0.13090825080871582
+1888 kws_train->Trainer : cost:254.95278930664062, steps:3030
+1889 kws_train->Trainer : Step: 3032, Last 5 Batch Cost Total: 0.5675990581512451
+1890 kws_train->Trainer : cost:248.29873657226562, steps:3035
+1891 kws_train->Trainer : Step: 3037, Last 5 Batch Cost Total: 0.5755960941314697
+1892 kws_train->Trainer : cost:282.485107421875, steps:3040
+1893 kws_train->Trainer : Step: 3042, Last 5 Batch Cost Total: 0.6155667304992676
+1894 kws_train->Trainer : Epcho 179/200, steps 3043, average train cost : 263.1124698414522
+1895 kws_train->Trainer : On Evaluation: cost 263.5527648925781, acc 0.8354430198669434, learning rate 9.999999747378752e-05, time 2.0165793895721436
+1896 kws_train->Trainer : Epcho 179 :
+1897 kws_train->Trainer : Step: 3044, Last 5 Batch Cost Total: 0.08893799781799316
+1898 kws_train->Trainer : cost:255.94776916503906, steps:3045
+1899 kws_train->Trainer : Step: 3049, Last 5 Batch Cost Total: 0.5626037120819092
+1900 kws_train->Trainer : cost:240.3116912841797, steps:3050
+1901 kws_train->Trainer : Step: 3054, Last 5 Batch Cost Total: 0.6065728664398193
+1902 kws_train->Trainer : cost:253.53857421875, steps:3055
+1903 kws_train->Trainer : Step: 3059, Last 5 Batch Cost Total: 0.5935826301574707
+1904 kws_train->Trainer : cost:251.61654663085938, steps:3060
+1905 kws_train->Trainer : Epcho 180/200, steps 3060, average train cost : 260.43636725930605
+1906 kws_train->Trainer : On Evaluation: cost 248.2637176513672, acc 0.7848101258277893, learning rate 9.999999747378752e-05, time 1.9426307678222656
+1907 kws_train->Trainer : Epcho 180 :
+1908 kws_train->Trainer : Step: 3061, Last 5 Batch Cost Total: 0.11092424392700195
+1909 kws_train->Trainer : cost:249.68214416503906, steps:3065
+1910 kws_train->Trainer : Step: 3066, Last 5 Batch Cost Total: 0.5775914192199707
+1911 kws_train->Trainer : cost:292.840576171875, steps:3070
+1912 kws_train->Trainer : Step: 3071, Last 5 Batch Cost Total: 0.6365509033203125
+1913 kws_train->Trainer : cost:262.4925537109375, steps:3075
+1914 kws_train->Trainer : Step: 3076, Last 5 Batch Cost Total: 0.5446155071258545
+1915 kws_train->Trainer : Epcho 181/200, steps 3077, average train cost : 258.18779440487134
+1916 kws_train->Trainer : On Evaluation: cost 251.6068878173828, acc 0.7848101258277893, learning rate 9.999999747378752e-05, time 1.9826045036315918
+1917 kws_train->Trainer : Epcho 181 :
+1918 kws_train->Trainer : Step: 3078, Last 5 Batch Cost Total: 0.10792350769042969
+1919 kws_train->Trainer : cost:280.675537109375, steps:3080
+1920 kws_train->Trainer : Step: 3083, Last 5 Batch Cost Total: 0.5805919170379639
+1921 kws_train->Trainer : cost:290.1891784667969, steps:3085
+1922 kws_train->Trainer : Step: 3088, Last 5 Batch Cost Total: 0.6105682849884033
+1923 kws_train->Trainer : cost:257.3001403808594, steps:3090
+1924 kws_train->Trainer : Step: 3093, Last 5 Batch Cost Total: 0.5366230010986328
+1925 kws_train->Trainer : Epcho 182/200, steps 3094, average train cost : 257.2541746251723
+1926 kws_train->Trainer : On Evaluation: cost 250.31748962402344, acc 0.7721518874168396, learning rate 9.999999747378752e-05, time 1.9456286430358887
+1927 kws_train->Trainer : Epcho 182 :
+1928 kws_train->Trainer : cost:248.86672973632812, steps:3095
+1929 kws_train->Trainer : Step: 3095, Last 5 Batch Cost Total: 0.12091279029846191
+1930 kws_train->Trainer : cost:252.48484802246094, steps:3100
+1931 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.7341772317886353
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['n', 'i4', 'n', 'ng', 'i4', 'n', 'i4', 'l', 'i4', 'l', 'v4', 'n', 'i4', 'l', 'i4', 'n', 'a2', 'ng', 'd', 'ng', 'd', 's', 'd', 'n', 'l', 'n', 'a2', 'n', 'd', 'n', 'ng', 'd', 'a2', 'n', 'd', 'n', 'i4', 'n', 'd', 'i4', 'n', 'i4', 'ng', 'd', 'n'] (45)
+Test Accuracy: 0.0
+
+1932 kws_train->Trainer : Step: 3100, Last 5 Batch Cost Total: 0.7134990692138672
+1933 kws_train->Trainer : cost:236.86337280273438, steps:3105
+1934 kws_train->Trainer : Step: 3105, Last 5 Batch Cost Total: 0.6125681400299072
+1935 kws_train->Trainer : cost:251.02728271484375, steps:3110
+1936 kws_train->Trainer : Step: 3110, Last 5 Batch Cost Total: 0.5456163883209229
+1937 kws_train->Trainer : Epcho 183/200, steps 3111, average train cost : 255.10554414636948
+1938 kws_train->Trainer : On Evaluation: cost 245.49398803710938, acc 0.797468364238739, learning rate 9.999999747378752e-05, time 2.121504783630371
+1939 kws_train->Trainer : Epcho 183 :
+1940 kws_train->Trainer : Step: 3112, Last 5 Batch Cost Total: 0.1329059600830078
+1941 kws_train->Trainer : cost:242.04515075683594, steps:3115
+1942 kws_train->Trainer : Step: 3117, Last 5 Batch Cost Total: 0.5626053810119629
+1943 kws_train->Trainer : cost:273.4413757324219, steps:3120
+1944 kws_train->Trainer : Step: 3122, Last 5 Batch Cost Total: 0.6085708141326904
+1945 kws_train->Trainer : cost:249.83958435058594, steps:3125
+1946 kws_train->Trainer : Step: 3127, Last 5 Batch Cost Total: 0.5606043338775635
+1947 kws_train->Trainer : Epcho 184/200, steps 3128, average train cost : 255.21606355554917
+1948 kws_train->Trainer : On Evaluation: cost 272.261962890625, acc 0.8481012582778931, learning rate 9.999999747378752e-05, time 1.9925968647003174
+1949 kws_train->Trainer : Epcho 184 :
+1950 kws_train->Trainer : Step: 3129, Last 5 Batch Cost Total: 0.09695005416870117
+1951 kws_train->Trainer : cost:232.62005615234375, steps:3130
+1952 kws_train->Trainer : Step: 3134, Last 5 Batch Cost Total: 0.6215705871582031
+1953 kws_train->Trainer : cost:254.322998046875, steps:3135
+1954 kws_train->Trainer : Step: 3139, Last 5 Batch Cost Total: 0.5845789909362793
+1955 kws_train->Trainer : cost:244.24085998535156, steps:3140
+1956 kws_train->Trainer : Step: 3144, Last 5 Batch Cost Total: 0.5546102523803711
+1957 kws_train->Trainer : cost:244.51486206054688, steps:3145
+1958 kws_train->Trainer : Epcho 185/200, steps 3145, average train cost : 253.7749615837546
+1959 kws_train->Trainer : On Evaluation: cost 242.67601013183594, acc 0.7721518874168396, learning rate 9.999999747378752e-05, time 1.962618350982666
+1960 kws_train->Trainer : Epcho 185 :
+1961 kws_train->Trainer : Step: 3146, Last 5 Batch Cost Total: 0.11891722679138184
+1962 kws_train->Trainer : cost:297.1092529296875, steps:3150
+1963 kws_train->Trainer : Step: 3151, Last 5 Batch Cost Total: 0.617565393447876
+1964 kws_train->Trainer : cost:256.0130920410156, steps:3155
+1965 kws_train->Trainer : Step: 3156, Last 5 Batch Cost Total: 0.5446152687072754
+1966 kws_train->Trainer : cost:273.3807067871094, steps:3160
+1967 kws_train->Trainer : Step: 3161, Last 5 Batch Cost Total: 0.5606050491333008
+1968 kws_train->Trainer : Epcho 186/200, steps 3162, average train cost : 251.28471284754136
+1969 kws_train->Trainer : On Evaluation: cost 228.76751708984375, acc 0.6962025165557861, learning rate 9.999999747378752e-05, time 1.9596195220947266
+1970 kws_train->Trainer : Epcho 186 :
+1971 kws_train->Trainer : Step: 3163, Last 5 Batch Cost Total: 0.1219172477722168
+1972 kws_train->Trainer : cost:282.01776123046875, steps:3165
+1973 kws_train->Trainer : Step: 3168, Last 5 Batch Cost Total: 0.593151330947876
+1974 kws_train->Trainer : cost:252.72059631347656, steps:3170
+1975 kws_train->Trainer : Step: 3173, Last 5 Batch Cost Total: 0.5257105827331543
+1976 kws_train->Trainer : cost:243.02203369140625, steps:3175
+1977 kws_train->Trainer : Step: 3178, Last 5 Batch Cost Total: 0.5586080551147461
+1978 kws_train->Trainer : Epcho 187/200, steps 3179, average train cost : 250.35815609202666
+1979 kws_train->Trainer : On Evaluation: cost 235.8253936767578, acc 0.7215189933776855, learning rate 9.999999747378752e-05, time 1.9252948760986328
+1980 kws_train->Trainer : Epcho 187 :
+1981 kws_train->Trainer : cost:246.65664672851562, steps:3180
+1982 kws_train->Trainer : Step: 3180, Last 5 Batch Cost Total: 0.08593869209289551
+1983 kws_train->Trainer : cost:231.8442840576172, steps:3185
+1984 kws_train->Trainer : Step: 3185, Last 5 Batch Cost Total: 0.6094760894775391
+1985 kws_train->Trainer : cost:246.79421997070312, steps:3190
+1986 kws_train->Trainer : Step: 3190, Last 5 Batch Cost Total: 0.534597635269165
+1987 kws_train->Trainer : cost:236.1693572998047, steps:3195
+1988 kws_train->Trainer : Step: 3195, Last 5 Batch Cost Total: 0.5726068019866943
+1989 kws_train->Trainer : Epcho 188/200, steps 3196, average train cost : 248.87945556640625
+1990 kws_train->Trainer : On Evaluation: cost 281.3644714355469, acc 0.797468364238739, learning rate 9.999999747378752e-05, time 1.8875501155853271
+1991 kws_train->Trainer : Epcho 188 :
+1992 kws_train->Trainer : Step: 3197, Last 5 Batch Cost Total: 0.14602971076965332
+1993 kws_train->Trainer : cost:266.5484619140625, steps:3200
+1994 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8101266026496887
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['d', 'n', 'i4', 'n', 'd', 'n', 'd', 'n', 'd', 'n', 'ng', 'i4', 'n', 'd', 'i4', 'd', 'n', 'ng', 'i4', 'n', 'i4', 'n', 'i4', 'n', 'd', 'n', 'i4', 'l', 'i4', 'n', 'd', 'n', 'i4', 'd', 'n', 'i4', 'n', 'i4', 'n', 'd', 'n'] (41)
+Test Accuracy: 0.0
+
+1995 kws_train->Trainer : Step: 3202, Last 5 Batch Cost Total: 0.7834362983703613
+1996 kws_train->Trainer : cost:245.2495880126953, steps:3205
+1997 kws_train->Trainer : Step: 3207, Last 5 Batch Cost Total: 0.5418229103088379
+1998 kws_train->Trainer : cost:226.7668914794922, steps:3210
+1999 kws_train->Trainer : Step: 3212, Last 5 Batch Cost Total: 0.542269229888916
+2000 kws_train->Trainer : Epcho 189/200, steps 3213, average train cost : 249.96408350327437
+2001 kws_train->Trainer : On Evaluation: cost 259.47662353515625, acc 0.7721518874168396, learning rate 9.999999747378752e-05, time 2.143921375274658
+2002 kws_train->Trainer : Epcho 189 :
+2003 kws_train->Trainer : Step: 3214, Last 5 Batch Cost Total: 0.1382741928100586
+2004 kws_train->Trainer : cost:239.34120178222656, steps:3215
+2005 kws_train->Trainer : Step: 3219, Last 5 Batch Cost Total: 0.5705983638763428
+2006 kws_train->Trainer : cost:236.41392517089844, steps:3220
+2007 kws_train->Trainer : Step: 3224, Last 5 Batch Cost Total: 0.5376293659210205
+2008 kws_train->Trainer : cost:239.36370849609375, steps:3225
+2009 kws_train->Trainer : Step: 3229, Last 5 Batch Cost Total: 0.5496044158935547
+2010 kws_train->Trainer : cost:285.10052490234375, steps:3230
+2011 kws_train->Trainer : Epcho 190/200, steps 3230, average train cost : 250.52708255543428
+2012 kws_train->Trainer : On Evaluation: cost 267.52093505859375, acc 0.8354430198669434, learning rate 9.999999747378752e-05, time 1.9330101013183594
+2013 kws_train->Trainer : Epcho 190 :
+2014 kws_train->Trainer : Step: 3231, Last 5 Batch Cost Total: 0.1329057216644287
+2015 kws_train->Trainer : cost:250.74966430664062, steps:3235
+2016 kws_train->Trainer : Step: 3236, Last 5 Batch Cost Total: 0.5247366428375244
+2017 kws_train->Trainer : cost:266.8289794921875, steps:3240
+2018 kws_train->Trainer : Step: 3241, Last 5 Batch Cost Total: 0.5462639331817627
+2019 kws_train->Trainer : cost:265.50982666015625, steps:3245
+2020 kws_train->Trainer : Step: 3246, Last 5 Batch Cost Total: 0.5891921520233154
+2021 kws_train->Trainer : Epcho 191/200, steps 3247, average train cost : 244.82343247357537
+2022 kws_train->Trainer : On Evaluation: cost 230.76849365234375, acc 0.7721518874168396, learning rate 9.999999747378752e-05, time 1.926004409790039
+2023 kws_train->Trainer : Epcho 191 :
+2024 kws_train->Trainer : Step: 3248, Last 5 Batch Cost Total: 0.11092376708984375
+2025 kws_train->Trainer : cost:248.7102508544922, steps:3250
+2026 kws_train->Trainer : Step: 3253, Last 5 Batch Cost Total: 0.5166521072387695
+2027 kws_train->Trainer : cost:237.52980041503906, steps:3255
+2028 kws_train->Trainer : Step: 3258, Last 5 Batch Cost Total: 0.5580341815948486
+2029 kws_train->Trainer : cost:239.06578063964844, steps:3260
+2030 kws_train->Trainer : Step: 3263, Last 5 Batch Cost Total: 0.6031677722930908
+2031 kws_train->Trainer : Epcho 192/200, steps 3264, average train cost : 245.20851314769072
+2032 kws_train->Trainer : On Evaluation: cost 258.9436950683594, acc 0.7848101258277893, learning rate 9.999999747378752e-05, time 1.9023983478546143
+2033 kws_train->Trainer : Epcho 192 :
+2034 kws_train->Trainer : cost:226.68592834472656, steps:3265
+2035 kws_train->Trainer : Step: 3265, Last 5 Batch Cost Total: 0.09704971313476562
+2036 kws_train->Trainer : cost:242.7599639892578, steps:3270
+2037 kws_train->Trainer : Step: 3270, Last 5 Batch Cost Total: 0.527740478515625
+2038 kws_train->Trainer : cost:231.3169403076172, steps:3275
+2039 kws_train->Trainer : Step: 3275, Last 5 Batch Cost Total: 0.5753648281097412
+2040 kws_train->Trainer : cost:276.0582580566406, steps:3280
+2041 kws_train->Trainer : Step: 3280, Last 5 Batch Cost Total: 0.5803875923156738
+2042 kws_train->Trainer : Epcho 193/200, steps 3281, average train cost : 249.82658655503218
+2043 kws_train->Trainer : On Evaluation: cost 252.74868774414062, acc 0.7215189933776855, learning rate 9.999999747378752e-05, time 1.876476526260376
+2044 kws_train->Trainer : Epcho 193 :
+2045 kws_train->Trainer : Step: 3282, Last 5 Batch Cost Total: 0.11148667335510254
+2046 kws_train->Trainer : cost:265.1103210449219, steps:3285
+2047 kws_train->Trainer : Step: 3287, Last 5 Batch Cost Total: 0.5255212783813477
+2048 kws_train->Trainer : cost:2316.195556640625, steps:3290
+2049 kws_train->Trainer : Step: 3292, Last 5 Batch Cost Total: 0.5405900478363037
+2050 kws_train->Trainer : cost:inf, steps:3295
+2051 kws_train->Trainer : Step: 3297, Last 5 Batch Cost Total: 0.5916259288787842
+2052 kws_train->Trainer : Epcho 194/200, steps 3298, average train cost : inf
+2053 kws_train->Trainer : On Evaluation: cost 1026.1385498046875, acc 1.6329114437103271, learning rate 9.999999747378752e-05, time 1.8791465759277344
+2054 kws_train->Trainer : Epcho 194 :
+2055 kws_train->Trainer : Step: 3299, Last 5 Batch Cost Total: 0.12391400337219238
+2056 kws_train->Trainer : cost:607.161376953125, steps:3300
+2057 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8860759735107422
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'd', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng', 'l', 'ng'] (35)
+Test Accuracy: 0.0
+
+2058 kws_train->Trainer : Step: 3304, Last 5 Batch Cost Total: 0.6819181442260742
+2059 kws_train->Trainer : cost:553.0621337890625, steps:3305
+2060 kws_train->Trainer : Step: 3309, Last 5 Batch Cost Total: 0.540759801864624
+2061 kws_train->Trainer : cost:589.687744140625, steps:3310
+2062 kws_train->Trainer : Step: 3314, Last 5 Batch Cost Total: 0.5886685848236084
+2063 kws_train->Trainer : cost:498.5839538574219, steps:3315
+2064 kws_train->Trainer : Epcho 195/200, steps 3315, average train cost : 581.3597088982077
+2065 kws_train->Trainer : On Evaluation: cost 490.3185119628906, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 2.0601706504821777
+2066 kws_train->Trainer : Epcho 195 :
+2067 kws_train->Trainer : Step: 3316, Last 5 Batch Cost Total: 0.08793878555297852
+2068 kws_train->Trainer : cost:478.91680908203125, steps:3320
+2069 kws_train->Trainer : Step: 3321, Last 5 Batch Cost Total: 0.5483262538909912
+2070 kws_train->Trainer : cost:640.612060546875, steps:3325
+2071 kws_train->Trainer : Step: 3326, Last 5 Batch Cost Total: 0.587709903717041
+2072 kws_train->Trainer : cost:409.4807434082031, steps:3330
+2073 kws_train->Trainer : Step: 3331, Last 5 Batch Cost Total: 0.5755865573883057
+2074 kws_train->Trainer : Epcho 196/200, steps 3332, average train cost : 489.19147267061123
+2075 kws_train->Trainer : On Evaluation: cost 429.2335510253906, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 1.88850998878479
+2076 kws_train->Trainer : Epcho 196 :
+2077 kws_train->Trainer : Step: 3333, Last 5 Batch Cost Total: 0.1079251766204834
+2078 kws_train->Trainer : cost:450.37335205078125, steps:3335
+2079 kws_train->Trainer : Step: 3338, Last 5 Batch Cost Total: 0.5617952346801758
+2080 kws_train->Trainer : cost:438.1700744628906, steps:3340
+2081 kws_train->Trainer : Step: 3343, Last 5 Batch Cost Total: 0.6044189929962158
+2082 kws_train->Trainer : cost:608.816162109375, steps:3345
+2083 kws_train->Trainer : Step: 3348, Last 5 Batch Cost Total: 0.5256295204162598
+2084 kws_train->Trainer : Epcho 197/200, steps 3349, average train cost : 470.2139677159926
+2085 kws_train->Trainer : On Evaluation: cost 410.843505859375, acc 0.8987341523170471, learning rate 9.999999747378752e-05, time 1.9086921215057373
+2086 kws_train->Trainer : Epcho 197 :
+2087 kws_train->Trainer : cost:401.61175537109375, steps:3350
+2088 kws_train->Trainer : Step: 3350, Last 5 Batch Cost Total: 0.10692501068115234
+2089 kws_train->Trainer : cost:458.9180603027344, steps:3355
+2090 kws_train->Trainer : Step: 3355, Last 5 Batch Cost Total: 0.5678830146789551
+2091 kws_train->Trainer : cost:390.4720458984375, steps:3360
+2092 kws_train->Trainer : Step: 3360, Last 5 Batch Cost Total: 0.5957942008972168
+2093 kws_train->Trainer : cost:414.0083923339844, steps:3365
+2094 kws_train->Trainer : Step: 3365, Last 5 Batch Cost Total: 0.5208175182342529
+2095 kws_train->Trainer : Epcho 198/200, steps 3366, average train cost : 459.92883480296416
+2096 kws_train->Trainer : On Evaluation: cost 394.6649169921875, acc 0.8607594966888428, learning rate 9.999999747378752e-05, time 1.900291919708252
+2097 kws_train->Trainer : Epcho 198 :
+2098 kws_train->Trainer : Step: 3367, Last 5 Batch Cost Total: 0.11777830123901367
+2099 kws_train->Trainer : cost:459.8808288574219, steps:3370
+2100 kws_train->Trainer : Step: 3372, Last 5 Batch Cost Total: 0.5409519672393799
+2101 kws_train->Trainer : cost:531.572509765625, steps:3375
+2102 kws_train->Trainer : Step: 3377, Last 5 Batch Cost Total: 0.6115529537200928
+2103 kws_train->Trainer : cost:431.40313720703125, steps:3380
+2104 kws_train->Trainer : Step: 3382, Last 5 Batch Cost Total: 0.5316288471221924
+2105 kws_train->Trainer : Epcho 199/200, steps 3383, average train cost : 454.96512917911303
+2106 kws_train->Trainer : On Evaluation: cost 432.07257080078125, acc 0.8860759735107422, learning rate 9.999999747378752e-05, time 1.929673433303833
+2107 kws_train->Trainer : Epcho 199 :
+2108 kws_train->Trainer : Step: 3384, Last 5 Batch Cost Total: 0.11991572380065918
+2109 kws_train->Trainer : cost:434.4924011230469, steps:3385
+2110 kws_train->Trainer : Step: 3389, Last 5 Batch Cost Total: 0.5485062599182129
+2111 kws_train->Trainer : cost:468.10198974609375, steps:3390
+2112 kws_train->Trainer : Step: 3394, Last 5 Batch Cost Total: 0.593212366104126
+2113 kws_train->Trainer : cost:432.4977111816406, steps:3395
+2114 kws_train->Trainer : Step: 3399, Last 5 Batch Cost Total: 0.5581049919128418
+2115 kws_train->Trainer : cost:450.90826416015625, steps:3400
+2116 kws_train->Trainer : T/F: original(length) <-------> detectcted(length) with so far acc 0.8734177350997925
+False: 
+['l', 'v4', 'sh', 'ih4', 'i2', 'a2', 'ng', 'ch', 'u1', 'e1', 'n', 'i1', 'a1', 'n', 'j', 'i3', 'ng', 'd', 'a4', 'k', 'u4', 'a4', 'i4', 'u2', 'e2', 'n', 'zh', 'a1', 'ng', 'd', 'e5', 'd', 'i3', 's', 'e4', 's', 'iz4', 'v4', 'ee4', 'd', 'e5', 'l', 'i2', 'n', 'l', 'u2', 'a2', 'n', 'g', 'e4', 'ng', 'sh', 'ih4', 'l', 'v4', 'd', 'e5', 'x', 'i1', 'a1', 'n', 'h', 'u2', 'o2', 'x', 'i4', 'o4', 'u4', 'm', 'e4', 'i4', 'sh', 'ih1', 'i4', 'a4', 'ng', 'r', 'a2', 'n'] (79)
+['ng', 'd', 'ng', 'd', 'ng', 'd', 'ng', 'd', 'ng', 'd', 'ng', 'd', 'ng', 'd', 'ng', 'd', 'ng', 'd', 'ng', 'd', 'ng', 'd', 'ng', 'd', 'ng'] (25)
+Test Accuracy: 0.0
+
+2117 kws_train->Trainer : Epcho 200/200, steps 3400, average train cost : 450.38328282973345
+2118 kws_train->Trainer : On Evaluation: cost 420.7833251953125, acc 0.8734177350997925, learning rate 9.999999747378752e-05, time 2.1175267696380615
+2119 kws_train->Trainer : Train finished. Total Time costed(s): 435.9037299156189

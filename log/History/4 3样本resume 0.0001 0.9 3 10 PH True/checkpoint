@@ -1,0 +1,8 @@
+model_checkpoint_path: "kws-8910"
+all_model_checkpoint_paths: "kws-6000"
+all_model_checkpoint_paths: "kws-6500"
+all_model_checkpoint_paths: "kws-7000"
+all_model_checkpoint_paths: "kws-7500"
+all_model_checkpoint_paths: "kws-8000"
+all_model_checkpoint_paths: "kws-8500"
+all_model_checkpoint_paths: "kws-8910"

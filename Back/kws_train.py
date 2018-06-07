@@ -31,13 +31,17 @@ class Trainer:
         if mode == 'dev':
             self.corpus_path = self.dev_path
         else:
-            self.corpus_path = self.train_path
+            self.corpus_path = corpus_path + '/' + mode 
         self.logger = KWSError('./Log/train.log')
         self.log_head = self.logger.acquireHeader('kws_train->Trainer')
 
         self.cur_inputs = []
         self.cur_targets = []
-        self.cur_seq_len = []
+        self.cur_seq_len = []        
+
+        # prepare the corpus
+        self.corpus = kws_data.DataBase(kws_log=self.logger)
+        self.corpus.LoadMeta(self.corpus_path)
         
     
     def log(self, content):
@@ -48,18 +52,20 @@ class Trainer:
     
     ################### Train #######################
     ## Trainer based on tensorflow module
-    def train(self, learning_rate, decay_fator, ltype='PH', ltone=False, batch_size=32, n_epcho=10):
+    def train(self, learning_rate, decay_fator, ltype='PH', ltone=False, batch_size=32, n_epcho=10, resume=False):
         # prepare the corpus
-        self.corpus = kws_data.DataBase(kws_log=self.logger)
-        self.corpus.LoadMeta(self.corpus_path)
+        # self.corpus = kws_data.DataBase(kws_log=self.logger)
+        # self.corpus.LoadMeta(self.corpus_path)
         self.corpus.LabelSetting(ltype, ltone)
-        self.corpus.AudioSetting()
+        self.corpus.AudioSetting(fcmvn=False)
         self.decode_dict = self.corpus.GetDecodeDict()
 
         # other Tool
         self.model_saver = None # saver
         self.merged = None      # summary      
         self.sum_writer = None  # summary writer
+        if resume:
+            self.check_point = tf.train.get_checkpoint_state(self.save_path)
 
         # prepare the training step 
         self.n_epcho = n_epcho
@@ -96,9 +102,12 @@ class Trainer:
         with tf.Session() as session:
             session.run(self.init) 
             self.model_saver = tf.train.Saver(tf.global_variables(), max_to_keep=100)
+            if resume:
+                self.model_saver.restore(session, self.check_point.model_checkpoint_path)
             self.merged = tf.summary.merge_all()
             self.sum_writer = tf.summary.FileWriter(logdir=self.save_path, graph=session.graph)
             global_step = 0
+            total_time_start = time.time()
             for curr_epcho in range(n_epcho):
                 self.log('Epcho {} :'.format(curr_epcho))
                 start_time = time.time()
@@ -119,6 +128,7 @@ class Trainer:
                 epcho_time = time.time() - start_time
                 self.do_report_on_epcho(session, curr_epcho, train_cost, epcho_time)
             # all the epcho done 
+            self.log('Train finished. Total Time costed(s): {}'.format(time.time() - total_time_start))
             self.save_cur_model(session, global_step)
             self.sum_writer.close()
 
@@ -159,6 +169,7 @@ class Trainer:
         b_merged, b_loss, _, _, _, b_cost, steps, _ = session.run(
             [self.merged, self.loss, self.targets, self.logits, self.seq_len, 
             self.cost, self.current_epcho, self.optimizer], feed_dict=feed)
+        self.sum_writer.add_summary(b_merged, steps)
         if steps % 5 == 0:
             self.log('cost:{}, steps:{}'.format(b_cost, steps))
         if steps > 0 and steps % 100 == 0:

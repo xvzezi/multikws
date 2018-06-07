@@ -26,12 +26,22 @@ if __name__ == '__main__':
     
     ## 
     if mode == 'train':
-        tar = kws_train.Trainer('F:/ASR/THCHS30/data_thchs30/', './log/back')
+        tar = kws_train.Trainer('F:/ASR/THCHS30/data_thchs30/', './log/back', mode='0train')
+        tar.corpus.TurnOnOrOffPointer()
         tar.train(
-            0.001, 0.9, batch_size=16, n_epcho=40,
+            0.0001, 0.9, batch_size=16, n_epcho=8000,
             ltype='PH', ltone=True 
             )
         tar.log_end()
+    elif mode == 'fine':
+        tar = kws_train.Trainer('F:/ASR/THCHS30/data_thchs30/', './log/back')
+        # tar.corpus.MovePointer(3)
+        tar.train(
+            0.0001, 0.9, batch_size=3, n_epcho=10,
+            ltype='PH', ltone=True, resume=True 
+            )
+        tar.log_end()
+
     elif mode == 'test':
         pass 
     

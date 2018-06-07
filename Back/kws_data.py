@@ -44,6 +44,7 @@ class DataBase:
         }
         # batch info
         self.pointer = 0
+        self.pointerOn = True 
         return 
 
     def LoadMeta(self, dirpath):
@@ -112,8 +113,9 @@ class DataBase:
         
         # get index batch 
         _, index_batch = self.getIndexSequenceBatch(self.pointer, batch_size)
-        self.pointer += batch_size
-
+        if self.pointerOn:
+            self.pointer += batch_size
+        
 
         return np.array(audio_batch), index_batch, seq_len_batch
 
@@ -131,6 +133,17 @@ class DataBase:
     def ResetPointer(self):
         self.pointer = 0
         return 
+    
+    def MovePointer(self, offset):
+        self.pointer += offset
+        if self.pointer < 0:
+            self.pointer = 0
+        return 
+    
+    def TurnOnOrOffPointer(self):
+        self.pointerOn = not self.pointerOn
+        return 
+        
     ################ Metadata & Labels ######################
     # 下面是步骤函数，必须按步骤执行
     def loadBasicMeta(self):
@@ -299,13 +312,17 @@ class DataBase:
                 cur_window.append(features[j])
             for j in range(i, i + fright + 1):
                 cur_window.append(features[j])
+            
+            # cepstral mean and variance normalization
+            window = np.array(cur_window)
+            mean = np.mean(window, 0)
             if fcmvn:
-                # cepstral mean and variance normalization
-                window = np.array(cur_window)
-                mean = np.mean(window, 0)
                 variance = np.std(window, 0)
                 window = (window - mean) / variance
-                cur_window = window 
+                cur_window = window
+            else:
+                cur_window = window - mean 
+             
             stacked = []
             cur_window = cur_window.tolist()
             for frame in cur_window:
@@ -381,11 +398,11 @@ if __name__ == "__main__":
     # print(test.label_sequences[0])
     #--------------------
     test = DataBase()
-    test.LoadMeta('F:/ASR/THCHS30/data_thchs30/dev')
-    print(test.audio_files[0])
+    test.LoadMeta('F:/ASR/THCHS30/data_thchs30/0train')
+    print(test.audio_files[0:9])
     test.LabelSetting(ltype='PH', ltone=False)
     test.AudioSetting()
-    abatch, lbatch, len_batch = test.GetNextBatch(4)
+    abatch, lbatch, len_batch = test.GetNextBatch(17)
     print(len(abatch[1]))
     print(len(lbatch[1]))
     print(len_batch)
@@ -393,4 +410,5 @@ if __name__ == "__main__":
     print(len(abatch[1]))
     print(len(lbatch[1]))
     print(len_batch)
+
 

@@ -1,0 +1,7 @@
+model_checkpoint_path: "kws-2970"
+all_model_checkpoint_paths: "kws-500"
+all_model_checkpoint_paths: "kws-1000"
+all_model_checkpoint_paths: "kws-1500"
+all_model_checkpoint_paths: "kws-2000"
+all_model_checkpoint_paths: "kws-2500"
+all_model_checkpoint_paths: "kws-2970"

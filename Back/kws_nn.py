@@ -42,6 +42,30 @@ class DNN:
         return logits, inputs, targets, seq_len 
     
     @classmethod
+    def TensorflowDNNwithDropout(cls, layer_num, neural_num, vector_dim, class_num, batch_size):
+        inputs = tf.placeholder(dtype=tf.float32, shape=[batch_size, None, vector_dim])
+
+        # ctc_loss 需要的矩阵
+        targets = tf.sparse_placeholder(tf.int32)
+
+        # 1维向量 
+        seq_len = tf.placeholder(tf.int32, [None])
+
+        # dropout prob
+        dp_prob = tf.placeholder(tf.float32)
+
+        # 定义DNN网络
+        hidden = tflayers.fully_connected(inputs, neural_num, scope='input_layer')
+        for i in range(layer_num):
+            hidden = tflayers.fully_connected(hidden, neural_num, scope='hidden_layer%d' % i)
+        logits = tflayers.fully_connected(hidden, num_outputs=class_num, scope='output_layer', activation_fn=None)
+
+        # 转成时序为主
+        logits = tf.transpose(logits, (1, 0, 2))
+
+        return logits, inputs, targets, seq_len 
+
+    @classmethod
     def TFLearnDNN(cls, layer_num, neural_num, vector_dim, class_num, batch_size):
         inputs = tf.placeholder(dtype=tf.float32, shape=[batch_size, None, vector_dim])
 
