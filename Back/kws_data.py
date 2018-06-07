@@ -45,6 +45,7 @@ class DataBase:
         # batch info
         self.pointer = 0
         self.pointerOn = True 
+        self.store = None 
         return 
 
     def LoadMeta(self, dirpath):
@@ -85,6 +86,9 @@ class DataBase:
         if self.pointer + batch_size >= len(self.audio_files):
             self.pointer = 0
         
+        if self.store is not None:
+            return self.store
+
         # get audio batch
         audio_batch = []
         for i in range(batch_size):
@@ -115,9 +119,11 @@ class DataBase:
         _, index_batch = self.getIndexSequenceBatch(self.pointer, batch_size)
         if self.pointerOn:
             self.pointer += batch_size
+        else:
+            self.store = (audio_batch, index_batch, seq_len_batch)
         
 
-        return np.array(audio_batch), index_batch, seq_len_batch
+        return audio_batch, index_batch, seq_len_batch
 
     def GetDecodeDict(self):
         search_dict = self.ch_if_tone          # IF tone
