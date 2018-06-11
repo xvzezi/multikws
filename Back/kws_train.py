@@ -37,7 +37,8 @@ class Trainer:
 
         self.cur_inputs = []
         self.cur_targets = []
-        self.cur_seq_len = []        
+        self.cur_seq_len = []       
+        self.check_point = None  
 
         # prepare the corpus
         self.corpus = kws_data.DataBase(kws_log=self.logger)
@@ -57,7 +58,7 @@ class Trainer:
         # self.corpus = kws_data.DataBase(kws_log=self.logger)
         # self.corpus.LoadMeta(self.corpus_path)
         self.corpus.LabelSetting(ltype, ltone)
-        self.corpus.AudioSetting(fcmvn=False)
+        self.corpus.AudioSetting('''fcmvn=False''')
         self.decode_dict = self.corpus.GetDecodeDict()
 
         # other Tool

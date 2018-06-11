@@ -16,6 +16,7 @@ import sys
 import time 
 #-------------------------------------#
 import kws_train 
+import kws_test 
 from Tool.kws_error import KWSError
 #######################################
 
@@ -45,7 +46,25 @@ if __name__ == '__main__':
         tar.log_end()
 
     elif mode == 'test':
-        pass 
+        kws_test.TestTargetFileAsWhole(
+            'F:/ASR/THCHS30/data_thchs30/0train', './log/Back', 10, 
+            ltype='PH', ltone=True 
+            )
+    elif mode == 'test_frame':
+        kws_test.TestTargetFileAsFrame(
+            'F:/ASR/THCHS30/data_thchs30/0train', './log/Back', 1, 
+            ltype='PH', ltone=True 
+            )
+    elif mode == 'hi_train':
+        tar = kws_train.Trainer('F:/ASR/THCHS30/data_thchs30/', './log/back', mode='A11_train')
+        # tar.corpus.TurnOnOrOffPointer()
+        try:
+            tar.train(
+                0.0001, 0.9, batch_size=4, n_epcho=5000,
+                ltype='PH', ltone=True#, resume=True  
+                )
+        finally:
+            tar.log_end()
     
     #####
     # end

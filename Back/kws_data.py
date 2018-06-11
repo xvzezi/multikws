@@ -408,7 +408,7 @@ if __name__ == "__main__":
     print(test.audio_files[0:9])
     test.LabelSetting(ltype='PH', ltone=False)
     test.AudioSetting()
-    abatch, lbatch, len_batch = test.GetNextBatch(17)
+    abatch, lbatch, len_batch = test.GetNextBatch(16)
     print(len(abatch[1]))
     print(len(lbatch[1]))
     print(len_batch)

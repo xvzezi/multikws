@@ -1,0 +1,30 @@
+0 accuracy_analysis : Analysis Begin: 4 pairs in total
+1 accuracy_analysis : Pair 0:
+2 accuracy_analysis : -> Edit distance : 8
+3 accuracy_analysis : -> Phones Statistics:
+4 accuracy_analysis : -> 	 Origin: phone kinds: 31, total amount: 63
+5 accuracy_analysis : -> 	 Decode: right kinds: 56, wrong kinds: 6, accuracy: 0.7936507936507936
+6 accuracy_analysis : -> 	 Recognized phones: 25, recognize rate: 0.8064516129032258
+7 accuracy_analysis : -> Sequence Accuracy: 87.09677419354838%
+8 accuracy_analysis : Pair 1:
+9 accuracy_analysis : -> Edit distance : 10
+10 accuracy_analysis : -> Phones Statistics:
+11 accuracy_analysis : -> 	 Origin: phone kinds: 38, total amount: 81
+12 accuracy_analysis : -> 	 Decode: right kinds: 76, wrong kinds: 5, accuracy: 0.8765432098765432
+13 accuracy_analysis : -> 	 Recognized phones: 31, recognize rate: 0.8157894736842105
+14 accuracy_analysis : -> Sequence Accuracy: 87.65432098765432%
+15 accuracy_analysis : Pair 2:
+16 accuracy_analysis : -> Edit distance : 9
+17 accuracy_analysis : -> Phones Statistics:
+18 accuracy_analysis : -> 	 Origin: phone kinds: 32, total amount: 91
+19 accuracy_analysis : -> 	 Decode: right kinds: 87, wrong kinds: 5, accuracy: 0.9010989010989011
+20 accuracy_analysis : -> 	 Recognized phones: 28, recognize rate: 0.875
+21 accuracy_analysis : -> Sequence Accuracy: 90.21739130434783%
+22 accuracy_analysis : Pair 3:
+23 accuracy_analysis : -> Edit distance : 14
+24 accuracy_analysis : -> Phones Statistics:
+25 accuracy_analysis : -> 	 Origin: phone kinds: 38, total amount: 88
+26 accuracy_analysis : -> 	 Decode: right kinds: 86, wrong kinds: 4, accuracy: 0.9318181818181818
+27 accuracy_analysis : -> 	 Recognized phones: 34, recognize rate: 0.8947368421052632
+28 accuracy_analysis : -> Sequence Accuracy: 84.44444444444444%
+29 accuracy_analysis : Analysis End: Average Acc 0.8757777716111049%
